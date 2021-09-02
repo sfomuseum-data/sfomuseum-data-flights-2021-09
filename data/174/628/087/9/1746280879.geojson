@@ -2,10 +2,12 @@
   "id": 1746280879,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-01",
+    "date:cessation_upper": "2021-09-01",
     "date:inception_lower": "2021-09-01",
     "date:inception_upper": "2021-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-01",
+    "edtf:cessation": "2021-09-01T21:48:00Z",
+    "edtf:inception": "2021-09-01T03:58:25-07:00",
     "flysfo:actual_timestamp": 1630517820,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525035,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO54572400"
+    },
     "wof:country": "US",
     "wof:created": 1630599381,
     "wof:geomhash": "36f645f844d4838b633d7fed3f06d4a5",
@@ -82,9 +94,10 @@
       102525035, 
       102527513, 
       1159285413, 
-      1745882255
+      1745882255, 
+      1159289407
     ],
-    "wof:lastmodified": 1630599381,
+    "wof:lastmodified": 1630599495,
     "wof:name": "UA1573 (SFO-BNA)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",

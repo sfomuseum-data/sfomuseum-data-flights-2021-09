@@ -2,10 +2,12 @@
   "id": 1746280963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-01",
+    "date:cessation_upper": "2021-09-01",
     "date:inception_lower": "2021-09-01",
     "date:inception_upper": "2021-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-01",
+    "edtf:cessation": "2021-09-01T10:42:51Z",
+    "edtf:inception": "2021-09-01T06:12:00Z",
     "flysfo:actual_timestamp": 1630537200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-01",
@@ -48,6 +50,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164136504"
+    },
     "wof:country": "US",
     "wof:created": 1630599402,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -84,7 +89,7 @@
       1159285413, 
       1745882275
     ],
-    "wof:lastmodified": 1630599402,
+    "wof:lastmodified": 1630599495,
     "wof:name": "UA2093 (SFO-EWR)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "event",

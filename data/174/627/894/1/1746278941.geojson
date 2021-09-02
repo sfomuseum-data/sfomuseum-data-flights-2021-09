@@ -2,10 +2,12 @@
   "id": 1746278941,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-01",
+    "date:cessation_upper": "2021-09-01",
     "date:inception_lower": "2021-09-01",
     "date:inception_upper": "2021-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-01",
+    "edtf:cessation": "2021-09-01T10:35:36-07:00",
+    "edtf:inception": "2021-09-01T23:02:00Z",
     "flysfo:actual_timestamp": 1630537200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164202026",
+      "swim:gufi": "KA75363400"
+    },
     "wof:country": "US",
     "wof:created": 1630598868,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746278941,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102526751, 
       1159285413, 
       1745882275
     ],
-    "wof:lastmodified": 1630598868,
+    "wof:lastmodified": 1630599496,
     "wof:name": "UA1164 (PHX-SFO)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "event",

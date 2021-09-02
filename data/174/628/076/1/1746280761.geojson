@@ -2,10 +2,12 @@
   "id": 1746280761,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-01",
-    "date:inception_upper": "2021-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-01",
+    "date:cessation_lower": "2021-09-02",
+    "date:cessation_upper": "2021-09-02",
+    "date:inception_lower": "2021-09-02",
+    "date:inception_upper": "2021-09-02",
+    "edtf:cessation": "2021-09-02T02:03:00Z",
+    "edtf:inception": "2021-09-02T00:57:00Z",
     "flysfo:actual_timestamp": 1630537200,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61233689792174,
     "lbl:longitude": -122.38465899796505,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1746280761,
     "wof:involves": [
-      102527209, 
       102527513, 
       1159285591, 
-      1745882151
+      1745882151, 
+      1159289871, 
+      102527209
     ],
-    "wof:lastmodified": 1630599351,
+    "wof:lastmodified": 1630599494,
     "wof:name": "WN4708 (SFO-LAS)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",

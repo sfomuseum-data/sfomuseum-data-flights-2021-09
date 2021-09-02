@@ -2,10 +2,12 @@
   "id": 1746280523,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-01",
+    "date:cessation_upper": "2021-09-01",
     "date:inception_lower": "2021-09-01",
     "date:inception_upper": "2021-09-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-01",
+    "edtf:cessation": "2021-09-01T19:31:58Z",
+    "edtf:inception": "2021-09-01T07:37:00Z",
     "flysfo:actual_timestamp": 1630480560,
     "flysfo:airline": "KE",
     "flysfo:date": "2021-09-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "KE",
+    "icao:aircraft": "A333",
     "icao:airline": "KAL",
     "lbl:latitude": 37.612893,
     "lbl:longitude": -122.389652,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159284623,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164137166"
+    },
     "wof:country": "US",
     "wof:created": 1630599288,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746280523,
     "wof:involves": [
+      1745882349, 
+      1159289423, 
       102556451, 
       102527513, 
-      1159284623, 
-      1745882349
+      1159284623
     ],
-    "wof:lastmodified": 1630599288,
+    "wof:lastmodified": 1630599493,
     "wof:name": "KE8026 (SFO-ICN)",
     "wof:parent_id": 1745882349,
     "wof:placetype": "event",
