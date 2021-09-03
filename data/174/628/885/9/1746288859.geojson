@@ -2,10 +2,12 @@
   "id": 1746288859,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-02",
+    "date:cessation_upper": "2021-09-02",
     "date:inception_lower": "2021-09-02",
     "date:inception_upper": "2021-09-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-02",
+    "edtf:cessation": "2021-09-02T17:21:00Z",
+    "edtf:inception": "2021-09-02T14:07:00Z",
     "flysfo:actual_timestamp": 1630623600,
     "flysfo:airline": "SY",
     "flysfo:date": "2021-09-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.302341999999996,
     "geom:longitude": -109.843519,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528591,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "164315978"
+    },
     "wof:country": "US",
     "wof:created": 1630685301,
     "wof:geomhash": "107e6589f8c1d0883959ee6339b5af3a",
     "wof:hierarchy": [],
     "wof:id": 1746288859,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102528591, 
-      1159285227, 
-      -1
+      1159285227
     ],
-    "wof:lastmodified": 1630685301,
+    "wof:lastmodified": 1630686046,
     "wof:name": "SY3003 (AFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

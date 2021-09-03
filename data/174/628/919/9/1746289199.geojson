@@ -2,10 +2,12 @@
   "id": 1746289199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-02",
+    "date:cessation_upper": "2021-09-02",
     "date:inception_lower": "2021-09-02",
     "date:inception_upper": "2021-09-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-02",
+    "edtf:cessation": "2021-09-02T08:30:47-07:00",
+    "edtf:inception": "2021-09-02T17:40:00Z",
     "flysfo:actual_timestamp": 1630623600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534019,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "164304240",
+      "swim:gufi": "KC53328500"
+    },
     "wof:country": "US",
     "wof:created": 1630685401,
     "wof:geomhash": "b9e617aa80dabb56896871b70acf102e",
     "wof:hierarchy": [],
     "wof:id": 1746289199,
     "wof:involves": [
+      1159289965, 
       102527513, 
       102534019, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1630685401,
+    "wof:lastmodified": 1630686047,
     "wof:name": "UA2740 (CLE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
