@@ -2,10 +2,12 @@
   "id": 1746293629,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-03",
+    "date:cessation_upper": "2021-09-03",
     "date:inception_lower": "2021-09-03",
     "date:inception_upper": "2021-09-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-03",
+    "edtf:cessation": "2021-09-03T14:43:33Z",
+    "edtf:inception": "2021-09-03T13:47:00Z",
     "flysfo:actual_timestamp": 1630710000,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-09-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164323067",
+      "swim:gufi": "KL43919600"
+    },
     "wof:country": "US",
     "wof:created": 1630771607,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -82,9 +95,10 @@
       102527513, 
       102533795, 
       1159284583, 
-      1745882357
+      1745882357, 
+      1159292085
     ],
-    "wof:lastmodified": 1630771607,
+    "wof:lastmodified": 1630772383,
     "wof:name": "B62836 (LAX-SFO)",
     "wof:parent_id": 1745882357,
     "wof:placetype": "event",
