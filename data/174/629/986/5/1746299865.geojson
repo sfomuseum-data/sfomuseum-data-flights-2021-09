@@ -2,10 +2,12 @@
   "id": 1746299865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-05",
+    "date:cessation_upper": "2021-09-05",
     "date:inception_lower": "2021-09-04",
     "date:inception_upper": "2021-09-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-04",
+    "edtf:cessation": "2021-09-05T03:41:00Z",
+    "edtf:inception": "2021-09-04T22:48:00Z",
     "flysfo:actual_timestamp": 1630796400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "164456276",
+      "swim:gufi": "KO68249700"
+    },
     "wof:country": "US",
     "wof:created": 1630858524,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
     "wof:hierarchy": [],
     "wof:id": 1746299865,
     "wof:involves": [
-      102533997, 
       102527513, 
       1159285413, 
-      -1
+      1159289871, 
+      102533997
     ],
-    "wof:lastmodified": 1630858524,
+    "wof:lastmodified": 1630858601,
     "wof:name": "UA2757 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
