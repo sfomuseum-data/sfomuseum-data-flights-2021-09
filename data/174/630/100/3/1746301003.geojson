@@ -2,10 +2,12 @@
   "id": 1746301003,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-05",
-    "date:inception_upper": "2021-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-05",
+    "date:cessation_lower": "2021-09-06",
+    "date:cessation_upper": "2021-09-06",
+    "date:inception_lower": "2021-09-06",
+    "date:inception_upper": "2021-09-06",
+    "edtf:cessation": "2021-09-06T07:06:00Z",
+    "edtf:inception": "2021-09-06T01:24:00Z",
     "flysfo:actual_timestamp": 1630882800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,10 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164477329",
+      "swim:gufi": "KN00707200"
+    },
     "wof:country": "US",
     "wof:created": 1630944305,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746301003,
     "wof:involves": [
+      1745882115, 
+      1159289939, 
       102527513, 
       102534365, 
-      1159284261, 
-      1745882115
+      1159284261
     ],
-    "wof:lastmodified": 1630944305,
+    "wof:lastmodified": 1630945157,
     "wof:name": "DL314 (JFK-SFO)",
     "wof:parent_id": 1745882115,
     "wof:placetype": "event",

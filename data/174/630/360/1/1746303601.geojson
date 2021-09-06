@@ -2,10 +2,12 @@
   "id": 1746303601,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-05",
-    "date:inception_upper": "2021-09-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-05",
+    "date:cessation_lower": "2021-09-06",
+    "date:cessation_upper": "2021-09-06",
+    "date:inception_lower": "2021-09-06",
+    "date:inception_upper": "2021-09-06",
+    "edtf:cessation": "2021-09-06T13:04:15Z",
+    "edtf:inception": "2021-09-06T03:03:00Z",
     "flysfo:actual_timestamp": 1630882800,
     "flysfo:airline": "LX",
     "flysfo:date": "2021-09-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.536891499999996,
     "geom:longitude": -56.9056255,
     "iata:airline": "LX",
+    "icao:aircraft": "B77W",
     "icao:airline": "SWR",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159286475,
     "sfomuseum:arrival_id": 102553957,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164481551"
+    },
     "wof:country": "US",
     "wof:created": 1630945012,
     "wof:geomhash": "75c5706ba72cddd7f95f840531183522",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746303601,
     "wof:involves": [
-      102553957, 
-      102527513, 
       1159286475, 
-      1745882421
+      1745882421, 
+      1159289993, 
+      102553957, 
+      102527513
     ],
-    "wof:lastmodified": 1630945012,
+    "wof:lastmodified": 1630945163,
     "wof:name": "LX39 (SFO-ZRH)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "event",
