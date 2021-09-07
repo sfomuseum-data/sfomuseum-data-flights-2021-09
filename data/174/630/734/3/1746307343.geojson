@@ -2,10 +2,12 @@
   "id": 1746307343,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-07",
+    "date:cessation_upper": "2021-09-07",
     "date:inception_lower": "2021-09-06",
     "date:inception_upper": "2021-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-06",
+    "edtf:cessation": "2021-09-07T04:47:37Z",
+    "edtf:inception": "2021-09-06T18:51:00Z",
     "flysfo:actual_timestamp": 1630952880,
     "flysfo:airline": "SK",
     "flysfo:date": "2021-09-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 46.622809000000004,
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
+    "icao:aircraft": "A333",
     "icao:airline": "SAS",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102544207,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164593471"
+    },
     "wof:country": "US",
     "wof:created": 1631031412,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746307343,
     "wof:involves": [
+      1159289423, 
       102544207, 
       102527513, 
       1159285129, 
       1745882411
     ],
-    "wof:lastmodified": 1631031412,
+    "wof:lastmodified": 1631031620,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1746307537,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-06",
+    "date:cessation_upper": "2021-09-06",
     "date:inception_lower": "2021-09-06",
     "date:inception_upper": "2021-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-06",
+    "edtf:cessation": "2021-09-06T17:53:00Z",
+    "edtf:inception": "2021-09-06T02:18:55-07:00",
     "flysfo:actual_timestamp": 1630969200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164581890",
+      "swim:gufi": "KO47255200"
+    },
     "wof:country": "US",
     "wof:created": 1631031471,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746307537,
     "wof:involves": [
+      1745882309, 
+      1159289871, 
       102533269, 
       102527513, 
-      1159285413, 
-      1745882309
+      1159285413
     ],
-    "wof:lastmodified": 1631031471,
+    "wof:lastmodified": 1631031612,
     "wof:name": "UA1484 (SFO-SEA)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",

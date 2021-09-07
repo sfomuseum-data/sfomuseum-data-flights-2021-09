@@ -2,10 +2,12 @@
   "id": 1746305687,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-06",
+    "date:cessation_upper": "2021-09-06",
     "date:inception_lower": "2021-09-06",
     "date:inception_upper": "2021-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-06",
+    "edtf:cessation": "2021-09-06T10:31:09-07:00",
+    "edtf:inception": "2021-09-06T23:27:00Z",
     "flysfo:actual_timestamp": 1630969200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164613371",
+      "swim:gufi": "KL82926200"
+    },
     "wof:country": "US",
     "wof:created": 1631030924,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746305687,
     "wof:involves": [
+      1745882283, 
+      1377564285, 
       102527513, 
       102527209, 
-      1159285413, 
-      1745882283
+      1159285413
     ],
-    "wof:lastmodified": 1631030924,
+    "wof:lastmodified": 1631031618,
     "wof:name": "UA2047 (LAS-SFO)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "event",

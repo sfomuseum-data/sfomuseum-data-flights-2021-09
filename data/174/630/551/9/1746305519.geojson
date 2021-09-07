@@ -2,10 +2,12 @@
   "id": 1746305519,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-06",
+    "date:cessation_upper": "2021-09-06",
     "date:inception_lower": "2021-09-06",
     "date:inception_upper": "2021-09-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-06",
+    "edtf:cessation": "2021-09-06T18:19:59Z",
+    "edtf:inception": "2021-09-06T17:29:00Z",
     "flysfo:actual_timestamp": 1630952520,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-06",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164588249"
+    },
     "wof:country": "US",
     "wof:created": 1631030876,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -84,7 +92,7 @@
       1159285591, 
       1745882153
     ],
-    "wof:lastmodified": 1631030876,
+    "wof:lastmodified": 1631031615,
     "wof:name": "WN537 (BUR-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",
