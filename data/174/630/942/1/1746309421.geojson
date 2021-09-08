@@ -2,10 +2,12 @@
   "id": 1746309421,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-07",
+    "date:cessation_upper": "2021-09-07",
     "date:inception_lower": "2021-09-07",
     "date:inception_upper": "2021-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-07",
+    "edtf:cessation": "2021-09-07T18:27:16Z",
+    "edtf:inception": "2021-09-07T09:27:55Z",
     "flysfo:actual_timestamp": 1631055600,
     "flysfo:airline": "JL",
     "flysfo:date": "2021-09-07",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164710018"
+    },
     "wof:country": "US",
     "wof:created": 1631118973,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -84,7 +89,7 @@
       1159284563, 
       1745882393
     ],
-    "wof:lastmodified": 1631118973,
+    "wof:lastmodified": 1631119687,
     "wof:name": "JL58 (NRT-SFO)",
     "wof:parent_id": 1745882393,
     "wof:placetype": "event",

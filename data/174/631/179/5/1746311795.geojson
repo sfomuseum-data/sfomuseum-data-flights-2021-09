@@ -2,10 +2,12 @@
   "id": 1746311795,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-08",
+    "date:cessation_upper": "2021-09-08",
     "date:inception_lower": "2021-09-07",
     "date:inception_upper": "2021-09-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-07",
+    "edtf:cessation": "2021-09-08T01:27:00Z",
+    "edtf:inception": "2021-09-07T20:37:00Z",
     "flysfo:actual_timestamp": 1631055600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164679454",
+      "swim:gufi": "KO64472300"
+    },
     "wof:country": "US",
     "wof:created": 1631119606,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746311795,
     "wof:involves": [
+      1745882275, 
+      1159289993, 
       102533997, 
       102527513, 
-      1159285413, 
-      1745882275
+      1159285413
     ],
-    "wof:lastmodified": 1631119606,
+    "wof:lastmodified": 1631119692,
     "wof:name": "UA300 (SFO-HNL)",
     "wof:parent_id": 1745882275,
     "wof:placetype": "event",
