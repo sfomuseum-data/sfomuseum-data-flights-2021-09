@@ -2,10 +2,12 @@
   "id": 1746315591,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-08",
+    "date:cessation_upper": "2021-09-08",
     "date:inception_lower": "2021-09-08",
     "date:inception_upper": "2021-09-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-08",
+    "edtf:cessation": "2021-09-08T15:21:00Z",
+    "edtf:inception": "2021-09-08T13:43:00Z",
     "flysfo:actual_timestamp": 1631108100,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-08",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164726257"
+    },
     "wof:country": "US",
     "wof:created": 1631204175,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -84,7 +93,7 @@
       1159285591, 
       1745882153
     ],
-    "wof:lastmodified": 1631204175,
+    "wof:lastmodified": 1631204345,
     "wof:name": "WN1580 (SFO-PHX)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",
