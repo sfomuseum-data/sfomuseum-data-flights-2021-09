@@ -2,10 +2,12 @@
   "id": 1746326415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-11",
+    "date:cessation_upper": "2021-09-11",
     "date:inception_lower": "2021-09-11",
     "date:inception_upper": "2021-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-11",
+    "edtf:cessation": "2021-09-11T07:19:47Z",
+    "edtf:inception": "2021-09-11T02:18:00Z",
     "flysfo:actual_timestamp": 1631345280,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-11",
@@ -48,6 +50,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164975139"
+    },
     "wof:country": "US",
     "wof:created": 1631462880,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -84,7 +89,7 @@
       1159285413, 
       1745882255
     ],
-    "wof:lastmodified": 1631462880,
+    "wof:lastmodified": 1631463493,
     "wof:name": "UA1440 (IAD-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",

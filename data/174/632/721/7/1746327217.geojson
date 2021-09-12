@@ -2,10 +2,12 @@
   "id": 1746327217,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-11",
-    "date:inception_upper": "2021-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-11",
+    "date:cessation_lower": "2021-09-12",
+    "date:cessation_upper": "2021-09-12",
+    "date:inception_lower": "2021-09-12",
+    "date:inception_upper": "2021-09-12",
+    "edtf:cessation": "2021-09-12T09:31:39Z",
+    "edtf:inception": "2021-09-12T05:50:00Z",
     "flysfo:actual_timestamp": 1631401200,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-09-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "164981838"
+    },
     "wof:country": "US",
     "wof:created": 1631463087,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -82,9 +94,10 @@
       102536579, 
       102527513, 
       1159283539, 
-      1745882345
+      1745882345, 
+      1159289871
     ],
-    "wof:lastmodified": 1631463087,
+    "wof:lastmodified": 1631463495,
     "wof:name": "AM665 (SFO-MEX)",
     "wof:parent_id": 1745882345,
     "wof:placetype": "event",

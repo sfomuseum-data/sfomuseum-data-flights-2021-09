@@ -2,10 +2,12 @@
   "id": 1746327571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-11",
+    "date:cessation_upper": "2021-09-11",
     "date:inception_lower": "2021-09-11",
     "date:inception_upper": "2021-09-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-11",
+    "edtf:cessation": "2021-09-11T23:44:46Z",
+    "edtf:inception": "2021-09-11T18:40:00Z",
     "flysfo:actual_timestamp": 1631384640,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-11",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165033771"
+    },
     "wof:country": "US",
     "wof:created": 1631463178,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882103
     ],
-    "wof:lastmodified": 1631463178,
+    "wof:lastmodified": 1631463496,
     "wof:name": "AS743 (SFO-OGG)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "event",
