@@ -2,10 +2,12 @@
   "id": 1746332707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-12",
     "date:inception_upper": "2021-09-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-12",
+    "edtf:cessation": "2021-09-13T00:26:39Z",
+    "edtf:inception": "2021-09-12T23:33:00Z",
     "flysfo:actual_timestamp": 1631487600,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-12",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165146601"
+    },
     "wof:country": "US",
     "wof:created": 1631549922,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,7 +93,7 @@
       1159285591, 
       1745882155
     ],
-    "wof:lastmodified": 1631549922,
+    "wof:lastmodified": 1631550105,
     "wof:name": "WN490 (SFO-LAX)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "event",

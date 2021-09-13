@@ -2,10 +2,12 @@
   "id": 1746332389,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-12",
     "date:inception_upper": "2021-09-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-12",
+    "edtf:cessation": "2021-09-13T07:21:51Z",
+    "edtf:inception": "2021-09-12T20:58:00Z",
     "flysfo:actual_timestamp": 1631479500,
     "flysfo:airline": "JL",
     "flysfo:date": "2021-09-12",
@@ -48,6 +50,9 @@
       1745882335, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165134454"
+    },
     "wof:country": "US",
     "wof:created": 1631549836,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -84,7 +89,7 @@
       1159284563, 
       1745882359
     ],
-    "wof:lastmodified": 1631549836,
+    "wof:lastmodified": 1631550103,
     "wof:name": "JL57 (SFO-NRT)",
     "wof:parent_id": 1745882359,
     "wof:placetype": "event",

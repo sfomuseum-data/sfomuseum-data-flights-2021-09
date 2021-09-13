@@ -2,10 +2,12 @@
   "id": 1746331867,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-12",
     "date:inception_upper": "2021-09-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-12",
+    "edtf:cessation": "2021-09-13T00:13:56Z",
+    "edtf:inception": "2021-09-12T22:56:00Z",
     "flysfo:actual_timestamp": 1631487600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-12",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +53,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165143994"
+    },
     "wof:country": "US",
     "wof:created": 1631549699,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -84,7 +92,7 @@
       1159283813, 
       1745882095
     ],
-    "wof:lastmodified": 1631549699,
+    "wof:lastmodified": 1631550105,
     "wof:name": "AS333 (SFO-PDX)",
     "wof:parent_id": 1745882095,
     "wof:placetype": "event",
