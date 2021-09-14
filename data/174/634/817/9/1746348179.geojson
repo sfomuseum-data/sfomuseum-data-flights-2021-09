@@ -2,10 +2,12 @@
   "id": 1746348179,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-13",
     "date:inception_upper": "2021-09-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-13",
+    "edtf:cessation": "2021-09-13T18:20:00Z",
+    "edtf:inception": "2021-09-13T00:37:58-07:00",
     "flysfo:actual_timestamp": 1631542920,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165185298",
+      "swim:gufi": "KO44076200"
+    },
     "wof:country": "US",
     "wof:created": 1631636320,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746348179,
     "wof:involves": [
-      102534097, 
-      102527513, 
       1159285413, 
-      1745882309
+      1745882309, 
+      1377564285, 
+      102534097, 
+      102527513
     ],
-    "wof:lastmodified": 1631636320,
+    "wof:lastmodified": 1631636440,
     "wof:name": "UA2115 (SFO-IAH)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",

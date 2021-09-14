@@ -2,10 +2,12 @@
   "id": 1746345355,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-13",
     "date:inception_upper": "2021-09-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-13",
+    "edtf:cessation": "2021-09-13T02:06:24-07:00",
+    "edtf:inception": "2021-09-13T14:26:00Z",
     "flysfo:actual_timestamp": 1631574000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "A332",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "165199296",
+      "swim:gufi": "KU47460200"
+    },
     "wof:country": "US",
     "wof:created": 1631635561,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
     "wof:hierarchy": [],
     "wof:id": 1746345355,
     "wof:involves": [
+      1159289421, 
       102527513, 
       102527363, 
-      1159284261, 
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1631635561,
+    "wof:lastmodified": 1631636437,
     "wof:name": "DL9961 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

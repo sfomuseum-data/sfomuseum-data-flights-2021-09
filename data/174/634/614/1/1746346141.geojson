@@ -2,10 +2,12 @@
   "id": 1746346141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-13",
+    "date:cessation_upper": "2021-09-13",
     "date:inception_lower": "2021-09-13",
     "date:inception_upper": "2021-09-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-13",
+    "edtf:cessation": "2021-09-13T13:08:11-07:00",
+    "edtf:inception": "2021-09-13T22:06:00Z",
     "flysfo:actual_timestamp": 1631589360,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528817,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165225379",
+      "swim:gufi": "KW68875200"
+    },
     "wof:country": "US",
     "wof:created": 1631635771,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746346141,
     "wof:involves": [
+      1159293215, 
       102527513, 
       102528817, 
       1159285413, 
       1745882273
     ],
-    "wof:lastmodified": 1631635771,
+    "wof:lastmodified": 1631636443,
     "wof:name": "UA441 (IAD-SFO)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "event",
