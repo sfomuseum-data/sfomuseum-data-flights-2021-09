@@ -2,10 +2,12 @@
   "id": 1746350185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-14",
+    "date:cessation_upper": "2021-09-14",
     "date:inception_lower": "2021-09-14",
     "date:inception_upper": "2021-09-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-14",
+    "edtf:cessation": "2021-09-14T10:29:18-07:00",
+    "edtf:inception": "2021-09-14T22:54:00Z",
     "flysfo:actual_timestamp": 1631666040,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165315055"
+    },
     "wof:country": "US",
     "wof:created": 1631722141,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746350185,
     "wof:involves": [
-      102527513, 
-      102526751, 
       1159285413, 
-      1745882291
+      1745882291, 
+      1159289407, 
+      102527513, 
+      102526751
     ],
-    "wof:lastmodified": 1631722141,
+    "wof:lastmodified": 1631722763,
     "wof:name": "UA1844 (PHX-SFO)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "event",
