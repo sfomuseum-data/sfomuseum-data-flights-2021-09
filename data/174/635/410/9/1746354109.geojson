@@ -2,10 +2,12 @@
   "id": 1746354109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-15",
+    "date:cessation_upper": "2021-09-15",
     "date:inception_lower": "2021-09-15",
     "date:inception_upper": "2021-09-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-15",
+    "edtf:cessation": "2021-09-15T23:05:00Z",
+    "edtf:inception": "2021-09-15T21:56:00Z",
     "flysfo:actual_timestamp": 1631746800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +55,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165350061",
+      "swim:gufi": "KS67952400"
+    },
     "wof:country": "US",
     "wof:created": 1631808522,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746354109,
     "wof:involves": [
-      102527513, 
-      102533927, 
       1159285413, 
-      1745882255
+      1745882255, 
+      1159289407, 
+      102527513, 
+      102533927
     ],
-    "wof:lastmodified": 1631808522,
+    "wof:lastmodified": 1631809171,
     "wof:name": "UA1836 (EUG-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",
