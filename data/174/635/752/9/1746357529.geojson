@@ -2,10 +2,12 @@
   "id": 1746357529,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-16",
+    "date:cessation_upper": "2021-09-16",
     "date:inception_lower": "2021-09-16",
     "date:inception_upper": "2021-09-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-16",
+    "edtf:cessation": "2021-09-16T03:02:03-07:00",
+    "edtf:inception": "2021-09-16T11:30:00Z",
     "flysfo:actual_timestamp": 1631812080,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614921058692055,
     "lbl:longitude": -122.38233552667353,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165431701",
+      "swim:gufi": "KN37566501"
+    },
     "wof:country": "US",
     "wof:created": 1631894779,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -82,9 +95,10 @@
       102527513, 
       102534365, 
       1159284261, 
-      1745882213
+      1745882213, 
+      1159289965
     ],
-    "wof:lastmodified": 1631894779,
+    "wof:lastmodified": 1631895649,
     "wof:name": "DL487 (JFK-SFO)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "event",
