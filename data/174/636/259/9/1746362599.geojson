@@ -2,10 +2,12 @@
   "id": 1746362599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-17",
+    "date:cessation_upper": "2021-09-17",
     "date:inception_lower": "2021-09-17",
     "date:inception_upper": "2021-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-17",
+    "edtf:cessation": "2021-09-17T12:10:33-07:00",
+    "edtf:inception": "2021-09-17T22:50:00Z",
     "flysfo:actual_timestamp": 1631931420,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,10 @@
       1745882233, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165585086",
+      "swim:gufi": "KH72201600"
+    },
     "wof:country": "US",
     "wof:created": 1631981451,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746362599,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102521851, 
       1159285413, 
       1745882247
     ],
-    "wof:lastmodified": 1631981451,
+    "wof:lastmodified": 1631983510,
     "wof:name": "UA1822 (AUS-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "event",

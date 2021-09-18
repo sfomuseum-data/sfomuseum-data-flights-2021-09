@@ -2,10 +2,12 @@
   "id": 1746364567,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-18",
+    "date:cessation_upper": "2021-09-18",
     "date:inception_lower": "2021-09-17",
     "date:inception_upper": "2021-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-17",
+    "edtf:cessation": "2021-09-18T01:05:11Z",
+    "edtf:inception": "2021-09-17T23:08:00Z",
     "flysfo:actual_timestamp": 1631919480,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-17",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +54,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165587861"
+    },
     "wof:country": "US",
     "wof:created": 1631983298,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -84,7 +93,7 @@
       1159285591, 
       1745882153
     ],
-    "wof:lastmodified": 1631983298,
+    "wof:lastmodified": 1631983514,
     "wof:name": "WN2916 (SFO-DEN)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",

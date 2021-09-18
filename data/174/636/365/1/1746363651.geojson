@@ -2,10 +2,12 @@
   "id": 1746363651,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-17",
+    "date:cessation_upper": "2021-09-17",
     "date:inception_lower": "2021-09-17",
     "date:inception_upper": "2021-09-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-17",
+    "edtf:cessation": "2021-09-17T20:12:55Z",
+    "edtf:inception": "2021-09-17T01:27:58-07:00",
     "flysfo:actual_timestamp": 1631919600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +57,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165542663"
+    },
     "wof:country": "US",
     "wof:created": 1631981779,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746363651,
     "wof:involves": [
+      1745882097, 
+      1377564297, 
       102534365, 
       102527513, 
-      1159283813, 
-      1745882097
+      1159283813
     ],
-    "wof:lastmodified": 1631981779,
+    "wof:lastmodified": 1631983512,
     "wof:name": "AS1022 (SFO-JFK)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",
