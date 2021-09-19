@@ -2,10 +2,12 @@
   "id": 1746368533,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-18",
+    "date:cessation_upper": "2021-09-18",
     "date:inception_lower": "2021-09-18",
     "date:inception_upper": "2021-09-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-18",
+    "edtf:cessation": "2021-09-18T16:43:00Z",
+    "edtf:inception": "2021-09-18T13:06:00Z",
     "flysfo:actual_timestamp": 1632006000,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61266515122482,
     "lbl:longitude": -122.38444006596885,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1745882083, 
       102527513, 
@@ -48,6 +56,9 @@
       1745882137, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165619517"
+    },
     "wof:country": "US",
     "wof:created": 1632068233,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746368533,
     "wof:involves": [
+      1528104575, 
       102531205, 
       102527513, 
       1159285591, 
       1745882149
     ],
-    "wof:lastmodified": 1632068233,
+    "wof:lastmodified": 1632068429,
     "wof:name": "WN2919 (SFO-MDW)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "event",
