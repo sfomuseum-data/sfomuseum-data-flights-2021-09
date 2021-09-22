@@ -2,10 +2,12 @@
   "id": 1746380387,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-22",
+    "date:cessation_upper": "2021-09-22",
     "date:inception_lower": "2021-09-21",
     "date:inception_upper": "2021-09-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-21",
+    "edtf:cessation": "2021-09-22T01:11:00Z",
+    "edtf:inception": "2021-09-21T23:37:00Z",
     "flysfo:actual_timestamp": 1632265200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-21",
@@ -48,6 +50,9 @@
       1745882085, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165911252"
+    },
     "wof:country": "US",
     "wof:created": 1632327259,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,7 +89,7 @@
       1159283813, 
       1745882105
     ],
-    "wof:lastmodified": 1632327259,
+    "wof:lastmodified": 1632327654,
     "wof:name": "AS1323 (SFO-SEA)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "event",
