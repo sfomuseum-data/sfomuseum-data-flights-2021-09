@@ -1,0 +1,117 @@
+{
+  "id": 1746379403,
+  "type": "Feature",
+  "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-21T08:19:39-07:00",
+    "edtf:inception": "2021-09-21T20:48:00Z",
+    "flysfo:actual_timestamp": 1632265200,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2021-09-21",
+    "flysfo:estimated_timestamp": 1632263640,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA1840",
+    "flysfo:gate": "E12",
+    "flysfo:journey": "PHX-SFO",
+    "flysfo:scheduled_timestamp": 1632264300,
+    "flysfo:timestamp": 1632265200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.432684,-112.017392,37.617990",
+    "geom:latitude": 35.525337,
+    "geom:longitude": -117.19416749999999,
+    "iata:airline": "UA",
+    "icao:aircraft": "A319",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.619531,
+    "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289407,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102526751,
+    "sfomuseum:flight_id": "20210921-A-UAL-1840",
+    "sfomuseum:flight_number": [
+      "UAL1840", 
+      "UA1840"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N831UA",
+    "wof:belongsto": [
+      1745882083, 
+      102527513, 
+      1745882299, 
+      102191575, 
+      85633793, 
+      102087579, 
+      85922583, 
+      554784711, 
+      85688637, 
+      1745882319, 
+      1745882233, 
+      102085387
+    ],
+    "wof:concordances": {
+      "swim:flight_ref": "165898039",
+      "swim:gufi": "KA61604300"
+    },
+    "wof:country": "US",
+    "wof:created": 1632326991,
+    "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
+    "wof:hierarchy": [
+      {
+        "building_id": 1745882083,
+        "campus_id": 102527513,
+        "concourse_id": 1745882299,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1745882319,
+        "wing_id": 1745882233
+      }, 
+      {
+        "building_id": 1745882083,
+        "campus_id": 102527513,
+        "concourse_id": 1745882299,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "region_id": 85688637,
+        "venue_id": 1745882319,
+        "wing_id": 1745882233
+      }
+    ],
+    "wof:id": 1746379403,
+    "wof:involves": [
+      1159289407, 
+      102527513, 
+      102526751, 
+      1159285413, 
+      1745882319
+    ],
+    "wof:lastmodified": 1632327662,
+    "wof:name": "UA1840 (PHX-SFO)",
+    "wof:parent_id": 1745882319,
+    "wof:placetype": "event",
+    "wof:repo": "sfomuseum-data-flights-2021-09",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943, 
+    33.432684, 
+    -112.017392, 
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
