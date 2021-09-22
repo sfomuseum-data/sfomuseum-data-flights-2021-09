@@ -2,10 +2,12 @@
   "id": 1746374545,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-20T16:17:26-07:00",
+    "edtf:inception": "2021-09-21T01:23:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
     "sfomuseum:flight_id": "20210920-A-DAL-1704",
     "sfomuseum:flight_number": [
-      "DAL1704", 
+      "DAL1704",
       "DL1704"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N593NW",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882203, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882203,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KC00601302"
+    },
     "wof:country": "US",
     "wof:created": 1632240359,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882203,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746374545,
     "wof:involves": [
-      102527513, 
-      102525635, 
-      1159284261, 
+      1159289945,
+      102527513,
+      102525635,
+      1159284261,
       1745882203
     ],
-    "wof:lastmodified": 1632240359,
+    "wof:lastmodified": 1632327747,
     "wof:name": "DL1704 (DTW-SFO)",
     "wof:parent_id": 1745882203,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -83.351709, 
+    -122.370943,
+    37.61799,
+    -83.351709,
     42.21886
   ],
   "geometry": {"coordinates":[[-83.351709,42.21886],[-122.370943,37.61799]],"type":"MultiPoint"}

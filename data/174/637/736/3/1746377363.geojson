@@ -2,10 +2,12 @@
   "id": 1746377363,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T18:02:00Z",
+    "edtf:inception": "2021-09-20T16:32:00Z",
     "flysfo:actual_timestamp": 1632154380,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-2027",
     "sfomuseum:flight_number": [
-      "UAL2027", 
+      "UAL2027",
       "UA2027"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N835UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882405, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882405,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165793302",
+      "swim:gufi": "KO50331200"
+    },
     "wof:country": "US",
     "wof:created": 1632241102,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882405,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746377363,
     "wof:involves": [
-      102526751, 
-      102527513, 
-      1159285413, 
+      1159289407,
+      102526751,
+      102527513,
+      1159285413,
       1745882405
     ],
-    "wof:lastmodified": 1632241102,
+    "wof:lastmodified": 1632327763,
     "wof:name": "UA2027 (SFO-PHX)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}

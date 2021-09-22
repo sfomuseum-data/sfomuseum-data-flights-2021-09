@@ -2,10 +2,12 @@
   "id": 1746377377,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T16:45:00Z",
+    "edtf:inception": "2021-09-20T01:39:02-07:00",
     "flysfo:actual_timestamp": 1632151620,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-2096",
     "sfomuseum:flight_number": [
-      "UAL2096", 
+      "UAL2096",
       "UA2096"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N33294",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882319, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882319,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165789309",
+      "swim:gufi": "KO47500200"
+    },
     "wof:country": "US",
     "wof:created": 1632241106,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882319,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377377,
     "wof:involves": [
-      102534161, 
-      102527513, 
-      1159285413, 
-      1745882319
+      102527513,
+      1159285413,
+      1745882319,
+      1159289871,
+      102534161
     ],
-    "wof:lastmodified": 1632241106,
+    "wof:lastmodified": 1632327763,
     "wof:name": "UA2096 (SFO-SNA)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.677724, 
-    -117.86628, 
+    -122.370943,
+    33.677724,
+    -117.86628,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.86628,33.677724]],"type":"MultiPoint"}

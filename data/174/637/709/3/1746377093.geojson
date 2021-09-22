@@ -2,10 +2,12 @@
   "id": 1746377093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T04:28:45Z",
+    "edtf:inception": "2021-09-20T04:37:11-07:00",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "SK",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 46.622809000000004,
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
+    "icao:aircraft": "A333",
     "icao:airline": "SAS",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102544207,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-SAS-936",
     "sfomuseum:flight_number": [
-      "SAS936", 
+      "SAS936",
       "SK936"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "LNRKS",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882419, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882419,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165805702"
+    },
     "wof:country": "US",
     "wof:created": 1632241032,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882419,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746377093,
     "wof:involves": [
-      102544207, 
-      102527513, 
-      1159285129, 
-      1745882419
+      1159285129,
+      1745882419,
+      1159289423,
+      102544207,
+      102527513
     ],
-    "wof:lastmodified": 1632241032,
+    "wof:lastmodified": 1632327762,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    12.649581, 
+    -122.370943,
+    37.61799,
+    12.649581,
     55.627628
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[12.649581,55.627628]],"type":"MultiPoint"}

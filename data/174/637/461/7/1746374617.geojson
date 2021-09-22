@@ -2,10 +2,12 @@
   "id": 1746374617,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T05:40:38-07:00",
+    "edtf:inception": "2021-09-20T09:05:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "LH",
     "flysfo:date": "2021-09-20",
@@ -21,32 +23,42 @@
     "geom:latitude": 43.781954,
     "geom:longitude": -57.5518295,
     "iata:airline": "LH",
+    "icao:aircraft": "B748",
     "icao:airline": "DLH",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293239,
     "sfomuseum:airline_id": 1159284711,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549057,
     "sfomuseum:flight_id": "20210920-A-DLH-454",
     "sfomuseum:flight_number": [
-      "DLH454", 
+      "DLH454",
       "LH454"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "165765936"
+    },
     "wof:country": "US",
     "wof:created": 1632240378,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
     "wof:hierarchy": [],
     "wof:id": 1746374617,
     "wof:involves": [
-      102527513, 
-      102549057, 
-      1159284711, 
-      -1
+      1159293239,
+      102527513,
+      102549057,
+      1159284711
     ],
-    "wof:lastmodified": 1632240378,
+    "wof:lastmodified": 1632327748,
     "wof:name": "LH454 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,9 +67,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    7.267284, 
+    -122.370943,
+    37.61799,
+    7.267284,
     49.945918
   ],
   "geometry": {"coordinates":[[7.267284,49.945918],[-122.370943,37.61799]],"type":"MultiPoint"}

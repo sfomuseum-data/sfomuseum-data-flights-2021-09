@@ -2,10 +2,12 @@
   "id": 1746377247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T19:28:00Z",
+    "edtf:inception": "2021-09-20T16:55:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-1189",
     "sfomuseum:flight_number": [
-      "UAL1189", 
+      "UAL1189",
       "UA1189"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N464UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882423, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882423,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165793034",
+      "swim:gufi": "KO50151200"
+    },
     "wof:country": "US",
     "wof:created": 1632241072,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882423,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746377247,
     "wof:involves": [
-      102536441, 
-      102527513, 
-      1159285413, 
-      1745882423
+      102527513,
+      1159285413,
+      1745882423,
+      1159292085,
+      102536441
     ],
-    "wof:lastmodified": 1632241072,
+    "wof:lastmodified": 1632327754,
     "wof:name": "UA1189 (SFO-SJD)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.160962, 
-    -109.717461, 
+    -122.370943,
+    23.160962,
+    -109.717461,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-109.717461,23.160962]],"type":"MultiPoint"}

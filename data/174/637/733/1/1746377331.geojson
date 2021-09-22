@@ -2,10 +2,12 @@
   "id": 1746377331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T02:52:00Z",
+    "edtf:inception": "2021-09-20T11:47:19-07:00",
     "flysfo:actual_timestamp": 1632187740,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.6185246799509,
     "lbl:longitude": -122.39344511718654,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-1978",
     "sfomuseum:flight_number": [
-      "UAL1978", 
+      "UAL1978",
       "UA1978"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N464UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882429, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882429,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO83968200"
+    },
     "wof:country": "US",
     "wof:created": 1632241094,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882429,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746377331,
     "wof:involves": [
-      102533927, 
-      102527513, 
-      1159285413, 
+      1159292085,
+      102533927,
+      102527513,
+      1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1632241094,
+    "wof:lastmodified": 1632327754,
     "wof:name": "UA1978 (SFO-EUG)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -123.21303, 
-    37.61799, 
-    -122.370943, 
+    -123.21303,
+    37.61799,
+    -122.370943,
     44.119058
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-123.21303,44.119058]],"type":"MultiPoint"}

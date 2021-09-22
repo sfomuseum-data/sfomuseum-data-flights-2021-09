@@ -2,10 +2,12 @@
   "id": 1746376897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T21:51:53Z",
+    "edtf:inception": "2021-09-20T16:59:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102536223,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-JBU-2242",
     "sfomuseum:flight_number": [
-      "JBU2242", 
+      "JBU2242",
       "B62242"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N834JB",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882357, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882357,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165796914",
+      "swim:gufi": "KO49897200"
+    },
     "wof:country": "US",
     "wof:created": 1632240979,
     "wof:geomhash": "d26f8a4a9d40aeb65e997520007d0d60",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882357,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746376897,
     "wof:involves": [
-      102536223, 
-      102527513, 
-      1159284583, 
-      1745882357
+      102536223,
+      102527513,
+      1159284583,
+      1745882357,
+      1159292085
     ],
-    "wof:lastmodified": 1632240979,
+    "wof:lastmodified": 1632327761,
     "wof:name": "B62242 (SFO-CUN)",
     "wof:parent_id": 1745882357,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    21.040317, 
-    -86.872856, 
+    -122.370943,
+    21.040317,
+    -86.872856,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-86.872856,21.040317]],"type":"MultiPoint"}

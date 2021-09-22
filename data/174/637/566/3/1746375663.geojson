@@ -2,10 +2,12 @@
   "id": 1746375663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T19:02:34Z",
+    "edtf:inception": "2021-09-20T16:42:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "WS",
     "flysfo:date": "2021-09-20",
@@ -21,32 +23,43 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B738",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
     "sfomuseum:flight_id": "20210920-A-WJA-1508",
     "sfomuseum:flight_number": [
-      "WJA1508", 
+      "WJA1508",
       "WS1508"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "165793370",
+      "swim:gufi": "KS56504200"
+    },
     "wof:country": "US",
     "wof:created": 1632240653,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
     "wof:hierarchy": [],
     "wof:id": 1746375663,
     "wof:involves": [
-      102527513, 
-      102554947, 
-      1159285523, 
-      -1
+      1159289871,
+      102527513,
+      102554947,
+      1159285523
     ],
-    "wof:lastmodified": 1632240653,
+    "wof:lastmodified": 1632327758,
     "wof:name": "WS1508 (YYC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,9 +68,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -114.02092, 
+    -122.370943,
+    37.61799,
+    -114.02092,
     51.119526
   ],
   "geometry": {"coordinates":[[-114.02092,51.119526],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746377193,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T15:20:44Z",
+    "edtf:inception": "2021-09-20T14:12:00Z",
     "flysfo:actual_timestamp": 1632146340,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61129913913649,
     "lbl:longitude": -122.38534520472582,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-SWA-5814",
     "sfomuseum:flight_number": [
-      "SWA5814", 
+      "SWA5814",
       "WN5814"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N933WN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882157, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882157,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165781445"
+    },
     "wof:country": "US",
     "wof:created": 1632241058,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882157,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746377193,
     "wof:involves": [
-      102528997, 
-      102527513, 
-      1159285591, 
+      1159289869,
+      102528997,
+      102527513,
+      1159285591,
       1745882157
     ],
-    "wof:lastmodified": 1632241058,
+    "wof:lastmodified": 1632327762,
     "wof:name": "WN5814 (SFO-SAN)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.733534, 
-    -117.185927, 
+    -122.370943,
+    32.733534,
+    -117.185927,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.185927,32.733534]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746375211,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T21:56:00Z",
+    "edtf:inception": "2021-09-20T20:57:00Z",
     "flysfo:actual_timestamp": 1632175380,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
     "sfomuseum:flight_id": "20210920-A-UAL-1263",
     "sfomuseum:flight_number": [
-      "UAL1263", 
+      "UAL1263",
       "UA1263"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N452UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882247, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882247,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165818211",
+      "swim:gufi": "KL62003200"
+    },
     "wof:country": "US",
     "wof:created": 1632240534,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882247,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746375211,
     "wof:involves": [
-      102527513, 
-      102534161, 
-      1159285413, 
-      1745882247
+      1745882247,
+      1159292085,
+      102527513,
+      102534161,
+      1159285413
     ],
-    "wof:lastmodified": 1632240534,
+    "wof:lastmodified": 1632327753,
     "wof:name": "UA1263 (SNA-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.677724, 
-    -117.86628, 
+    -122.370943,
+    33.677724,
+    -117.86628,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.86628,33.677724],[-122.370943,37.61799]],"type":"MultiPoint"}

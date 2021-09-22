@@ -2,10 +2,12 @@
   "id": 1746377251,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T19:47:29Z",
+    "edtf:inception": "2021-09-20T16:34:00Z",
     "flysfo:actual_timestamp": 1632154140,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-1212",
     "sfomuseum:flight_number": [
-      "UAL1212", 
+      "UAL1212",
       "UA1212"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N485UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882255, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882255,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165793048",
+      "swim:gufi": "KO50863200"
+    },
     "wof:country": "US",
     "wof:created": 1632241073,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882255,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746377251,
     "wof:involves": [
-      102536481, 
-      102527513, 
-      1159285413, 
+      1159292085,
+      102536481,
+      102527513,
+      1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1632241073,
+    "wof:lastmodified": 1632327762,
     "wof:name": "UA1212 (SFO-PVR)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    20.660734, 
-    -105.250456, 
+    -122.370943,
+    20.660734,
+    -105.250456,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-105.250456,20.660734]],"type":"MultiPoint"}

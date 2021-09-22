@@ -2,10 +2,12 @@
   "id": 1746377405,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T20:56:00Z",
+    "edtf:inception": "2021-09-20T16:20:00Z",
     "flysfo:actual_timestamp": 1632153300,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-2304",
     "sfomuseum:flight_number": [
-      "UAL2304", 
+      "UAL2304",
       "UA2304"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2639U",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882413, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882413,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165791565",
+      "swim:gufi": "KO49327200"
+    },
     "wof:country": "US",
     "wof:created": 1632241113,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882413,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377405,
     "wof:involves": [
-      102530049, 
-      102527513, 
-      1159285413, 
-      1745882413
+      102530049,
+      102527513,
+      1159285413,
+      1745882413,
+      1159289993
     ],
-    "wof:lastmodified": 1632241113,
+    "wof:lastmodified": 1632327756,
     "wof:name": "UA2304 (SFO-EWR)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746376903,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-21T11:09:09Z",
+    "edtf:inception": "2021-09-21T05:50:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.776171500000004,
     "geom:longitude": -97.52902549999999,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.613222002983164,
     "lbl:longitude": -122.38425114624033,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102532701,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-JBU-2844",
     "sfomuseum:flight_number": [
-      "JBU2844", 
+      "JBU2844",
       "B62844"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N558JB",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882143, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882143,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165763709",
+      "swim:gufi": "KO13762300"
+    },
     "wof:country": "US",
     "wof:created": 1632240981,
     "wof:geomhash": "0643ebfe04300154e23bafd48af1076e",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882143,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746376903,
     "wof:involves": [
-      102532701, 
-      102527513, 
-      1159284583, 
-      1745882143
+      102527513,
+      1159284583,
+      1745882143,
+      1159292085,
+      102532701
     ],
-    "wof:lastmodified": 1632240981,
+    "wof:lastmodified": 1632327761,
     "wof:name": "B62844 (SFO-BDL)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -72.687108, 
+    -122.370943,
+    37.61799,
+    -72.687108,
     41.934353
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-72.687108,41.934353]],"type":"MultiPoint"}

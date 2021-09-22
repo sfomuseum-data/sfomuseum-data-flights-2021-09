@@ -2,10 +2,12 @@
   "id": 1746375289,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T00:26:16-07:00",
+    "edtf:inception": "2021-09-20T13:24:00Z",
     "flysfo:actual_timestamp": 1632148260,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
     "sfomuseum:flight_id": "20210920-A-UAL-1836",
     "sfomuseum:flight_number": [
-      "UAL1836", 
+      "UAL1836",
       "UA1836"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N466UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882309, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882309,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165778165",
+      "swim:gufi": "KS40233200"
+    },
     "wof:country": "US",
     "wof:created": 1632240555,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882309,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746375289,
     "wof:involves": [
-      102527513, 
-      102533927, 
-      1159285413, 
-      1745882309
+      1745882309,
+      1159292085,
+      102527513,
+      102533927,
+      1159285413
     ],
-    "wof:lastmodified": 1632240555,
+    "wof:lastmodified": 1632327755,
     "wof:name": "UA1836 (EUG-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -123.21303, 
-    37.61799, 
-    -122.370943, 
+    -123.21303,
+    37.61799,
+    -122.370943,
     44.119058
   ],
   "geometry": {"coordinates":[[-123.21303,44.119058],[-122.370943,37.61799]],"type":"MultiPoint"}

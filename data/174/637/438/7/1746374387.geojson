@@ -2,10 +2,12 @@
   "id": 1746374387,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T04:17:35Z",
+    "edtf:inception": "2021-09-20T22:04:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20210920-A-ASA-375",
     "sfomuseum:flight_number": [
-      "ASA375", 
+      "ASA375",
       "AS375"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N568AS",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882097, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882097,
+      1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165823300"
+    },
     "wof:country": "US",
     "wof:created": 1632240317,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882097,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746374387,
     "wof:involves": [
-      102527513, 
-      102530049, 
-      1159283813, 
-      1745882097
+      102530049,
+      1159283813,
+      1745882097,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1632240317,
+    "wof:lastmodified": 1632327746,
     "wof:name": "AS375 (EWR-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746374395,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T23:06:27Z",
+    "edtf:inception": "2021-09-20T21:36:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
     "sfomuseum:flight_id": "20210920-A-ASA-742",
     "sfomuseum:flight_number": [
-      "ASA742", 
+      "ASA742",
       "AS742"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N852VA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882103, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882103,
+      1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165793053"
+    },
     "wof:country": "US",
     "wof:created": 1632240320,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882103,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746374395,
     "wof:involves": [
-      102527513, 
-      102533269, 
-      1159283813, 
+      1159292085,
+      102527513,
+      102533269,
+      1159283813,
       1745882103
     ],
-    "wof:lastmodified": 1632240320,
+    "wof:lastmodified": 1632327746,
     "wof:name": "AS742 (SEA-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.304268,47.441823],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746374767,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T14:34:49-07:00",
+    "edtf:inception": "2021-09-20T23:56:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "HA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "lbl:latitude": 37.611495,
     "lbl:longitude": -122.389961,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
     "sfomuseum:flight_id": "20210920-A-HAL-12",
     "sfomuseum:flight_number": [
-      "HAL12", 
+      "HAL12",
       "HA12"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882359, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882359,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165830814"
+    },
     "wof:country": "US",
     "wof:created": 1632240416,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882359,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746374767,
     "wof:involves": [
-      102527513, 
-      102533997, 
-      1159284489, 
+      1159289421,
+      102527513,
+      102533997,
+      1159284489,
       1745882359
     ],
-    "wof:lastmodified": 1632240416,
+    "wof:lastmodified": 1632327749,
     "wof:name": "HA12 (HNL-SFO)",
     "wof:parent_id": 1745882359,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -157.918416, 
-    21.332508, 
-    -122.370943, 
+    -157.918416,
+    21.332508,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-157.918416,21.332508],[-122.370943,37.61799]],"type":"MultiPoint"}

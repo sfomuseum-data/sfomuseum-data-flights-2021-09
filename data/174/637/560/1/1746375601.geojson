@@ -2,10 +2,12 @@
   "id": 1746375601,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-20T22:48:56-07:00",
+    "edtf:inception": "2021-09-21T01:48:00Z",
     "flysfo:actual_timestamp": 1632141960,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102551487,
     "sfomuseum:flight_id": "20210920-A-UAL-872",
     "sfomuseum:flight_number": [
-      "UAL872", 
+      "UAL872",
       "UA872"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882421, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882421,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO40360300"
+    },
     "wof:country": "US",
     "wof:created": 1632240637,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882421,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746375601,
     "wof:involves": [
-      102527513, 
-      102551487, 
-      1159285413, 
-      1745882421
+      1745882421,
+      1159289993,
+      102527513,
+      102551487,
+      1159285413
     ],
-    "wof:lastmodified": 1632240637,
+    "wof:lastmodified": 1632327758,
     "wof:name": "UA872 (TPE-SFO)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.078566, 
-    121.233152, 
+    -122.370943,
+    25.078566,
+    121.233152,
     37.61799
   ],
   "geometry": {"coordinates":[[121.233152,25.078566],[-122.370943,37.61799]],"type":"MultiPoint"}

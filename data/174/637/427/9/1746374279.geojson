@@ -2,10 +2,12 @@
   "id": 1746374279,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T23:05:48Z",
+    "edtf:inception": "2021-09-20T19:49:00Z",
     "flysfo:actual_timestamp": 1632179520,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,42 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536441,
     "sfomuseum:flight_id": "20210920-A-ASA-1279",
     "sfomuseum:flight_number": [
-      "ASA1279", 
+      "ASA1279",
       "AS1279"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882341, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882341,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165814107"
+    },
     "wof:country": "US",
     "wof:created": 1632240287,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -64,7 +75,7 @@
         "region_id": 85688637,
         "venue_id": 1745882341,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746374279,
     "wof:involves": [
-      102527513, 
-      102536441, 
-      1159283813, 
-      1745882341
+      1159283813,
+      1745882341,
+      1159292085,
+      102527513,
+      102536441
     ],
-    "wof:lastmodified": 1632240287,
+    "wof:lastmodified": 1632327745,
     "wof:name": "AS1279 (SJD-SFO)",
     "wof:parent_id": 1745882341,
     "wof:placetype": "event",
@@ -93,9 +105,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.160962, 
-    -109.717461, 
+    -122.370943,
+    23.160962,
+    -109.717461,
     37.61799
   ],
   "geometry": {"coordinates":[[-109.717461,23.160962],[-122.370943,37.61799]],"type":"MultiPoint"}

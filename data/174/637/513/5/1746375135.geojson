@@ -2,10 +2,12 @@
   "id": 1746375135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T00:22:19-07:00",
+    "edtf:inception": "2021-09-20T13:16:00Z",
     "flysfo:actual_timestamp": 1632147960,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61164983025587,
     "lbl:longitude": -122.3851161496397,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
     "sfomuseum:flight_id": "20210920-A-SWA-4660",
     "sfomuseum:flight_number": [
-      "SWA4660", 
+      "SWA4660",
       "WN4660"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N404WN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882155, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882155,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165777204"
+    },
     "wof:country": "US",
     "wof:created": 1632240514,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882155,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375135,
     "wof:involves": [
-      102527513, 
-      102533795, 
-      1159285591, 
+      1159289869,
+      102527513,
+      102533795,
+      1159285591,
       1745882155
     ],
-    "wof:lastmodified": 1632240514,
+    "wof:lastmodified": 1632327752,
     "wof:name": "WN4660 (LAX-SFO)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.38951,33.942593],[-122.370943,37.61799]],"type":"MultiPoint"}

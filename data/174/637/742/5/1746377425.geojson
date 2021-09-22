@@ -2,10 +2,12 @@
   "id": 1746377425,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T16:25:27Z",
+    "edtf:inception": "2021-09-20T01:32:05-07:00",
     "flysfo:actual_timestamp": 1632151140,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-2617",
     "sfomuseum:flight_number": [
-      "UAL2617", 
+      "UAL2617",
       "UA2617"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N38467",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882311, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882311,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165788797",
+      "swim:gufi": "KO42891200"
+    },
     "wof:country": "US",
     "wof:created": 1632241118,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882311,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377425,
     "wof:involves": [
-      102533795, 
-      102527513, 
-      1159285413, 
+      1377564285,
+      102533795,
+      102527513,
+      1159285413,
       1745882311
     ],
-    "wof:lastmodified": 1632241118,
+    "wof:lastmodified": 1632327764,
     "wof:name": "UA2617 (SFO-LAX)",
     "wof:parent_id": 1745882311,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

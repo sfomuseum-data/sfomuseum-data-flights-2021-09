@@ -2,10 +2,12 @@
   "id": 1746375217,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T21:37:00Z",
+    "edtf:inception": "2021-09-20T18:00:00Z",
     "flysfo:actual_timestamp": 1632174000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
     "sfomuseum:flight_id": "20210920-A-UAL-1434",
     "sfomuseum:flight_number": [
-      "UAL1434", 
+      "UAL1434",
       "UA1434"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37427",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882309, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882309,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165801244",
+      "swim:gufi": "KH53623200"
+    },
     "wof:country": "US",
     "wof:created": 1632240536,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882309,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375217,
     "wof:involves": [
-      102527513, 
-      102534097, 
-      1159285413, 
-      1745882309
+      1745882309,
+      1377564285,
+      102527513,
+      102534097,
+      1159285413
     ],
-    "wof:lastmodified": 1632240536,
+    "wof:lastmodified": 1632327753,
     "wof:name": "UA1434 (IAH-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.977186, 
-    -95.338444, 
+    -122.370943,
+    29.977186,
+    -95.338444,
     37.61799
   ],
   "geometry": {"coordinates":[[-95.338444,29.977186],[-122.370943,37.61799]],"type":"MultiPoint"}

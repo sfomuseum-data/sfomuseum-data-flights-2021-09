@@ -2,10 +2,12 @@
   "id": 1746377287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T21:01:59Z",
+    "edtf:inception": "2021-09-20T02:07:07-07:00",
     "flysfo:actual_timestamp": 1632152760,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 28.675217,
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532939,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-1721",
     "sfomuseum:flight_number": [
-      "UAL1721", 
+      "UAL1721",
       "UA1721"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882277, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882277,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165790364",
+      "swim:gufi": "KO50151201"
+    },
     "wof:country": "US",
     "wof:created": 1632241083,
     "wof:geomhash": "ffd2c7b34797175c51fc3517b1c4b69d",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882277,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377287,
     "wof:involves": [
-      102532939, 
-      102527513, 
-      1159285413, 
-      1745882277
+      102532939,
+      102527513,
+      1159285413,
+      1745882277,
+      1159289945
     ],
-    "wof:lastmodified": 1632241083,
+    "wof:lastmodified": 1632327763,
     "wof:name": "UA1721 (SFO-KOA)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -156.03506, 
-    19.732444, 
-    -122.370943, 
+    -156.03506,
+    19.732444,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-156.03506,19.732444]],"type":"MultiPoint"}

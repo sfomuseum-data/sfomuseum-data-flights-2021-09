@@ -2,10 +2,12 @@
   "id": 1746374551,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T10:50:57-07:00",
+    "edtf:inception": "2021-09-20T23:19:00Z",
     "flysfo:actual_timestamp": 1632185640,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61492757992414,
     "lbl:longitude": -122.3823520394826,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
     "sfomuseum:flight_id": "20210920-A-DAL-2470",
     "sfomuseum:flight_number": [
-      "DAL2470", 
+      "DAL2470",
       "DL2470"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N135DQ",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882209, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882209,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165828252",
+      "swim:gufi": "KU80460201"
+    },
     "wof:country": "US",
     "wof:created": 1632240361,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882209,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746374551,
     "wof:involves": [
-      102527513, 
-      102527363, 
-      1159284261, 
-      1745882209
+      1745882209,
+      1528104583,
+      102527513,
+      102527363,
+      1159284261
     ],
-    "wof:lastmodified": 1632240361,
+    "wof:lastmodified": 1632327747,
     "wof:name": "DL2470 (SLC-SFO)",
     "wof:parent_id": 1745882209,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-111.980566,40.78217],[-122.370943,37.61799]],"type":"MultiPoint"}

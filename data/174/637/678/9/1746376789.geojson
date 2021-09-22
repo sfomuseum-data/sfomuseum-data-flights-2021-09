@@ -2,10 +2,12 @@
   "id": 1746376789,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T19:40:42Z",
+    "edtf:inception": "2021-09-20T04:45:12-07:00",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-FFT-2754",
     "sfomuseum:flight_number": [
-      "FFT2754", 
+      "FFT2754",
       "F92754"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N334FR",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882399, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882399,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165806172"
+    },
     "wof:country": "US",
     "wof:created": 1632240951,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882399,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746376789,
     "wof:involves": [
-      102533575, 
-      102527513, 
-      1159284401, 
-      1745882399
+      102533575,
+      102527513,
+      1159284401,
+      1745882399,
+      1377564295
     ],
-    "wof:lastmodified": 1632240951,
+    "wof:lastmodified": 1632327756,
     "wof:name": "F92754 (SFO-ONT)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.059934, 
-    -117.587749, 
+    -122.370943,
+    34.059934,
+    -117.587749,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.587749,34.059934]],"type":"MultiPoint"}

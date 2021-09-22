@@ -2,10 +2,12 @@
   "id": 1746375593,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T13:37:57-07:00",
+    "edtf:inception": "2021-09-20T17:39:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210920-A-UAL-858",
     "sfomuseum:flight_number": [
-      "UAL858", 
+      "UAL858",
       "UA858"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882417, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882417,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165788923",
+      "swim:gufi": "KO07472300"
+    },
     "wof:country": "US",
     "wof:created": 1632240635,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882417,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375593,
     "wof:involves": [
-      102527513, 
-      102556451, 
-      1159285413, 
+      1159289993,
+      102527513,
+      102556451,
+      1159285413,
       1745882417
     ],
-    "wof:lastmodified": 1632240635,
+    "wof:lastmodified": 1632327755,
     "wof:name": "UA858 (ICN-SFO)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

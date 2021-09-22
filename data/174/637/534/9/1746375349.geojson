@@ -2,10 +2,12 @@
   "id": 1746375349,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-20T14:47:39-07:00",
+    "edtf:inception": "2021-09-21T01:14:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
     "sfomuseum:flight_id": "20210920-A-UAL-2621",
     "sfomuseum:flight_number": [
-      "UAL2621", 
+      "UAL2621",
       "UA2621"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37464",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882243, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882243,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KH82574200"
+    },
     "wof:country": "US",
     "wof:created": 1632240570,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882243,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375349,
     "wof:involves": [
-      102527513, 
-      102534097, 
-      1159285413, 
-      1745882243
+      1745882243,
+      1377564285,
+      102527513,
+      102534097,
+      1159285413
     ],
-    "wof:lastmodified": 1632240570,
+    "wof:lastmodified": 1632327757,
     "wof:name": "UA2621 (IAH-SFO)",
     "wof:parent_id": 1745882243,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.977186, 
-    -95.338444, 
+    -122.370943,
+    29.977186,
+    -95.338444,
     37.61799
   ],
   "geometry": {"coordinates":[[-95.338444,29.977186],[-122.370943,37.61799]],"type":"MultiPoint"}

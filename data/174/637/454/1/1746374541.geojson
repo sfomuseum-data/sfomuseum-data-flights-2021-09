@@ -2,10 +2,12 @@
   "id": 1746374541,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T03:44:45-07:00",
+    "edtf:inception": "2021-09-20T13:05:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
     "sfomuseum:flight_id": "20210920-A-DAL-1519",
     "sfomuseum:flight_number": [
-      "DAL1519", 
+      "DAL1519",
       "DL1519"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N594NW",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882205, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882205,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165774918",
+      "swim:gufi": "KC42241200"
+    },
     "wof:country": "US",
     "wof:created": 1632240358,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882205,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746374541,
     "wof:involves": [
-      102527513, 
-      102525635, 
-      1159284261, 
+      1159289945,
+      102527513,
+      102525635,
+      1159284261,
       1745882205
     ],
-    "wof:lastmodified": 1632240358,
+    "wof:lastmodified": 1632327747,
     "wof:name": "DL1519 (DTW-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -83.351709, 
+    -122.370943,
+    37.61799,
+    -83.351709,
     42.21886
   ],
   "geometry": {"coordinates":[[-83.351709,42.21886],[-122.370943,37.61799]],"type":"MultiPoint"}

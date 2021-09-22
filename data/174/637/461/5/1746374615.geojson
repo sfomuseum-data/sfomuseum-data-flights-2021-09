@@ -2,10 +2,12 @@
   "id": 1746374615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T03:19:18Z",
+    "edtf:inception": "2021-09-20T23:42:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
     "sfomuseum:flight_id": "20210920-A-DAL-968",
     "sfomuseum:flight_number": [
-      "DAL968", 
+      "DAL968",
       "DL968"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N812DN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882205, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882205,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165828687",
+      "swim:gufi": "KP81661200"
+    },
     "wof:country": "US",
     "wof:created": 1632240378,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882205,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746374615,
     "wof:involves": [
-      102527513, 
-      102531131, 
-      1159284261, 
-      1745882205
+      102527513,
+      102531131,
+      1159284261,
+      1745882205,
+      1377564285
     ],
-    "wof:lastmodified": 1632240378,
+    "wof:lastmodified": 1632327748,
     "wof:name": "DL968 (MSP-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-93.200317,44.883321],[-122.370943,37.61799]],"type":"MultiPoint"}

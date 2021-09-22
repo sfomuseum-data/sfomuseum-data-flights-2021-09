@@ -2,10 +2,12 @@
   "id": 1746375375,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T02:21:16-07:00",
+    "edtf:inception": "2021-09-20T14:05:00Z",
     "flysfo:actual_timestamp": 1632155280,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210920-A-UAL-419",
     "sfomuseum:flight_number": [
-      "UAL419", 
+      "UAL419",
       "UA419"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47524",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882249, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882249,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165779745",
+      "swim:gufi": "KD40966200"
+    },
     "wof:country": "US",
     "wof:created": 1632240577,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882249,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746375375,
     "wof:involves": [
-      102527513, 
-      102531189, 
-      1159285413, 
+      1528104577,
+      102527513,
+      102531189,
+      1159285413,
       1745882249
     ],
-    "wof:lastmodified": 1632240577,
+    "wof:lastmodified": 1632327758,
     "wof:name": "UA419 (DEN-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

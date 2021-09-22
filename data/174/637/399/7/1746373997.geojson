@@ -2,10 +2,12 @@
   "id": 1746373997,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T13:26:49-07:00",
+    "edtf:inception": "2021-09-20T22:30:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A321",
     "icao:airline": "ACA",
     "lbl:latitude": 37.6185246799509,
     "lbl:longitude": -122.39344511718654,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555091,
     "sfomuseum:flight_id": "20210920-A-ACA-745",
     "sfomuseum:flight_number": [
-      "ACA745", 
+      "ACA745",
       "AC745"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882429, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882429,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165822577",
+      "swim:gufi": "KP84311200"
+    },
     "wof:country": "US",
     "wof:created": 1632240205,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882429,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746373997,
     "wof:involves": [
-      102527513, 
-      102555091, 
-      1159283597, 
+      1159289411,
+      102527513,
+      102555091,
+      1159283597,
       1745882429
     ],
-    "wof:lastmodified": 1632240205,
+    "wof:lastmodified": 1632327743,
     "wof:name": "AC745 (YYZ-SFO)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -79.628342, 
+    -122.370943,
+    37.61799,
+    -79.628342,
     43.676352
   ],
   "geometry": {"coordinates":[[-79.628342,43.676352],[-122.370943,37.61799]],"type":"MultiPoint"}

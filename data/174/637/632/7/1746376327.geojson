@@ -2,10 +2,12 @@
   "id": 1746376327,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T21:03:48Z",
+    "edtf:inception": "2021-09-20T17:43:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-ASA-1272",
     "sfomuseum:flight_number": [
-      "ASA1272", 
+      "ASA1272",
       "AS1272"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N837VA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882097, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882097,
+      1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165800629"
+    },
     "wof:country": "US",
     "wof:created": 1632240829,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882097,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746376327,
     "wof:involves": [
-      102536481, 
-      102527513, 
-      1159283813, 
+      1159292085,
+      102536481,
+      102527513,
+      1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1632240829,
+    "wof:lastmodified": 1632327760,
     "wof:name": "AS1272 (SFO-PVR)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    20.660734, 
-    -105.250456, 
+    -122.370943,
+    20.660734,
+    -105.250456,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-105.250456,20.660734]],"type":"MultiPoint"}

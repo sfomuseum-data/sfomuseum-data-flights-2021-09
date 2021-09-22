@@ -2,10 +2,12 @@
   "id": 1746377241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T20:48:00Z",
+    "edtf:inception": "2021-09-20T01:44:12-07:00",
     "flysfo:actual_timestamp": 1632151500,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528943,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-1111",
     "sfomuseum:flight_number": [
-      "UAL1111", 
+      "UAL1111",
       "UA1111"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N656UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882273, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882273,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165788745",
+      "swim:gufi": "KO48776200"
+    },
     "wof:country": "US",
     "wof:created": 1632241071,
     "wof:geomhash": "a2498fe603884edb23014f03e0e3c121",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882273,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377241,
     "wof:involves": [
-      102528943, 
-      102527513, 
-      1159285413, 
-      1745882273
+      102528943,
+      102527513,
+      1159285413,
+      1745882273,
+      1159289965
     ],
-    "wof:lastmodified": 1632241071,
+    "wof:lastmodified": 1632327754,
     "wof:name": "UA1111 (SFO-LIH)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -159.347789, 
-    21.981539, 
-    -122.370943, 
+    -159.347789,
+    21.981539,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-159.347789,21.981539]],"type":"MultiPoint"}

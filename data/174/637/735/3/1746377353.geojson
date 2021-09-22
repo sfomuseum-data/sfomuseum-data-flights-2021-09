@@ -2,10 +2,12 @@
   "id": 1746377353,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-20T10:55:00Z",
+    "edtf:inception": "2021-09-20T17:40:55-07:00",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-2006",
     "sfomuseum:flight_number": [
-      "UAL2006", 
+      "UAL2006",
       "UA2006"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N417UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882293, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882293,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165764917",
+      "swim:gufi": "KO13779200"
+    },
     "wof:country": "US",
     "wof:created": 1632241099,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882293,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377353,
     "wof:involves": [
-      102533631, 
-      102527513, 
-      1159285413, 
-      1745882293
+      1159285413,
+      1745882293,
+      1159292085,
+      102533631,
+      102527513
     ],
-    "wof:lastmodified": 1632241099,
+    "wof:lastmodified": 1632327763,
     "wof:name": "UA2006 (SFO-ORD)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}

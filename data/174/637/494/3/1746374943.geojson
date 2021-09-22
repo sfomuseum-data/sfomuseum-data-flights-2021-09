@@ -2,10 +2,12 @@
   "id": 1746374943,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T01:52:13Z",
+    "edtf:inception": "2021-09-20T13:35:18Z",
     "flysfo:actual_timestamp": 1632189960,
     "flysfo:airline": "PR",
     "flysfo:date": "2021-09-20",
@@ -29,25 +31,28 @@
     "sfomuseum:departure_id": 102553219,
     "sfomuseum:flight_id": "20210920-A-PAL-104",
     "sfomuseum:flight_number": [
-      "PAL104", 
+      "PAL104",
       "PR104"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882355, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882355,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165845955"
+    },
     "wof:country": "US",
     "wof:created": 1632240463,
     "wof:geomhash": "5a4fd58c6aeb5f6f6368af3561d0b192",
@@ -64,7 +69,7 @@
         "region_id": 85688637,
         "venue_id": 1745882355,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +84,12 @@
     ],
     "wof:id": 1746374943,
     "wof:involves": [
-      102527513, 
-      102553219, 
-      1159285015, 
+      102527513,
+      102553219,
+      1159285015,
       1745882355
     ],
-    "wof:lastmodified": 1632240463,
+    "wof:lastmodified": 1632327751,
     "wof:name": "PR104 (MNL-SFO)",
     "wof:parent_id": 1745882355,
     "wof:placetype": "event",
@@ -93,9 +98,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    14.517768, 
-    121.015152, 
+    -122.370943,
+    14.517768,
+    121.015152,
     37.61799
   ],
   "geometry": {"coordinates":[[121.015152,14.517768],[-122.370943,37.61799]],"type":"MultiPoint"}

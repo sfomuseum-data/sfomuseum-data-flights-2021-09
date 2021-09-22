@@ -2,10 +2,12 @@
   "id": 1746375115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T23:18:00Z",
+    "edtf:inception": "2021-09-20T21:44:00Z",
     "flysfo:actual_timestamp": 1632180060,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,42 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.611971045971806,
     "lbl:longitude": -122.38490018846912,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527373,
     "sfomuseum:flight_id": "20210920-A-SWA-2867",
     "sfomuseum:flight_number": [
-      "SWA2867", 
+      "SWA2867",
       "WN2867"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N966WN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882153, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882153,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165822056"
+    },
     "wof:country": "US",
     "wof:created": 1632240509,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -64,7 +75,7 @@
         "region_id": 85688637,
         "venue_id": 1745882153,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +90,13 @@
     ],
     "wof:id": 1746375115,
     "wof:involves": [
-      102527513, 
-      102527373, 
-      1159285591, 
+      1159289869,
+      102527513,
+      102527373,
+      1159285591,
       1745882153
     ],
-    "wof:lastmodified": 1632240509,
+    "wof:lastmodified": 1632327752,
     "wof:name": "WN2867 (SAT-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",
@@ -93,9 +105,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.534838, 
-    -98.472784, 
+    -122.370943,
+    29.534838,
+    -98.472784,
     37.61799
   ],
   "geometry": {"coordinates":[[-98.472784,29.534838],[-122.370943,37.61799]],"type":"MultiPoint"}

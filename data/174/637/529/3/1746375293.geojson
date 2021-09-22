@@ -2,10 +2,12 @@
   "id": 1746375293,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T08:22:22-07:00",
+    "edtf:inception": "2021-09-20T20:49:00Z",
     "flysfo:actual_timestamp": 1632176820,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210920-A-UAL-1840",
     "sfomuseum:flight_number": [
-      "UAL1840", 
+      "UAL1840",
       "UA1840"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N33289",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882293, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882293,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165817883",
+      "swim:gufi": "KA61506200"
+    },
     "wof:country": "US",
     "wof:created": 1632240555,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882293,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746375293,
     "wof:involves": [
-      102527513, 
-      102526751, 
-      1159285413, 
-      1745882293
+      102527513,
+      102526751,
+      1159285413,
+      1745882293,
+      1159289871
     ],
-    "wof:lastmodified": 1632240555,
+    "wof:lastmodified": 1632327757,
     "wof:name": "UA1840 (PHX-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

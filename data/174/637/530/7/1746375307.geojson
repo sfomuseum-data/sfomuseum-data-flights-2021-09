@@ -2,10 +2,12 @@
   "id": 1746375307,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T12:19:55-07:00",
+    "edtf:inception": "2021-09-20T20:37:00Z",
     "flysfo:actual_timestamp": 1632191160,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20210920-A-UAL-1921",
     "sfomuseum:flight_number": [
-      "UAL1921", 
+      "UAL1921",
       "UA1921"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N676UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882279, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882279,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165816467",
+      "swim:gufi": "KP82217200"
+    },
     "wof:country": "US",
     "wof:created": 1632240559,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882279,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746375307,
     "wof:involves": [
-      102527513, 
-      102530049, 
-      1159285413, 
+      1159289965,
+      102527513,
+      102530049,
+      1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1632240559,
+    "wof:lastmodified": 1632327757,
     "wof:name": "UA1921 (EWR-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746376445,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T18:22:16Z",
+    "edtf:inception": "2021-09-20T16:56:00Z",
     "flysfo:actual_timestamp": 1632154860,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,43 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-ASA-383",
     "sfomuseum:flight_number": [
-      "ASA383", 
+      "ASA383",
       "AS383"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N303AS",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882103, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882103,
+      1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165794738"
+    },
     "wof:country": "US",
     "wof:created": 1632240859,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -64,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882103,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746376445,
     "wof:involves": [
-      102532251, 
-      102527513, 
-      1159283813, 
+      1377564285,
+      102532251,
+      102527513,
+      1159283813,
       1745882103
     ],
-    "wof:lastmodified": 1632240859,
+    "wof:lastmodified": 1632327760,
     "wof:name": "AS383 (SFO-PDX)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "event",
@@ -93,9 +106,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.597389,45.586144]],"type":"MultiPoint"}

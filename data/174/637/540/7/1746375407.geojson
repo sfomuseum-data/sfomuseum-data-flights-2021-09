@@ -2,10 +2,12 @@
   "id": 1746375407,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T04:27:15-07:00",
+    "edtf:inception": "2021-09-20T12:59:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
     "sfomuseum:flight_id": "20210920-A-UAL-521",
     "sfomuseum:flight_number": [
-      "UAL521", 
+      "UAL521",
       "UA521"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N673UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882279, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882279,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165772901",
+      "swim:gufi": "KN37750200"
+    },
     "wof:country": "US",
     "wof:created": 1632240585,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882279,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746375407,
     "wof:involves": [
-      102527513, 
-      102534365, 
-      1159285413, 
-      1745882279
+      1159285413,
+      1745882279,
+      1159289965,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1632240585,
+    "wof:lastmodified": 1632327758,
     "wof:name": "UA521 (JFK-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-73.787845,40.643286],[-122.370943,37.61799]],"type":"MultiPoint"}

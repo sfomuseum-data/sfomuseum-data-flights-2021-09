@@ -2,10 +2,12 @@
   "id": 1746377657,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-20",
-    "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
+    "date:inception_lower": "2021-09-21",
+    "date:inception_upper": "2021-09-21",
+    "edtf:cessation": "2021-09-21T09:42:00Z",
+    "edtf:inception": "2021-09-21T00:16:00Z",
     "flysfo:actual_timestamp": 1632182160,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 44.5440385,
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102556703,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-UAL-901",
     "sfomuseum:flight_number": [
-      "UAL901", 
+      "UAL901",
       "UA901"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N26966",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882427, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882427,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165829429",
+      "swim:gufi": "KO71758200"
+    },
     "wof:country": "US",
     "wof:created": 1632241179,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882427,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746377657,
     "wof:involves": [
-      102556703, 
-      102527513, 
-      1159285413, 
-      1745882427
+      1745882427,
+      1159293215,
+      102556703,
+      102527513,
+      1159285413
     ],
-    "wof:lastmodified": 1632241179,
+    "wof:lastmodified": 1632327764,
     "wof:name": "UA901 (SFO-LHR)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-0.450443,51.470087]],"type":"MultiPoint"}

@@ -2,10 +2,12 @@
   "id": 1746374855,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T03:40:43-07:00",
+    "edtf:inception": "2021-09-20T12:06:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.613303509442936,
     "lbl:longitude": -122.38428398032424,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20210920-A-JBU-483",
     "sfomuseum:flight_number": [
-      "JBU483", 
+      "JBU483",
       "B6483"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N923JB",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882141, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882141,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165772223",
+      "swim:gufi": "KN37758200"
+    },
     "wof:country": "US",
     "wof:created": 1632240440,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882141,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746374855,
     "wof:involves": [
-      102527513, 
-      102530049, 
-      1159284583, 
+      1159289411,
+      102527513,
+      102530049,
+      1159284583,
       1745882141
     ],
-    "wof:lastmodified": 1632240440,
+    "wof:lastmodified": 1632327750,
     "wof:name": "B6483 (EWR-SFO)",
     "wof:parent_id": 1745882141,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}

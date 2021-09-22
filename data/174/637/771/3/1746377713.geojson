@@ -2,10 +2,12 @@
   "id": 1746377713,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T23:07:00Z",
+    "edtf:inception": "2021-09-20T06:37:39-07:00",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "WS",
     "flysfo:date": "2021-09-20",
@@ -21,32 +23,43 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
+    "icao:aircraft": "B738",
     "icao:airline": "WJA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-WJA-1509",
     "sfomuseum:flight_number": [
-      "WJA1509", 
+      "WJA1509",
       "WS1509"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGWSZ",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "165813902",
+      "swim:gufi": "KO66983200"
+    },
     "wof:country": "US",
     "wof:created": 1632241193,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
     "wof:hierarchy": [],
     "wof:id": 1746377713,
     "wof:involves": [
-      102554947, 
-      102527513, 
-      1159285523, 
-      -1
+      1159289871,
+      102554947,
+      102527513,
+      1159285523
     ],
-    "wof:lastmodified": 1632241193,
+    "wof:lastmodified": 1632327757,
     "wof:name": "WS1509 (SFO-YYC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,9 +68,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -114.02092, 
+    -122.370943,
+    37.61799,
+    -114.02092,
     51.119526
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-114.02092,51.119526]],"type":"MultiPoint"}

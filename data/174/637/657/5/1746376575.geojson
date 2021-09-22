@@ -2,10 +2,12 @@
   "id": 1746376575,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T14:30:00Z",
+    "edtf:inception": "2021-09-20T13:10:00Z",
     "flysfo:actual_timestamp": 1632142680,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-DAL-1211",
     "sfomuseum:flight_number": [
-      "DAL1211", 
+      "DAL1211",
       "DL1211"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N872DN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882207, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882207,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165776843",
+      "swim:gufi": "KO43866200"
+    },
     "wof:country": "US",
     "wof:created": 1632240893,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882207,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746376575,
     "wof:involves": [
-      102527363, 
-      102527513, 
-      1159284261, 
+      1377564285,
+      102527363,
+      102527513,
+      1159284261,
       1745882207
     ],
-    "wof:lastmodified": 1632240893,
+    "wof:lastmodified": 1632327760,
     "wof:name": "DL1211 (SFO-SLC)",
     "wof:parent_id": 1745882207,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-111.980566,40.78217]],"type":"MultiPoint"}

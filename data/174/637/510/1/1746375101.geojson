@@ -2,10 +2,12 @@
   "id": 1746375101,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T10:50:14-07:00",
+    "edtf:inception": "2021-09-20T22:40:00Z",
     "flysfo:actual_timestamp": 1632185700,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.611971045971806,
     "lbl:longitude": -122.38490018846912,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210920-A-SWA-1169",
     "sfomuseum:flight_number": [
-      "SWA1169", 
+      "SWA1169",
       "WN1169"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N729SW",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882153, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882153,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165826278"
+    },
     "wof:country": "US",
     "wof:created": 1632240504,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882153,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375101,
     "wof:involves": [
-      102527513, 
-      102531189, 
-      1159285591, 
+      1159289869,
+      102527513,
+      102531189,
+      1159285591,
       1745882153
     ],
-    "wof:lastmodified": 1632240504,
+    "wof:lastmodified": 1632327752,
     "wof:name": "WN1169 (DEN-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

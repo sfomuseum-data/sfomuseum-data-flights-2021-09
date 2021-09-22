@@ -2,10 +2,12 @@
   "id": 1746376573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-21",
+    "date:cessation_upper": "2021-09-21",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-21T03:17:00Z",
+    "edtf:inception": "2021-09-20T22:10:00Z",
     "flysfo:actual_timestamp": 1632174960,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,45 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210920-D-DAL-1202",
     "sfomuseum:flight_number": [
-      "DAL1202", 
+      "DAL1202",
       "DL1202"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N727TW",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882201, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882201,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165824038",
+      "swim:gufi": "KO76266200"
+    },
     "wof:country": "US",
     "wof:created": 1632240893,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -64,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882201,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746376573,
     "wof:involves": [
-      102530741, 
-      102527513, 
-      1159284261, 
-      1745882201
+      1745882201,
+      1159289939,
+      102530741,
+      102527513,
+      1159284261
     ],
-    "wof:lastmodified": 1632240893,
+    "wof:lastmodified": 1632327760,
     "wof:name": "DL1202 (SFO-BOS)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "event",
@@ -93,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}

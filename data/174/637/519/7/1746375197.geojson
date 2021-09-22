@@ -2,10 +2,12 @@
   "id": 1746375197,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-20",
+    "date:cessation_upper": "2021-09-20",
     "date:inception_lower": "2021-09-20",
     "date:inception_upper": "2021-09-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-20",
+    "edtf:cessation": "2021-09-20T13:18:35-07:00",
+    "edtf:inception": "2021-09-20T22:17:00Z",
     "flysfo:actual_timestamp": 1632178800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-20",
@@ -21,33 +23,44 @@
     "geom:latitude": 29.3291535,
     "geom:longitude": -104.6218995,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536223,
     "sfomuseum:flight_id": "20210920-A-UAL-1118",
     "sfomuseum:flight_number": [
-      "UAL1118", 
+      "UAL1118",
       "UA1118"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882409, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882409,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "165825224",
+      "swim:gufi": "KH85124200"
+    },
     "wof:country": "US",
     "wof:created": 1632240530,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
@@ -64,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882409,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746375197,
     "wof:involves": [
-      102527513, 
-      102536223, 
-      1159285413, 
-      1745882409
+      102536223,
+      1159285413,
+      1745882409,
+      1377564285,
+      102527513
     ],
-    "wof:lastmodified": 1632240530,
+    "wof:lastmodified": 1632327753,
     "wof:name": "UA1118 (CUN-SFO)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "event",
@@ -93,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    21.040317, 
-    -86.872856, 
+    -122.370943,
+    21.040317,
+    -86.872856,
     37.61799
   ],
   "geometry": {"coordinates":[[-86.872856,21.040317],[-122.370943,37.61799]],"type":"MultiPoint"}
