@@ -2,12 +2,12 @@
   "id": 1746378723,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "2021-09-21",
-    "date:cessation_upper": "2021-09-21",
-    "date:inception_lower": "1970-01-01",
-    "date:inception_upper": "1970-01-01",
-    "edtf:cessation": "2021-09-21T16:01:21-07:00",
-    "edtf:inception": "1970-01-01T00:00:00Z",
+    "date:cessation_lower": "2021-09-22",
+    "date:cessation_upper": "2021-09-22",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
+    "edtf:cessation": "2021-09-22T06:04:00Z",
+    "edtf:inception": "2021-09-22T01:30:00Z",
     "flysfo:actual_timestamp": 1632290820,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-21",
@@ -33,28 +33,34 @@
     "sfomuseum:departure_id": 102526927,
     "sfomuseum:flight_id": "20210921-A-DAL-710",
     "sfomuseum:flight_number": [
-      "DAL710", 
+      "DAL710",
       "DL710"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
+    "swim:tail_number": "N550NW",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882201, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882201,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KT01562400"
+    },
     "wof:country": "US",
     "wof:created": 1632326798,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -71,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882201,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -86,13 +92,13 @@
     ],
     "wof:id": 1746378723,
     "wof:involves": [
-      1159284261, 
-      1745882201, 
-      1159289939, 
-      102527513, 
-      102526927
+      102527513,
+      102526927,
+      1159289939,
+      1159284261,
+      1745882201
     ],
-    "wof:lastmodified": 1632327657,
+    "wof:lastmodified": 1632437298,
     "wof:name": "DL710 (ATL-SFO)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "event",
@@ -101,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.636518, 
-    -84.430686, 
+    -122.370943,
+    33.636518,
+    -84.430686,
     37.61799
   ],
   "geometry": {"coordinates":[[-84.430686,33.636518],[-122.370943,37.61799]],"type":"MultiPoint"}

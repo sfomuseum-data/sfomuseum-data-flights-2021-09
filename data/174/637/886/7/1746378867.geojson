@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527209,
     "sfomuseum:flight_id": "20210921-A-FFT-2079",
     "sfomuseum:flight_number": [
-      "FFT2079", 
+      "FFT2079",
       "F92079"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N336FR",
@@ -54,12 +54,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746378867,
     "wof:involves": [
-      1377564295, 
-      102527513, 
-      102527209, 
+      1377564295,
+      102527513,
+      102527209,
       1159284401
     ],
-    "wof:lastmodified": 1632327658,
+    "wof:lastmodified": 1632437299,
     "wof:name": "F92079 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -68,9 +68,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-115.15644,36.081003],[-122.370943,37.61799]],"type":"MultiPoint"}

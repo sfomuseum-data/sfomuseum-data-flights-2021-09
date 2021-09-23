@@ -2,12 +2,12 @@
   "id": 1746379199,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "2021-09-21",
-    "date:cessation_upper": "2021-09-21",
-    "date:inception_lower": "1970-01-01",
-    "date:inception_upper": "1970-01-01",
-    "edtf:cessation": "2021-09-21T14:41:56-07:00",
-    "edtf:inception": "1970-01-01T00:00:00Z",
+    "date:cessation_lower": "2021-09-22",
+    "date:cessation_upper": "2021-09-22",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
+    "edtf:cessation": "2021-09-22T04:44:00Z",
+    "edtf:inception": "2021-09-22T03:13:00Z",
     "flysfo:actual_timestamp": 1632285960,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-09-21",
@@ -33,26 +33,29 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210921-A-SWA-1857",
     "sfomuseum:flight_number": [
-      "SWA1857", 
+      "SWA1857",
       "WN1857"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
+    "swim:tail_number": "N962WN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882157, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882157,
+      1745882137,
       102085387
     ],
     "wof:country": "US",
@@ -71,7 +74,7 @@
         "region_id": 85688637,
         "venue_id": 1745882157,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -86,13 +89,13 @@
     ],
     "wof:id": 1746379199,
     "wof:involves": [
-      102526751, 
-      1159285591, 
-      1745882157, 
-      1159289869, 
+      1159289869,
+      102526751,
+      1159285591,
+      1745882157,
       102527513
     ],
-    "wof:lastmodified": 1632327660,
+    "wof:lastmodified": 1632437301,
     "wof:name": "WN1857 (PHX-SFO)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "event",
@@ -101,9 +104,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

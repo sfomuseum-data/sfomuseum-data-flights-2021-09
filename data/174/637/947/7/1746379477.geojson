@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102532159,
     "sfomuseum:flight_id": "20210921-A-UAL-351",
     "sfomuseum:flight_number": [
-      "UAL351", 
+      "UAL351",
       "UA351"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N79541",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882243, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882243,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882243,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746379477,
     "wof:involves": [
-      1745882243, 
-      1159289871, 
-      102527513, 
-      102532159, 
-      1159285413
+      1745882243,
+      102527513,
+      102532159,
+      1159285413,
+      1159289871
     ],
-    "wof:lastmodified": 1632327663,
+    "wof:lastmodified": 1632437305,
     "wof:name": "UA351 (DCA-SFO)",
     "wof:parent_id": 1745882243,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.041643, 
+    -122.370943,
+    37.61799,
+    -77.041643,
     38.850639
   ],
   "geometry": {"coordinates":[[-77.041643,38.850639],[-122.370943,37.61799]],"type":"MultiPoint"}

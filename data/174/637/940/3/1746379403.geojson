@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210921-A-UAL-1840",
     "sfomuseum:flight_number": [
-      "UAL1840", 
+      "UAL1840",
       "UA1840"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N831UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882319, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882319,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882319,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746379403,
     "wof:involves": [
-      1159289407, 
-      102527513, 
-      102526751, 
-      1159285413, 
+      1159289407,
+      102527513,
+      102526751,
+      1159285413,
       1745882319
     ],
-    "wof:lastmodified": 1632327662,
+    "wof:lastmodified": 1632437304,
     "wof:name": "UA1840 (PHX-SFO)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

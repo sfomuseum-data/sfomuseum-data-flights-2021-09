@@ -2,12 +2,12 @@
   "id": 1746378875,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "2021-09-21",
-    "date:cessation_upper": "2021-09-21",
-    "date:inception_lower": "1970-01-01",
-    "date:inception_upper": "1970-01-01",
-    "edtf:cessation": "2021-09-21T16:24:19-07:00",
-    "edtf:inception": "1970-01-01T00:00:00Z",
+    "date:cessation_lower": "2021-09-22",
+    "date:cessation_upper": "2021-09-22",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
+    "edtf:cessation": "2021-09-22T06:27:00Z",
+    "edtf:inception": "2021-09-22T04:15:00Z",
     "flysfo:actual_timestamp": 1632265200,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-09-21",
@@ -33,28 +33,34 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210921-A-FFT-667",
     "sfomuseum:flight_number": [
-      "FFT667", 
+      "FFT667",
       "F9667"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
+    "swim:tail_number": "N205FR",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882393, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882393,
+      1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KD11449400"
+    },
     "wof:country": "US",
     "wof:created": 1632326839,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -71,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882393,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -86,13 +92,13 @@
     ],
     "wof:id": 1746378875,
     "wof:involves": [
-      102531189, 
-      1159284401, 
-      1745882393, 
-      1159292085, 
-      102527513
+      1159284401,
+      1745882393,
+      102527513,
+      1159292085,
+      102531189
     ],
-    "wof:lastmodified": 1632327658,
+    "wof:lastmodified": 1632437299,
     "wof:name": "F9667 (DEN-SFO)",
     "wof:parent_id": 1745882393,
     "wof:placetype": "event",
@@ -101,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

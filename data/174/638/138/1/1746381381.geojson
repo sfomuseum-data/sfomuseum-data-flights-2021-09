@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-UAL-2096",
     "sfomuseum:flight_number": [
-      "UAL2096", 
+      "UAL2096",
       "UA2096"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N76528",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882313, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882313,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882313,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746381381,
     "wof:involves": [
-      1159289871, 
-      102534161, 
-      102527513, 
-      1159285413, 
+      1159289871,
+      102534161,
+      102527513,
+      1159285413,
       1745882313
     ],
-    "wof:lastmodified": 1632327660,
+    "wof:lastmodified": 1632437302,
     "wof:name": "UA2096 (SFO-SNA)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.677724, 
-    -117.86628, 
+    -122.370943,
+    33.677724,
+    -117.86628,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.86628,33.677724]],"type":"MultiPoint"}

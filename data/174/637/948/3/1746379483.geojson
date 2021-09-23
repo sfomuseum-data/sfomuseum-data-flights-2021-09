@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210921-A-UAL-419",
     "sfomuseum:flight_number": [
-      "UAL419", 
+      "UAL419",
       "UA419"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N37507",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882317, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882317,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882317,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746379483,
     "wof:involves": [
-      1159285413, 
-      1745882317, 
-      1528104577, 
-      102527513, 
-      102531189
+      1159285413,
+      1745882317,
+      102527513,
+      102531189,
+      1528104577
     ],
-    "wof:lastmodified": 1632327663,
+    "wof:lastmodified": 1632437305,
     "wof:name": "UA419 (DEN-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

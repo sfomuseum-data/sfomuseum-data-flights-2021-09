@@ -2,12 +2,12 @@
   "id": 1746381129,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "1970-01-01",
-    "date:cessation_upper": "1970-01-01",
-    "date:inception_lower": "2021-09-21",
-    "date:inception_upper": "2021-09-21",
-    "edtf:cessation": "1970-01-01T00:00:00Z",
-    "edtf:inception": "2021-09-21T15:01:20-07:00",
+    "date:cessation_lower": "2021-09-22",
+    "date:cessation_upper": "2021-09-22",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
+    "edtf:cessation": "2021-09-22T20:24:30Z",
+    "edtf:inception": "2021-09-22T05:01:00Z",
     "flysfo:actual_timestamp": 1632285780,
     "flysfo:airline": "SQ",
     "flysfo:date": "2021-09-21",
@@ -33,28 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-SIA-33",
     "sfomuseum:flight_number": [
-      "SIA33", 
+      "SIA33",
       "SQ33"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
+    "swim:tail_number": "9VSGA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882417, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882417,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
@@ -73,7 +74,7 @@
         "region_id": 85688637,
         "venue_id": 1745882417,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -88,13 +89,13 @@
     ],
     "wof:id": 1746381129,
     "wof:involves": [
-      1159285163, 
-      1745882417, 
-      1377564293, 
-      102551593, 
-      102527513
+      102527513,
+      1377564293,
+      1159285163,
+      1745882417,
+      102551593
     ],
-    "wof:lastmodified": 1632327658,
+    "wof:lastmodified": 1632437299,
     "wof:name": "SQ33 (SFO-SIN)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "event",
@@ -103,9 +104,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    1.3474, 
-    103.976839, 
+    -122.370943,
+    1.3474,
+    103.976839,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[103.976839,1.3474]],"type":"MultiPoint"}

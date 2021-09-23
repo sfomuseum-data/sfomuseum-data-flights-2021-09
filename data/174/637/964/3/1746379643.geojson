@@ -4,10 +4,10 @@
   "properties": {
     "date:cessation_lower": "2021-09-21",
     "date:cessation_upper": "2021-09-21",
-    "date:inception_lower": "1970-01-01",
-    "date:inception_upper": "1970-01-01",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
     "edtf:cessation": "2021-09-21T15:17:42-07:00",
-    "edtf:inception": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-09-22T01:45:00Z",
     "flysfo:actual_timestamp": 1632288060,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-21",
@@ -33,28 +33,34 @@
     "sfomuseum:departure_id": 102534097,
     "sfomuseum:flight_id": "20210921-A-UAL-590",
     "sfomuseum:flight_number": [
-      "UAL590", 
+      "UAL590",
       "UA590"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
+    "swim:tail_number": "N66825",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882245, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882245,
+      1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KH82467300"
+    },
     "wof:country": "US",
     "wof:created": 1632327056,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -71,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882245,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -86,13 +92,13 @@
     ],
     "wof:id": 1746379643,
     "wof:involves": [
-      102534097, 
-      1159285413, 
-      1745882245, 
-      1377564285, 
+      1377564285,
+      102534097,
+      1159285413,
+      1745882245,
       102527513
     ],
-    "wof:lastmodified": 1632327664,
+    "wof:lastmodified": 1632437307,
     "wof:name": "UA590 (IAH-SFO)",
     "wof:parent_id": 1745882245,
     "wof:placetype": "event",
@@ -101,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    29.977186, 
-    -95.338444, 
+    -122.370943,
+    29.977186,
+    -95.338444,
     37.61799
   ],
   "geometry": {"coordinates":[[-95.338444,29.977186],[-122.370943,37.61799]],"type":"MultiPoint"}

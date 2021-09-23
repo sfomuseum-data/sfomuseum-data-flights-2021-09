@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-ACA-561",
     "sfomuseum:flight_number": [
-      "ACA561", 
+      "ACA561",
       "AC561"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "CGJWI",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882425, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882425,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882425,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746380071,
     "wof:involves": [
-      1159289411, 
-      102555307, 
-      102527513, 
-      1159283597, 
+      1159289411,
+      102555307,
+      102527513,
+      1159283597,
       1745882425
     ],
-    "wof:lastmodified": 1632327652,
+    "wof:lastmodified": 1632437292,
     "wof:name": "AC561 (SFO-YVR)",
     "wof:parent_id": 1745882425,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -123.1792, 
-    37.61799, 
-    -122.370943, 
+    -123.1792,
+    37.61799,
+    -122.370943,
     49.19333
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-123.1792,49.19333]],"type":"MultiPoint"}

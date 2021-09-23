@@ -6,7 +6,7 @@
     "date:cessation_upper": "2021-09-22",
     "date:inception_lower": "2021-09-21",
     "date:inception_upper": "2021-09-21",
-    "edtf:cessation": "2021-09-22T19:48:43Z",
+    "edtf:cessation": "2021-09-22T19:48:22Z",
     "edtf:inception": "2021-09-21T16:26:37-07:00",
     "flysfo:actual_timestamp": 1632290460,
     "flysfo:airline": "UA",
@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-UAL-863",
     "sfomuseum:flight_number": [
-      "UAL863", 
+      "UAL863",
       "UA863"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N24972",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882409, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882409,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882409,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746381647,
     "wof:involves": [
-      1159293215, 
-      102557783, 
-      102527513, 
-      1159285413, 
-      1745882409
+      102557783,
+      102527513,
+      1159285413,
+      1745882409,
+      1159293215
     ],
-    "wof:lastmodified": 1632327662,
+    "wof:lastmodified": 1632437304,
     "wof:name": "UA863 (SFO-SYD)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    -33.934928, 
-    151.173388, 
+    -122.370943,
+    -33.934928,
+    151.173388,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[151.173388,-33.934928]],"type":"MultiPoint"}

@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102531131,
     "sfomuseum:flight_id": "20210921-A-DAL-1033",
     "sfomuseum:flight_number": [
-      "DAL1033", 
+      "DAL1033",
       "DL1033"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N845DN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882203, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882203,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882203,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746378655,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102531131, 
-      1159284261, 
+      1377564285,
+      102527513,
+      102531131,
+      1159284261,
       1745882203
     ],
-    "wof:lastmodified": 1632327657,
+    "wof:lastmodified": 1632437297,
     "wof:name": "DL1033 (MSP-SFO)",
     "wof:parent_id": 1745882203,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-93.200317,44.883321],[-122.370943,37.61799]],"type":"MultiPoint"}

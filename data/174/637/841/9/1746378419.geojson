@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102532159,
     "sfomuseum:flight_id": "20210921-A-ASA-1002",
     "sfomuseum:flight_number": [
-      "ASA1002", 
+      "ASA1002",
       "AS1002"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N923VA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882107, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882107,
+      1745882085,
       102085387
     ],
     "wof:concordances": {
@@ -77,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882107,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746378419,
     "wof:involves": [
-      102527513, 
-      102532159, 
-      1159283813, 
-      1745882107, 
-      1377564297
+      1377564297,
+      102527513,
+      102532159,
+      1159283813,
+      1745882107
     ],
-    "wof:lastmodified": 1632327655,
+    "wof:lastmodified": 1632437296,
     "wof:name": "AS1002 (DCA-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "event",
@@ -107,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.041643, 
+    -122.370943,
+    37.61799,
+    -77.041643,
     38.850639
   ],
   "geometry": {"coordinates":[[-77.041643,38.850639],[-122.370943,37.61799]],"type":"MultiPoint"}

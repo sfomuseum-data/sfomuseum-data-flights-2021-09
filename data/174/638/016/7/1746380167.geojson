@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-AMX-665",
     "sfomuseum:flight_number": [
-      "AMX665", 
+      "AMX665",
       "AM665"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N958AM",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882341, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882341,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -77,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882341,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746380167,
     "wof:involves": [
-      1159283539, 
-      1745882341, 
-      1159289871, 
-      102536579, 
+      1159289871,
+      1159283539,
+      1745882341,
+      102536579,
       102527513
     ],
-    "wof:lastmodified": 1632327653,
+    "wof:lastmodified": 1632437293,
     "wof:name": "AM665 (SFO-MEX)",
     "wof:parent_id": 1745882341,
     "wof:placetype": "event",
@@ -107,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    19.431302, 
-    -99.080804, 
+    -122.370943,
+    19.431302,
+    -99.080804,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-99.080804,19.431302]],"type":"MultiPoint"}

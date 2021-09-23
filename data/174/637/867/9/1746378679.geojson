@@ -4,10 +4,10 @@
   "properties": {
     "date:cessation_lower": "2021-09-21",
     "date:cessation_upper": "2021-09-21",
-    "date:inception_lower": "1970-01-01",
-    "date:inception_upper": "1970-01-01",
+    "date:inception_lower": "2021-09-22",
+    "date:inception_upper": "2021-09-22",
     "edtf:cessation": "2021-09-21T16:29:41-07:00",
-    "edtf:inception": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-09-22T04:58:00Z",
     "flysfo:actual_timestamp": 1632292380,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-21",
@@ -33,28 +33,34 @@
     "sfomuseum:departure_id": 102527363,
     "sfomuseum:flight_id": "20210921-A-DAL-2104",
     "sfomuseum:flight_number": [
-      "DAL2104", 
+      "DAL2104",
       "DL2104"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
+    "swim:tail_number": "N897DN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882205, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882205,
+      1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU15000401"
+    },
     "wof:country": "US",
     "wof:created": 1632326786,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -71,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882205,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -86,13 +92,13 @@
     ],
     "wof:id": 1746378679,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102527363, 
-      1159284261, 
+      1377564285,
+      102527513,
+      102527363,
+      1159284261,
       1745882205
     ],
-    "wof:lastmodified": 1632327657,
+    "wof:lastmodified": 1632437298,
     "wof:name": "DL2104 (SLC-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "event",
@@ -101,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-111.980566,40.78217],[-122.370943,37.61799]],"type":"MultiPoint"}

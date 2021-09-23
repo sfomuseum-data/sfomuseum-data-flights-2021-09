@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102530741,
     "sfomuseum:flight_id": "20210921-A-UAL-2400",
     "sfomuseum:flight_number": [
-      "UAL2400", 
+      "UAL2400",
       "UA2400"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N37513",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882321, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882321,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882321,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746379451,
     "wof:involves": [
-      1528104577, 
-      102527513, 
-      102530741, 
-      1159285413, 
-      1745882321
+      102527513,
+      102530741,
+      1159285413,
+      1745882321,
+      1528104577
     ],
-    "wof:lastmodified": 1632327662,
+    "wof:lastmodified": 1632437304,
     "wof:name": "UA2400 (BOS-SFO)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-71.01475,42.362322],[-122.370943,37.61799]],"type":"MultiPoint"}

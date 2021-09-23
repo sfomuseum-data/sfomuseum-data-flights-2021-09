@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102534155,
     "sfomuseum:flight_id": "20210921-A-UAL-1792",
     "sfomuseum:flight_number": [
-      "UAL1792", 
+      "UAL1792",
       "UA1792"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N452UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882299, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882313, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882299,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882313,
+      1745882233,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882313,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746379399,
     "wof:involves": [
-      102527513, 
-      102534155, 
-      1159285413, 
-      1745882313, 
-      1159292085
+      1159292085,
+      102527513,
+      102534155,
+      1159285413,
+      1745882313
     ],
-    "wof:lastmodified": 1632327662,
+    "wof:lastmodified": 1632437303,
     "wof:name": "UA1792 (IND-SFO)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -86.278675, 
+    -122.370943,
+    37.61799,
+    -86.278675,
     39.730262
   ],
   "geometry": {"coordinates":[[-86.278675,39.730262],[-122.370943,37.61799]],"type":"MultiPoint"}

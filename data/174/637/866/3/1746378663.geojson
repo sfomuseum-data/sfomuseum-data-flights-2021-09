@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102525635,
     "sfomuseum:flight_id": "20210921-A-DAL-1304",
     "sfomuseum:flight_number": [
-      "DAL1304", 
+      "DAL1304",
       "DL1304"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N816DN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882205, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882205,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882205,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746378663,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102525635, 
-      1159284261, 
+      1377564285,
+      102527513,
+      102525635,
+      1159284261,
       1745882205
     ],
-    "wof:lastmodified": 1632327657,
+    "wof:lastmodified": 1632437297,
     "wof:name": "DL1304 (DTW-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -83.351709, 
+    -122.370943,
+    37.61799,
+    -83.351709,
     42.21886
   ],
   "geometry": {"coordinates":[[-83.351709,42.21886],[-122.370943,37.61799]],"type":"MultiPoint"}

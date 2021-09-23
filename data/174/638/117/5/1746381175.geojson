@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-SWA-6247",
     "sfomuseum:flight_number": [
-      "SWA6247", 
+      "SWA6247",
       "WN6247"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N7860A",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882151, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882151,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -77,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882151,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746381175,
     "wof:involves": [
-      1159289869, 
-      102527209, 
-      102527513, 
-      1159285591, 
+      1159289869,
+      102527209,
+      102527513,
+      1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1632327658,
+    "wof:lastmodified": 1632437299,
     "wof:name": "WN6247 (SFO-LAS)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",
@@ -107,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-115.15644,36.081003]],"type":"MultiPoint"}

@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102532771,
     "sfomuseum:flight_id": "20210921-A-SWA-3753",
     "sfomuseum:flight_number": [
-      "SWA3753", 
+      "SWA3753",
       "WN3753"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N938WN",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882155, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882155,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -77,7 +77,7 @@
         "region_id": 85688637,
         "venue_id": 1745882155,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746379213,
     "wof:involves": [
-      1159285591, 
-      1745882155, 
-      1159289869, 
-      102527513, 
-      102532771
+      1159285591,
+      1745882155,
+      102527513,
+      102532771,
+      1159289869
     ],
-    "wof:lastmodified": 1632327660,
+    "wof:lastmodified": 1632437301,
     "wof:name": "WN3753 (BUR-SFO)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "event",
@@ -107,9 +107,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.196704, 
-    -118.353322, 
+    -122.370943,
+    34.196704,
+    -118.353322,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.353322,34.196704],[-122.370943,37.61799]],"type":"MultiPoint"}

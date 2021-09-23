@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-DLH-459",
     "sfomuseum:flight_number": [
-      "DLH459", 
+      "DLH459",
       "LH459"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "DAIXC",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882423, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882423,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
@@ -74,7 +74,7 @@
         "region_id": 85688637,
         "venue_id": 1745882423,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -89,13 +89,13 @@
     ],
     "wof:id": 1746380683,
     "wof:involves": [
-      1745882423, 
-      1377564293, 
-      102549067, 
-      102527513, 
+      1377564293,
+      1745882423,
+      102549067,
+      102527513,
       1159284711
     ],
-    "wof:lastmodified": 1632327656,
+    "wof:lastmodified": 1632437296,
     "wof:name": "LH459 (SFO-MUC)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "event",
@@ -104,9 +104,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    11.776808, 
+    -122.370943,
+    37.61799,
+    11.776808,
     48.352681
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[11.776808,48.352681]],"type":"MultiPoint"}

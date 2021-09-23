@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20210921-A-UAL-1066",
     "sfomuseum:flight_number": [
-      "UAL1066", 
+      "UAL1066",
       "UA1066"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N68836",
@@ -55,12 +55,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746379311,
     "wof:involves": [
-      1377564285, 
-      102527513, 
-      102533631, 
-      1159285413
+      102527513,
+      102533631,
+      1159285413,
+      1377564285
     ],
-    "wof:lastmodified": 1632327661,
+    "wof:lastmodified": 1632437302,
     "wof:name": "UA1066 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -69,9 +69,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

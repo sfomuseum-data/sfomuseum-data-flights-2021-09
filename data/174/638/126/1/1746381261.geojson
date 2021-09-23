@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-UAL-1212",
     "sfomuseum:flight_number": [
-      "UAL1212", 
+      "UAL1212",
       "UA1212"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N485UA",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882409, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882409,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -78,7 +78,7 @@
         "region_id": 85688637,
         "venue_id": 1745882409,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746381261,
     "wof:involves": [
-      1159292085, 
-      102536481, 
-      102527513, 
-      1159285413, 
-      1745882409
+      1745882409,
+      1159292085,
+      102536481,
+      102527513,
+      1159285413
     ],
-    "wof:lastmodified": 1632327659,
+    "wof:lastmodified": 1632437300,
     "wof:name": "UA1212 (SFO-PVR)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "event",
@@ -108,9 +108,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    20.660734, 
-    -105.250456, 
+    -122.370943,
+    20.660734,
+    -105.250456,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-105.250456,20.660734]],"type":"MultiPoint"}

@@ -32,29 +32,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-ACA-760",
     "sfomuseum:flight_number": [
-      "ACA760", 
+      "ACA760",
       "AC760"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "CGNBE",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882401, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882411, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882401,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882411,
+      1745882335,
       102085387
     ],
     "wof:concordances": {
@@ -76,7 +76,7 @@
         "region_id": 85688637,
         "venue_id": 1745882411,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -91,12 +91,12 @@
     ],
     "wof:id": 1746380103,
     "wof:involves": [
-      102554351, 
-      102527513, 
-      1159283597, 
+      102554351,
+      102527513,
+      1159283597,
       1745882411
     ],
-    "wof:lastmodified": 1632327652,
+    "wof:lastmodified": 1632437292,
     "wof:name": "AC760 (SFO-YUL)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",
@@ -105,9 +105,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.744749, 
+    -122.370943,
+    37.61799,
+    -73.744749,
     45.462004
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-73.744749,45.462004]],"type":"MultiPoint"}

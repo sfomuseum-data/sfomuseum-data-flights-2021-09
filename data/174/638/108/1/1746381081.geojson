@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-SCX-3006",
     "sfomuseum:flight_number": [
-      "SCX3006", 
+      "SCX3006",
       "SY3006"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "swim:tail_number": "N5683A",
@@ -53,12 +53,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746381081,
     "wof:involves": [
-      1159285227, 
-      1159289871, 
-      102528591, 
+      1159289871,
+      1159285227,
+      102528591,
       102527513
     ],
-    "wof:lastmodified": 1632327658,
+    "wof:lastmodified": 1632437299,
     "wof:name": "SY3006 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -67,9 +67,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.986694, 
-    -97.316095, 
+    -122.370943,
+    32.986694,
+    -97.316095,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.316095,32.986694]],"type":"MultiPoint"}

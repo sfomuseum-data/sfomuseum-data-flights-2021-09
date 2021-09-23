@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102551593,
     "sfomuseum:flight_id": "20210921-A-SIA-34",
     "sfomuseum:flight_number": [
-      "SIA34", 
+      "SIA34",
       "SQ34"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,12 +50,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746379193,
     "wof:involves": [
-      1377564293, 
-      102527513, 
-      102551593, 
+      1377564293,
+      102527513,
+      102551593,
       1159285163
     ],
-    "wof:lastmodified": 1632327660,
+    "wof:lastmodified": 1632437301,
     "wof:name": "SQ34 (SIN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -64,9 +64,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    1.3474, 
-    103.976839, 
+    -122.370943,
+    1.3474,
+    103.976839,
     37.61799
   ],
   "geometry": {"coordinates":[[103.976839,1.3474],[-122.370943,37.61799]],"type":"MultiPoint"}

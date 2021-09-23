@@ -33,29 +33,29 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-UAE-226",
     "sfomuseum:flight_number": [
-      "UAE226", 
+      "UAE226",
       "EK226"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "A6EPZ",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882351, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882351,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
@@ -74,7 +74,7 @@
         "region_id": 85688637,
         "venue_id": 1745882351,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -89,13 +89,13 @@
     ],
     "wof:id": 1746381227,
     "wof:involves": [
-      102558433, 
-      102527513, 
-      1159284333, 
-      1745882351, 
-      1159289993
+      1159289993,
+      102558433,
+      102527513,
+      1159284333,
+      1745882351
     ],
-    "wof:lastmodified": 1632327659,
+    "wof:lastmodified": 1632437300,
     "wof:name": "EK226 (SFO-DXB)",
     "wof:parent_id": 1745882351,
     "wof:placetype": "event",
@@ -104,9 +104,9 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.250063, 
-    55.362737, 
+    -122.370943,
+    25.250063,
+    55.362737,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[55.362737,25.250063]],"type":"MultiPoint"}
