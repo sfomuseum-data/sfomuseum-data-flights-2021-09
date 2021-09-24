@@ -2,10 +2,12 @@
   "id": 1746387535,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-23",
-    "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "date:cessation_lower": "2021-09-23",
+    "date:cessation_upper": "2021-09-23",
+    "date:inception_lower": "2021-09-24",
+    "date:inception_upper": "2021-09-24",
+    "edtf:cessation": "2021-09-23T16:12:28-07:00",
+    "edtf:inception": "2021-09-24T04:15:00Z",
     "flysfo:actual_timestamp": 1632464520,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N207FR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166004811",
+      "swim:gufi": "KD11524600"
+    },
     "wof:country": "US",
     "wof:created": 1632499683,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -82,9 +96,10 @@
       102527513,
       102531189,
       1159284401,
-      1745882345
+      1745882345,
+      1159292085
     ],
-    "wof:lastmodified": 1632499683,
+    "wof:lastmodified": 1632510958,
     "wof:name": "F9667 (DEN-SFO)",
     "wof:parent_id": 1745882345,
     "wof:placetype": "event",

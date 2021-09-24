@@ -2,10 +2,12 @@
   "id": 1746387521,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-23",
+    "date:cessation_upper": "2021-09-23",
     "date:inception_lower": "2021-09-23",
     "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "edtf:cessation": "2021-09-23T19:22:00Z",
+    "edtf:inception": "2021-09-23T14:55:00Z",
     "flysfo:actual_timestamp": 1632438000,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526927,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N353FR",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "166023596"
+    },
     "wof:country": "US",
     "wof:created": 1632499679,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
     "wof:hierarchy": [],
     "wof:id": 1746387521,
     "wof:involves": [
+      1377564295,
       102527513,
       102526927,
-      1159284401,
-      -1
+      1159284401
     ],
-    "wof:lastmodified": 1632499679,
+    "wof:lastmodified": 1632510957,
     "wof:name": "F91523 (ATL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

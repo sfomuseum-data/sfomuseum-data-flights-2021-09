@@ -2,10 +2,12 @@
   "id": 1746389435,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-23",
+    "date:cessation_upper": "2021-09-23",
     "date:inception_lower": "2021-09-23",
     "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "edtf:cessation": "2021-09-23T18:54:00Z",
+    "edtf:inception": "2021-09-23T03:25:42-07:00",
     "flysfo:actual_timestamp": 1632438000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "A320",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N374NW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166044516",
+      "swim:gufi": "KO58920500"
+    },
     "wof:country": "US",
     "wof:created": 1632500177,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746389435,
     "wof:involves": [
+      1159292085,
       102527363,
       102527513,
       1159284261,
       1745882203
     ],
-    "wof:lastmodified": 1632500177,
+    "wof:lastmodified": 1632510965,
     "wof:name": "DL1311 (SFO-SLC)",
     "wof:parent_id": 1745882203,
     "wof:placetype": "event",

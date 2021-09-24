@@ -2,10 +2,12 @@
   "id": 1746390247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-24",
+    "date:cessation_upper": "2021-09-24",
     "date:inception_lower": "2021-09-23",
     "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "edtf:cessation": "2021-09-24T03:11:00Z",
+    "edtf:inception": "2021-09-23T12:17:16-07:00",
     "flysfo:actual_timestamp": 1632438000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.6185246799509,
     "lbl:longitude": -122.39344511718654,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO01316600"
+    },
     "wof:country": "US",
     "wof:created": 1632500386,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1746390247,
     "wof:involves": [
-      102533575,
       102527513,
       1159285413,
-      1745882429
+      1745882429,
+      1159292085,
+      102533575
     ],
-    "wof:lastmodified": 1632500386,
+    "wof:lastmodified": 1632510949,
     "wof:name": "UA2004 (SFO-ONT)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "event",

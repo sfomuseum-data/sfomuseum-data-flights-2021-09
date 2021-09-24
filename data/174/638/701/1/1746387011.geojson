@@ -2,10 +2,12 @@
   "id": 1746387011,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-24",
+    "date:cessation_upper": "2021-09-24",
     "date:inception_lower": "2021-09-23",
     "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "edtf:cessation": "2021-09-24T02:29:00Z",
+    "edtf:inception": "2021-09-23T21:28:00Z",
     "flysfo:actual_timestamp": 1632438000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.234314499999996,
     "geom:longitude": -99.70629299999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532159,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1746387011,
     "wof:involves": [
+      1159292085,
       102527513,
       102532159,
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1632499546,
+    "wof:lastmodified": 1632510951,
     "wof:name": "AS1002 (DCA-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",

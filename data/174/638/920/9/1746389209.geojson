@@ -2,10 +2,12 @@
   "id": 1746389209,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-23",
+    "date:cessation_upper": "2021-09-23",
     "date:inception_lower": "2021-09-23",
     "date:inception_upper": "2021-09-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-23",
+    "edtf:cessation": "2021-09-23T18:41:42Z",
+    "edtf:inception": "2021-09-23T16:00:00Z",
     "flysfo:actual_timestamp": 1632438000,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N837VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166036768"
+    },
     "wof:country": "US",
     "wof:created": 1632500119,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746389209,
     "wof:involves": [
-      102536441,
       102527513,
       1159283813,
-      1745882121
+      1745882121,
+      1159292085,
+      102536441
     ],
-    "wof:lastmodified": 1632500119,
+    "wof:lastmodified": 1632510964,
     "wof:name": "AS1278 (SFO-SJD)",
     "wof:parent_id": 1745882121,
     "wof:placetype": "event",
