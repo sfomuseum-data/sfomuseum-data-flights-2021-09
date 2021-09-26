@@ -2,10 +2,12 @@
   "id": 1746396483,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-25",
-    "date:inception_upper": "2021-09-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-25",
+    "date:cessation_lower": "2021-09-25",
+    "date:cessation_upper": "2021-09-25",
+    "date:inception_lower": "2021-09-26",
+    "date:inception_upper": "2021-09-26",
+    "edtf:cessation": "2021-09-25T16:21:06-07:00",
+    "edtf:inception": "2021-09-26T02:45:00Z",
     "flysfo:actual_timestamp": 1632610800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2749U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166177046",
+      "swim:gufi": "KG83288700"
+    },
     "wof:country": "US",
     "wof:created": 1632672513,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746396483,
     "wof:involves": [
+      1159289993,
       102527513,
       102533631,
       1159285413,
       1745882297
     ],
-    "wof:lastmodified": 1632672513,
+    "wof:lastmodified": 1632673189,
     "wof:name": "UA1608 (ORD-SFO)",
     "wof:parent_id": 1745882297,
     "wof:placetype": "event",
