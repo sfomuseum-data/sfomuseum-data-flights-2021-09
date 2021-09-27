@@ -2,10 +2,12 @@
   "id": 1746402809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-27",
+    "date:cessation_upper": "2021-09-27",
     "date:inception_lower": "2021-09-26",
     "date:inception_upper": "2021-09-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-26",
+    "edtf:cessation": "2021-09-27T03:33:00Z",
+    "edtf:inception": "2021-09-26T23:44:00Z",
     "flysfo:actual_timestamp": 1632698220,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.674126,
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534155,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166342353",
+      "swim:gufi": "KO77071100"
+    },
     "wof:country": "US",
     "wof:created": 1632759554,
     "wof:geomhash": "75b67362ad403f806ec665af17b684aa",
@@ -82,9 +95,10 @@
       102534155,
       102527513,
       1159285413,
-      1745882247
+      1745882247,
+      1159292085
     ],
-    "wof:lastmodified": 1632759554,
+    "wof:lastmodified": 1632759731,
     "wof:name": "UA2070 (SFO-IND)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "event",

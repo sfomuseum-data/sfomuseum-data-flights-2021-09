@@ -2,10 +2,12 @@
   "id": 1746402785,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-26",
+    "date:cessation_upper": "2021-09-26",
     "date:inception_lower": "2021-09-26",
     "date:inception_upper": "2021-09-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-26",
+    "edtf:cessation": "2021-09-26T20:18:00Z",
+    "edtf:inception": "2021-09-26T04:12:17-07:00",
     "flysfo:actual_timestamp": 1632697200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N35260",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166315398",
+      "swim:gufi": "KO53023100"
+    },
     "wof:country": "US",
     "wof:created": 1632759548,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746402785,
     "wof:involves": [
+      1159289871,
       102531189,
       102527513,
       1159285413,
       1745882319
     ],
-    "wof:lastmodified": 1632759548,
+    "wof:lastmodified": 1632759731,
     "wof:name": "UA1999 (SFO-DEN)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "event",

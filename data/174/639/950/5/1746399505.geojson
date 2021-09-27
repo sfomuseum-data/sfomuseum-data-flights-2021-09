@@ -2,10 +2,12 @@
   "id": 1746399505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-27",
+    "date:cessation_upper": "2021-09-27",
     "date:inception_lower": "2021-09-26",
     "date:inception_upper": "2021-09-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-26",
+    "edtf:cessation": "2021-09-27T00:46:00Z",
+    "edtf:inception": "2021-09-26T20:46:00Z",
     "flysfo:actual_timestamp": 1632703800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N526AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -79,12 +89,13 @@
     ],
     "wof:id": 1746399505,
     "wof:involves": [
+      1745882099,
+      1159289871,
       102527513,
       102533631,
-      1159283813,
-      1745882099
+      1159283813
     ],
-    "wof:lastmodified": 1632758714,
+    "wof:lastmodified": 1632759703,
     "wof:name": "AS1213 (ORD-SFO)",
     "wof:parent_id": 1745882099,
     "wof:placetype": "event",
