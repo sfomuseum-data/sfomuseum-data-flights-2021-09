@@ -2,10 +2,12 @@
   "id": 1746403873,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-09-27",
-    "date:inception_upper": "2021-09-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-27",
+    "date:cessation_lower": "2021-09-28",
+    "date:cessation_upper": "2021-09-28",
+    "date:inception_lower": "2021-09-28",
+    "date:inception_upper": "2021-09-28",
+    "edtf:cessation": "2021-09-28T05:02:57Z",
+    "edtf:inception": "2021-09-28T00:14:00Z",
     "flysfo:actual_timestamp": 1632805560,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-09-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166345200"
+    },
     "wof:country": "US",
     "wof:created": 1632845123,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1746403873,
     "wof:involves": [
-      102527513,
-      102533997,
       1159283813,
-      1745882105
+      1745882105,
+      1159289871,
+      102527513,
+      102533997
     ],
-    "wof:lastmodified": 1632845123,
+    "wof:lastmodified": 1632846037,
     "wof:name": "AS27 (HNL-SFO)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "event",

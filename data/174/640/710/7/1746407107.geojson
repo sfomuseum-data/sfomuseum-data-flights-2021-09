@@ -2,10 +2,12 @@
   "id": 1746407107,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-27",
+    "date:cessation_upper": "2021-09-27",
     "date:inception_lower": "2021-09-27",
     "date:inception_upper": "2021-09-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-27",
+    "edtf:cessation": "2021-09-27T16:46:00Z",
+    "edtf:inception": "2021-09-27T15:34:00Z",
     "flysfo:actual_timestamp": 1632756000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N38417",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166383076",
+      "swim:gufi": "KO48064200"
+    },
     "wof:country": "US",
     "wof:created": 1632845951,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -82,9 +96,10 @@
       102532251,
       102527513,
       1159285413,
-      1745882303
+      1745882303,
+      1377564285
     ],
-    "wof:lastmodified": 1632845951,
+    "wof:lastmodified": 1632846054,
     "wof:name": "UA605 (SFO-PDX)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "event",
