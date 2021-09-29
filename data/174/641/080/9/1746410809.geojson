@@ -2,10 +2,12 @@
   "id": 1746410809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-28",
+    "date:cessation_upper": "2021-09-28",
     "date:inception_lower": "2021-09-28",
     "date:inception_upper": "2021-09-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-28",
+    "edtf:cessation": "2021-09-28T18:24:00Z",
+    "edtf:inception": "2021-09-28T02:46:23-07:00",
     "flysfo:actual_timestamp": 1632846120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N490UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166473337",
+      "swim:gufi": "KO50374300"
+    },
     "wof:country": "US",
     "wof:created": 1632932454,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746410809,
     "wof:involves": [
+      1159292085,
       102533269,
       102527513,
       1159285413,
       1745882309
     ],
-    "wof:lastmodified": 1632932454,
+    "wof:lastmodified": 1632932637,
     "wof:name": "UA2010 (SFO-SEA)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "event",
