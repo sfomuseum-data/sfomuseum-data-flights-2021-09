@@ -2,10 +2,12 @@
   "id": 1746412809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-29",
+    "date:cessation_upper": "2021-09-29",
     "date:inception_lower": "2021-09-29",
     "date:inception_upper": "2021-09-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-29",
+    "edtf:cessation": "2021-09-29T04:04:01-07:00",
+    "edtf:inception": "2021-09-29T12:53:00Z",
     "flysfo:actual_timestamp": 1632939420,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.6185246799509,
     "lbl:longitude": -122.39344511718654,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2138U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166535498",
+      "swim:gufi": "KN31071400"
+    },
     "wof:country": "US",
     "wof:created": 1633018179,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1746412809,
     "wof:involves": [
+      1159289993,
       102527513,
       102530049,
       1159285413,
       1745882429
     ],
-    "wof:lastmodified": 1633018179,
+    "wof:lastmodified": 1633018832,
     "wof:name": "UA310 (EWR-SFO)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "event",
