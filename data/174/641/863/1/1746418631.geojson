@@ -2,10 +2,12 @@
   "id": 1746418631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-10-01",
+    "date:cessation_upper": "2021-10-01",
     "date:inception_lower": "2021-09-30",
     "date:inception_upper": "2021-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-30",
+    "edtf:cessation": "2021-10-01T04:13:00Z",
+    "edtf:inception": "2021-09-30T23:12:00Z",
     "flysfo:actual_timestamp": 1633042980,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-09-30",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166680387"
+    },
     "wof:country": "US",
     "wof:created": 1633105014,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -84,7 +89,7 @@
       1159284261,
       1745882213
     ],
-    "wof:lastmodified": 1633105014,
+    "wof:lastmodified": 1633105444,
     "wof:name": "DL442 (SFO-JFK)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "event",

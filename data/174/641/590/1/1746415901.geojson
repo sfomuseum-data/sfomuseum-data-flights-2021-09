@@ -2,10 +2,12 @@
   "id": 1746415901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-09-30",
+    "date:cessation_upper": "2021-09-30",
     "date:inception_lower": "2021-09-30",
     "date:inception_upper": "2021-09-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-09-30",
+    "edtf:cessation": "2021-09-30T02:58:34-07:00",
+    "edtf:inception": "2021-09-30T08:10:00Z",
     "flysfo:actual_timestamp": 1633042800,
     "flysfo:airline": "NH",
     "flysfo:date": "2021-09-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B789",
     "icao:airline": "ANA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "166609790"
+    },
     "wof:country": "US",
     "wof:created": 1633104288,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -82,9 +94,10 @@
       102527513,
       102541685,
       1159283875,
-      1745882427
+      1745882427,
+      1159293215
     ],
-    "wof:lastmodified": 1633104288,
+    "wof:lastmodified": 1633105410,
     "wof:name": "NH8 (NRT-SFO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "event",
