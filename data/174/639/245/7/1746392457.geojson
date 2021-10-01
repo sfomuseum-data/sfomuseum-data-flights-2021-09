@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746392457,
     "wof:involves": [
-      1159289871,
-      102527513,
       102534161,
       1159285413,
-      1745882313
+      1745882313,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1632586903,
+    "wof:lastmodified": 1632591283,
     "wof:name": "UA2061 (SNA-SFO)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "event",

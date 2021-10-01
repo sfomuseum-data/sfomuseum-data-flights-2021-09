@@ -2,32 +2,28 @@
   "id": 1746410703,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "2021-09-28",
-    "date:cessation_upper": "2021-09-28",
     "date:inception_lower": "2021-09-28",
     "date:inception_upper": "2021-09-28",
-    "edtf:cessation": "2021-09-28T19:12:00Z",
-    "edtf:inception": "2021-09-28T16:37:00Z",
-    "flysfo:actual_timestamp": 1632845640,
+    "edtf:cessation": "",
+    "edtf:inception": "2021-09-28",
+    "flysfo:actual_timestamp": 1632870000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-28",
-    "flysfo:estimated_timestamp": 1632847020,
+    "flysfo:estimated_timestamp": 1632845700,
     "flysfo:event": "D",
     "flysfo:flight_number": "UA1189",
     "flysfo:gate": "G3",
     "flysfo:journey": "SFO-SJD",
     "flysfo:scheduled_timestamp": 1632845700,
-    "flysfo:timestamp": 1632847020,
+    "flysfo:timestamp": 1632870000,
     "geom:area": 0,
     "geom:bbox": "-122.370943,23.160962,-109.717461,37.617990",
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
-    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
-    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -38,12 +34,6 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": [
-      "swim-route",
-      "swim-path",
-      "swim-takeoff"
-    ],
-    "swim:tail_number": "N469UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -58,12 +48,8 @@
       1745882335,
       102085387
     ],
-    "wof:concordances": {
-      "swim:flight_ref": "166471979",
-      "swim:gufi": "KO44213300"
-    },
     "wof:country": "US",
-    "wof:created": 1632932422,
+    "wof:created": 1633130835,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
     "wof:hierarchy": [
       {
@@ -73,6 +59,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "flight_id": 1746410703,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
@@ -86,6 +73,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "flight_id": 1746410703,
         "region_id": 85688637,
         "venue_id": 1745882409,
         "wing_id": 1745882335
@@ -96,13 +84,13 @@
       102536441,
       102527513,
       1159285413,
-      1745882409,
-      1159292085
+      1745882409
     ],
-    "wof:lastmodified": 1632932635,
+    "wof:lastmodified": 1633130835,
     "wof:name": "UA1189 (SFO-SJD)",
     "wof:parent_id": 1745882409,
-    "wof:placetype": "event",
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

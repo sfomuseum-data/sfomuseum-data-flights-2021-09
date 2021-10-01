@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746392379,
     "wof:involves": [
+      1377564285,
       1159285413,
       1745882283,
-      1377564285,
       102527513,
       102533795
     ],
-    "wof:lastmodified": 1632586902,
+    "wof:lastmodified": 1632591274,
     "wof:name": "UA1548 (LAX-SFO)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "event",

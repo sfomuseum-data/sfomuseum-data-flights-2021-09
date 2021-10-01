@@ -91,13 +91,13 @@
     ],
     "wof:id": 1746392273,
     "wof:involves": [
+      1393786509,
       102535643,
       1159285271,
       1745882411,
-      1393786509,
       102527513
     ],
-    "wof:lastmodified": 1632586901,
+    "wof:lastmodified": 1632591281,
     "wof:name": "TP237 (LIS-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "event",

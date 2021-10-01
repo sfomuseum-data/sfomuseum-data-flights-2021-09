@@ -2,19 +2,17 @@
   "id": 1746410771,
   "type": "Feature",
   "properties": {
-    "date:cessation_lower": "2021-09-28",
-    "date:cessation_upper": "2021-09-28",
     "date:inception_lower": "2021-09-28",
     "date:inception_upper": "2021-09-28",
-    "edtf:cessation": "2021-09-28T21:31:00Z",
-    "edtf:inception": "2021-09-28T06:25:42-07:00",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-09-28",
     "flysfo:actual_timestamp": 1632870000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-09-28",
     "flysfo:estimated_timestamp": 1632859800,
     "flysfo:event": "D",
     "flysfo:flight_number": "UA1926",
-    "flysfo:gate": "F20",
+    "flysfo:gate": "F4",
     "flysfo:journey": "SFO-LAS",
     "flysfo:scheduled_timestamp": 1632859800,
     "flysfo:timestamp": 1632870000,
@@ -23,11 +21,9 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
-    "icao:aircraft": "A320",
     "icao:airline": "UAL",
-    "lbl:latitude": 37.621076,
-    "lbl:longitude": -122.390239,
-    "sfomuseum:aircraft_id": 1159292085,
+    "lbl:latitude": 37.618339,
+    "lbl:longitude": -122.387219,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -38,12 +34,6 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": [
-      "swim-route",
-      "swim-path",
-      "swim-takeoff"
-    ],
-    "swim:tail_number": "N463UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -54,16 +44,12 @@
       85922583,
       554784711,
       85688637,
-      1745882293,
+      1745882255,
       1745882233,
       102085387
     ],
-    "wof:concordances": {
-      "swim:flight_ref": "166493504",
-      "swim:gufi": "KO63985300"
-    },
     "wof:country": "US",
-    "wof:created": 1632932443,
+    "wof:created": 1633130835,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
     "wof:hierarchy": [
       {
@@ -73,10 +59,11 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "flight_id": 1746410771,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882293,
+        "venue_id": 1745882255,
         "wing_id": 1745882233
       },
       {
@@ -86,8 +73,9 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "flight_id": 1746410771,
         "region_id": 85688637,
-        "venue_id": 1745882293,
+        "venue_id": 1745882255,
         "wing_id": 1745882233
       }
     ],
@@ -96,13 +84,13 @@
       102527209,
       102527513,
       1159285413,
-      1745882293,
-      1159292085
+      1745882255
     ],
-    "wof:lastmodified": 1632932637,
+    "wof:lastmodified": 1633130835,
     "wof:name": "UA1926 (SFO-LAS)",
-    "wof:parent_id": 1745882293,
-    "wof:placetype": "event",
+    "wof:parent_id": 1745882255,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

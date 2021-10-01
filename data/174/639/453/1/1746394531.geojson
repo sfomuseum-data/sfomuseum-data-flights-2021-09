@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746394531,
     "wof:involves": [
+      1377564285,
       102534019,
       102527513,
       1159285413,
-      1745882313,
-      1377564285
+      1745882313
     ],
-    "wof:lastmodified": 1632586909,
+    "wof:lastmodified": 1632591286,
     "wof:name": "UA1976 (SFO-CLE)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "event",

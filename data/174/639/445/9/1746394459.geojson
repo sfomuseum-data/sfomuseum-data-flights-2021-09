@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746394459,
     "wof:involves": [
+      1377564285,
       1159285413,
       1745882251,
-      1377564285,
       102531189,
       102527513
     ],
-    "wof:lastmodified": 1632586894,
+    "wof:lastmodified": 1632591277,
     "wof:name": "UA1261 (SFO-DEN)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "event",

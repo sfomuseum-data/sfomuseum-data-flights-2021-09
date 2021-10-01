@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746392469,
     "wof:involves": [
+      1745882317,
       1159289871,
       102527513,
       102534161,
-      1159285413,
-      1745882317
+      1159285413
     ],
-    "wof:lastmodified": 1632586890,
+    "wof:lastmodified": 1632591283,
     "wof:name": "UA2246 (SNA-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "event",

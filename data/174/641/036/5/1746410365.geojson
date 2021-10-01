@@ -11,7 +11,7 @@
     "flysfo:base_airline": "HA",
     "flysfo:base_flight_number": "11",
     "flysfo:date": "2021-09-28",
-    "flysfo:estimated_timestamp": 1632848040,
+    "flysfo:estimated_timestamp": 1632846900,
     "flysfo:event": "D",
     "flysfo:flight_number": "B65811",
     "flysfo:gate": "A11",
@@ -54,7 +54,7 @@
       102085387
     ],
     "wof:country": "US",
-    "wof:created": 1632932319,
+    "wof:created": 1633130818,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
     "wof:hierarchy": [
       {
@@ -64,6 +64,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "flight_id": 1746410365,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
@@ -77,6 +78,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "flight_id": 1746410365,
         "region_id": 85688637,
         "venue_id": 1745882391,
         "wing_id": 1745882335
@@ -90,10 +92,11 @@
       1745882391,
       1159284489
     ],
-    "wof:lastmodified": 1632932319,
+    "wof:lastmodified": 1633130818,
     "wof:name": "B65811 (SFO-HNL)",
     "wof:parent_id": 1745882391,
-    "wof:placetype": "event",
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

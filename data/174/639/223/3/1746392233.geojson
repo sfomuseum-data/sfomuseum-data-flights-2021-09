@@ -88,13 +88,13 @@
     ],
     "wof:id": 1746392233,
     "wof:involves": [
-      1159289869,
       102527513,
       102532771,
       1159285591,
-      1745882153
+      1745882153,
+      1159289869
     ],
-    "wof:lastmodified": 1632586890,
+    "wof:lastmodified": 1632591281,
     "wof:name": "WN2711 (BUR-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",

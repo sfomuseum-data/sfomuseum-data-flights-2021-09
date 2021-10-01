@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746393495,
     "wof:involves": [
+      1159283813,
+      1745882107,
       1159289871,
       102533997,
-      102527513,
-      1159283813,
-      1745882107
+      102527513
     ],
-    "wof:lastmodified": 1632586890,
+    "wof:lastmodified": 1632591275,
     "wof:name": "AS20 (SFO-HNL)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "event",

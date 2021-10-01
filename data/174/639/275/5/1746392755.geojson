@@ -54,12 +54,12 @@
     "wof:hierarchy": [],
     "wof:id": 1746392755,
     "wof:involves": [
+      1159285413,
       1159293215,
       102527513,
-      102542687,
-      1159285413
+      102542687
     ],
-    "wof:lastmodified": 1632586904,
+    "wof:lastmodified": 1632591284,
     "wof:name": "UA955 (TLV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

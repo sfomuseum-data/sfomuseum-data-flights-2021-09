@@ -91,13 +91,13 @@
     ],
     "wof:id": 1746392325,
     "wof:involves": [
-      1745882279,
       1159289939,
+      1745882279,
       102527513,
       102532929,
       1159285413
     ],
-    "wof:lastmodified": 1632586901,
+    "wof:lastmodified": 1632591282,
     "wof:name": "UA1092 (OGG-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "event",

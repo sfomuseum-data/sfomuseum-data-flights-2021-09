@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746394561,
     "wof:involves": [
-      1159292085,
       102533269,
       102527513,
       1159285413,
-      1745882405
+      1745882405,
+      1159292085
     ],
-    "wof:lastmodified": 1632586909,
+    "wof:lastmodified": 1632591286,
     "wof:name": "UA2010 (SFO-SEA)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "event",

@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746394591,
     "wof:involves": [
-      1745882279,
-      1159289965,
       102530049,
       102527513,
-      1159285413
+      1159285413,
+      1159289965,
+      1745882279
     ],
-    "wof:lastmodified": 1632586909,
+    "wof:lastmodified": 1632591286,
     "wof:name": "UA213 (SFO-EWR)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "event",

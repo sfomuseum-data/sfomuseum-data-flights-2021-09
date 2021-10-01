@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746392407,
     "wof:involves": [
-      1159289871,
       102527513,
       102528943,
       1159285413,
-      1745882317
+      1745882317,
+      1159289871
     ],
-    "wof:lastmodified": 1632586902,
+    "wof:lastmodified": 1632591282,
     "wof:name": "UA1746 (LIH-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "event",

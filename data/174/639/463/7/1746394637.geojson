@@ -92,13 +92,13 @@
     ],
     "wof:id": 1746394637,
     "wof:involves": [
-      1159289871,
       102528997,
       102527513,
       1159285413,
-      1745882293
+      1745882293,
+      1159289871
     ],
-    "wof:lastmodified": 1632586895,
+    "wof:lastmodified": 1632591278,
     "wof:name": "UA2641 (SFO-SAN)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "event",

@@ -56,10 +56,10 @@
     "wof:involves": [
       102555307,
       1159285523,
-      1159289871,
-      102527513
+      102527513,
+      1159289871
     ],
-    "wof:lastmodified": 1632586905,
+    "wof:lastmodified": 1632591284,
     "wof:name": "WS1774 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746393747,
     "wof:involves": [
+      1745882201,
+      1159289945,
       102525635,
       102527513,
-      1159284261,
-      1745882201,
-      1159289945
+      1159284261
     ],
-    "wof:lastmodified": 1632586891,
+    "wof:lastmodified": 1632591275,
     "wof:name": "DL2136 (SFO-DTW)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "event",

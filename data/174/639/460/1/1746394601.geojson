@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746394601,
     "wof:involves": [
-      1745882247,
       1159289407,
+      1745882247,
       102528997,
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1632586909,
+    "wof:lastmodified": 1632591286,
     "wof:name": "UA2194 (SFO-SAN)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "event",

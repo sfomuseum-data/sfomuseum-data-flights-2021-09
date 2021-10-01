@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746392467,
     "wof:involves": [
+      1159289945,
       1159285413,
       1745882293,
-      1159289945,
       102527513,
       102531189
     ],
-    "wof:lastmodified": 1632586890,
+    "wof:lastmodified": 1632591283,
     "wof:name": "UA220 (DEN-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "event",

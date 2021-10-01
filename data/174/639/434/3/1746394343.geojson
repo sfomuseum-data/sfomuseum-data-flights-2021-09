@@ -93,12 +93,12 @@
     "wof:id": 1746394343,
     "wof:involves": [
       1745882153,
-      1159289869,
       102531189,
       102527513,
-      1159285591
+      1159285591,
+      1159289869
     ],
-    "wof:lastmodified": 1632586908,
+    "wof:lastmodified": 1632591276,
     "wof:name": "WN2916 (SFO-DEN)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "event",

@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746394487,
     "wof:involves": [
+      1159285413,
+      1745882273,
       1159289871,
       102528943,
-      102527513,
-      1159285413,
-      1745882273
+      102527513
     ],
-    "wof:lastmodified": 1632586894,
+    "wof:lastmodified": 1632591277,
     "wof:name": "UA1684 (SFO-LIH)",
     "wof:parent_id": 1745882273,
     "wof:placetype": "event",

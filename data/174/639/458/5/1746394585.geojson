@@ -95,11 +95,11 @@
     "wof:involves": [
       1159285413,
       1745882251,
-      1377564285,
       102533795,
-      102527513
+      102527513,
+      1377564285
     ],
-    "wof:lastmodified": 1632586895,
+    "wof:lastmodified": 1632591278,
     "wof:name": "UA2114 (SFO-LAX)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "event",

@@ -93,13 +93,13 @@
     ],
     "wof:id": 1746391637,
     "wof:involves": [
+      1377564285,
       1159284261,
       1745882207,
-      1377564285,
       102527513,
       102527363
     ],
-    "wof:lastmodified": 1632586898,
+    "wof:lastmodified": 1632591279,
     "wof:name": "DL2104 (SLC-SFO)",
     "wof:parent_id": 1745882207,
     "wof:placetype": "event",
