@@ -17,9 +17,9 @@
     "flysfo:scheduled_timestamp": 1630614900,
     "flysfo:timestamp": 1630623600,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,25.272796,51.607761,37.617990",
+    "geom:latitude": 31.445393,
+    "geom:longitude": -35.381591,
     "iata:airline": "QR",
     "icao:airline": "QTR",
     "lbl:latitude": 37.611495,
@@ -29,28 +29,28 @@
     "sfomuseum:departure_id": 1729749565,
     "sfomuseum:flight_id": "20210902-A-QTR-737",
     "sfomuseum:flight_number": [
-      "QTR737", 
+      "QTR737",
       "QR737"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882359, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882359,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
     "wof:created": 1630685295,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
+    "wof:geomhash": "90bd700bbb49763568c2a26183b9158d",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -59,12 +59,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746288839,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882359,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -72,6 +73,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746288839,
         "region_id": 85688637,
         "venue_id": 1745882359,
         "wing_id": 1745882335
@@ -79,12 +81,12 @@
     ],
     "wof:id": 1746288839,
     "wof:involves": [
-      102527513, 
-      1729749565, 
-      1159286153, 
+      102527513,
+      1729749565,
+      1159286153,
       1745882359
     ],
-    "wof:lastmodified": 1630685295,
+    "wof:lastmodified": 1651261338,
     "wof:name": "QR737 (DOH-SFO)",
     "wof:parent_id": 1745882359,
     "wof:placetype": "event",
@@ -93,10 +95,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    25.272796,
+    51.607761,
     37.61799
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[51.607761,25.272796],[-122.370943,37.61799]],"type":"MultiPoint"}
 }
