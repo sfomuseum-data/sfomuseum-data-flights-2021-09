@@ -29,73 +29,66 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210903-D-UAL-5969",
     "sfomuseum:flight_number": [
-      "UAL5969", 
+      "UAL5969",
       "UA5969"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882281, 
-      1745882233, 
-      102085387
+      102527513,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      102085387,
+      1746415379
     ],
     "wof:country": "US",
     "wof:created": 1630772345,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
     "wof:hierarchy": [
       {
-        "building_id": 1745882083,
         "campus_id": 102527513,
-        "concourse_id": 1745882237,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746296393,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882281,
-        "wing_id": 1745882233
-      }, 
+        "venue_id": 1746415379
+      },
       {
-        "building_id": 1745882083,
         "campus_id": 102527513,
-        "concourse_id": 1745882237,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746296393,
         "region_id": 85688637,
-        "venue_id": 1745882281,
-        "wing_id": 1745882233
+        "venue_id": 1746415379
       }
     ],
     "wof:id": 1746296393,
     "wof:involves": [
-      102533927, 
-      102527513, 
-      1159285413, 
+      102533927,
+      102527513,
+      1159285413,
       1745882281
     ],
-    "wof:lastmodified": 1630772345,
+    "wof:lastmodified": 1653096957,
     "wof:name": "UA5969 (SFO-EUG)",
-    "wof:parent_id": 1745882281,
+    "wof:parent_id": 1746415379,
     "wof:placetype": "event",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -123.21303, 
-    37.61799, 
-    -122.370943, 
+    -123.21303,
+    37.61799,
+    -122.370943,
     44.119058
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-123.21303,44.119058]],"type":"MultiPoint"}

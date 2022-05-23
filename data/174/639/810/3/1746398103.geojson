@@ -54,9 +54,9 @@
       85922583,
       554784711,
       85688637,
-      1745882353,
       1745882335,
-      102085387
+      102085387,
+      1745882385
     ],
     "wof:concordances": {
       "swim:flight_ref": "166189686"
@@ -76,7 +76,7 @@
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882353,
+        "venue_id": 1745882385,
         "wing_id": 1745882335
       },
       {
@@ -88,7 +88,7 @@
         "county_id": 102085387,
         "event_id": 1746398103,
         "region_id": 85688637,
-        "venue_id": 1745882353,
+        "venue_id": 1745882385,
         "wing_id": 1745882335
       }
     ],
@@ -99,9 +99,9 @@
       1159285015,
       1745882353
     ],
-    "wof:lastmodified": 1651261337,
+    "wof:lastmodified": 1653097036,
     "wof:name": "PR105 (SFO-CEB)",
-    "wof:parent_id": 1745882353,
+    "wof:parent_id": 1745882385,
     "wof:placetype": "event",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],

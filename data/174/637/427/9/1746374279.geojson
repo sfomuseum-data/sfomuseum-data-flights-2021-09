@@ -52,9 +52,9 @@
       85922583,
       554784711,
       85688637,
-      1745882341,
       1745882335,
-      102085387
+      102085387,
+      1745882373
     ],
     "wof:concordances": {
       "swim:flight_ref": "165814107"
@@ -70,10 +70,11 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746374279,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882341,
+        "venue_id": 1745882373,
         "wing_id": 1745882335
       },
       {
@@ -83,8 +84,9 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746374279,
         "region_id": 85688637,
-        "venue_id": 1745882341,
+        "venue_id": 1745882373,
         "wing_id": 1745882335
       }
     ],
@@ -96,9 +98,9 @@
       102527513,
       102536441
     ],
-    "wof:lastmodified": 1632327745,
+    "wof:lastmodified": 1653097018,
     "wof:name": "AS1279 (SJD-SFO)",
-    "wof:parent_id": 1745882341,
+    "wof:parent_id": 1745882373,
     "wof:placetype": "event",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],

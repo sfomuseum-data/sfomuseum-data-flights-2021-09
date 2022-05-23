@@ -44,9 +44,9 @@
       85922583,
       554784711,
       85688637,
-      1745882349,
       1745882335,
-      102085387
+      102085387,
+      1745882377
     ],
     "wof:country": "US",
     "wof:created": 1630857976,
@@ -63,7 +63,7 @@
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1745882349,
+        "venue_id": 1745882377,
         "wing_id": 1745882335
       },
       {
@@ -75,7 +75,7 @@
         "county_id": 102085387,
         "event_id": 1746297725,
         "region_id": 85688637,
-        "venue_id": 1745882349,
+        "venue_id": 1745882377,
         "wing_id": 1745882335
       }
     ],
@@ -86,9 +86,9 @@
       1159286153,
       1745882349
     ],
-    "wof:lastmodified": 1651261331,
+    "wof:lastmodified": 1653096958,
     "wof:name": "QR737 (DOH-SFO)",
-    "wof:parent_id": 1745882349,
+    "wof:parent_id": 1745882377,
     "wof:placetype": "event",
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
