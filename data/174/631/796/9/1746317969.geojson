@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102536441,
     "sfomuseum:flight_id": "20210909-A-UAL-1174",
     "sfomuseum:flight_number": [
-      "UAL1174", 
+      "UAL1174",
       "UA1174"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631290113,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746317969
+      }
+    ],
     "wof:id": 1746317969,
     "wof:involves": [
-      102527513, 
-      102536441, 
-      1159285413, 
+      102527513,
+      102536441,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1631290113,
+    "wof:lastmodified": 1717035741,
     "wof:name": "UA1174 (SJD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.160962, 
-    -109.717461, 
+    -122.370943,
+    23.160962,
+    -109.717461,
     37.61799
   ],
   "geometry": {"coordinates":[[-109.717461,23.160962],[-122.370943,37.61799]],"type":"MultiPoint"}

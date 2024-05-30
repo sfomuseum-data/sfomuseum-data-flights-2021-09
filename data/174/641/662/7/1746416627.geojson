@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1633104477,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746416627
+      }
+    ],
     "wof:id": 1746416627,
     "wof:involves": [
       1377564295,
@@ -59,10 +63,13 @@
       102526751,
       1159284401
     ],
-    "wof:lastmodified": 1633105418,
+    "wof:lastmodified": 1717035745,
     "wof:name": "F92791 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

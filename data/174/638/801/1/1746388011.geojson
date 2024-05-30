@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1632499811,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746388011
+      }
+    ],
     "wof:id": 1746388011,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1632499811,
+    "wof:lastmodified": 1717035742,
     "wof:name": "TK9132 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

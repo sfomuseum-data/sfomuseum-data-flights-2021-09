@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102549067,
     "sfomuseum:flight_id": "20210912-A-AUA-7333",
     "sfomuseum:flight_number": [
-      "AUA7333", 
+      "AUA7333",
       "OS7333"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631549117,
     "wof:geomhash": "eba9741d16611c9af3d962416d546de7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746329719
+      }
+    ],
     "wof:id": 1746329719,
     "wof:involves": [
-      102527513, 
-      102549067, 
-      1159283947, 
-      -1, 
+      102527513,
+      102549067,
+      1159283947,
+      -1,
       1159284711
     ],
-    "wof:lastmodified": 1631549117,
+    "wof:lastmodified": 1717035743,
     "wof:name": "OS7333 (MUC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    11.776808, 
+    -122.370943,
+    37.61799,
+    11.776808,
     48.352681
   ],
   "geometry": {"coordinates":[[11.776808,48.352681],[-122.370943,37.61799]],"type":"MultiPoint"}

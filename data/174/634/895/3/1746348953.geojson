@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102555709,
     "sfomuseum:flight_id": "20210914-A-AIC-183",
     "sfomuseum:flight_number": [
-      "AIC183", 
+      "AIC183",
       "AI183"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631721804,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746348953
+      }
+    ],
     "wof:id": 1746348953,
     "wof:involves": [
-      102527513, 
-      102555709, 
-      1159283649, 
+      102527513,
+      102555709,
+      1159283649,
       -1
     ],
-    "wof:lastmodified": 1631721804,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AI183 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    28.561954, 
-    77.098117, 
+    -122.370943,
+    28.561954,
+    77.098117,
     37.61799
   ],
   "geometry": {"coordinates":[[77.098117,28.561954],[-122.370943,37.61799]],"type":"MultiPoint"}

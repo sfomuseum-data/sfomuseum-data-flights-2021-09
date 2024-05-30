@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102541737,
     "sfomuseum:flight_id": "20210916-A-AAL-8911",
     "sfomuseum:flight_number": [
-      "AAL8911", 
+      "AAL8911",
       "AA8911"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631894510,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746356595
+      }
+    ],
     "wof:id": 1746356595,
     "wof:involves": [
-      102527513, 
-      102541737, 
-      1159283849, 
-      -1, 
+      102527513,
+      102541737,
+      1159283849,
+      -1,
       1159284127
     ],
-    "wof:lastmodified": 1631894510,
+    "wof:lastmodified": 1717035741,
     "wof:name": "AA8911 (HKG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    22.307471, 
-    113.927436, 
+    -122.370943,
+    22.307471,
+    113.927436,
     37.61799
   ],
   "geometry": {"coordinates":[[113.927436,22.307471],[-122.370943,37.61799]],"type":"MultiPoint"}

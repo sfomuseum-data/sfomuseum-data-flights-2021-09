@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210917-D-DAL-9960",
     "sfomuseum:flight_number": [
-      "DAL9960", 
+      "DAL9960",
       "DL9960"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1631981909,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746364019
+      }
+    ],
     "wof:id": 1746364019,
     "wof:involves": [
-      102526927, 
-      102527513, 
-      1159284261, 
+      102526927,
+      102527513,
+      1159284261,
       1159289965
     ],
-    "wof:lastmodified": 1631983513,
+    "wof:lastmodified": 1717035738,
     "wof:name": "DL9960 (SFO-ATL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.636518, 
-    -84.430686, 
+    -122.370943,
+    33.636518,
+    -84.430686,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-84.430686,33.636518]],"type":"MultiPoint"}

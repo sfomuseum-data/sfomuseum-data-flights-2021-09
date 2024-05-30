@@ -96,10 +96,13 @@
       102556703,
       1159284021
     ],
-    "wof:lastmodified": 1653096949,
+    "wof:lastmodified": 1717035743,
     "wof:name": "BA287 (LHR-SFO)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

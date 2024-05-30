@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210921-D-UAE-6063",
     "sfomuseum:flight_number": [
-      "UAE6063", 
+      "UAE6063",
       "EK6063"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1632327488,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746381229
+      }
+    ],
     "wof:id": 1746381229,
     "wof:involves": [
-      102533795, 
-      102527513, 
-      1159284333, 
-      -1, 
+      102533795,
+      102527513,
+      1159284333,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1632327488,
+    "wof:lastmodified": 1717035737,
     "wof:name": "EK6063 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

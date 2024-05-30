@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210902-D-FFT-664",
     "sfomuseum:flight_number": [
-      "FFT664", 
+      "FFT664",
       "F9664"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1630685776,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746290595
+      }
+    ],
     "wof:id": 1746290595,
     "wof:involves": [
-      1159284401, 
-      1377564295, 
-      102531189, 
+      1159284401,
+      1377564295,
+      102531189,
       102527513
     ],
-    "wof:lastmodified": 1630686048,
+    "wof:lastmodified": 1717035736,
     "wof:name": "F9664 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-104.672219,39.864939]],"type":"MultiPoint"}

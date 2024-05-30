@@ -49,7 +49,11 @@
     "wof:country": "US",
     "wof:created": 1633104254,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746415785
+      }
+    ],
     "wof:id": 1746415785,
     "wof:involves": [
       102527513,
@@ -57,10 +61,13 @@
       1159283597,
       -1
     ],
-    "wof:lastmodified": 1633105408,
+    "wof:lastmodified": 1717035746,
     "wof:name": "AC763 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

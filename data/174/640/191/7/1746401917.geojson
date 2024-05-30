@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1632759332,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746401917
+      }
+    ],
     "wof:id": 1746401917,
     "wof:involves": [
       102541737,
@@ -46,10 +50,13 @@
       1159284127,
       -1
     ],
-    "wof:lastmodified": 1632759332,
+    "wof:lastmodified": 1717035741,
     "wof:name": "CX873 (SFO-HKG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

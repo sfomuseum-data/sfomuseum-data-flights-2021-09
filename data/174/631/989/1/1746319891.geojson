@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210909-D-SIA-1320",
     "sfomuseum:flight_number": [
-      "SIA1320", 
+      "SIA1320",
       "SQ1320"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631290584,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746319891
+      }
+    ],
     "wof:id": 1746319891,
     "wof:involves": [
-      102533269, 
-      102527513, 
-      1159285163, 
-      -1, 
+      102533269,
+      102527513,
+      1159285163,
+      -1,
       1159283813
     ],
-    "wof:lastmodified": 1631290584,
+    "wof:lastmodified": 1717035743,
     "wof:name": "SQ1320 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.304268,47.441823]],"type":"MultiPoint"}

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102553219,
     "sfomuseum:flight_id": "20210903-A-PAL-104",
     "sfomuseum:flight_number": [
-      "PAL104", 
+      "PAL104",
       "PR104"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1630771641,
     "wof:geomhash": "5a4fd58c6aeb5f6f6368af3561d0b192",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746293749
+      }
+    ],
     "wof:id": 1746293749,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102553219, 
+      1159289993,
+      102527513,
+      102553219,
       1159285015
     ],
-    "wof:lastmodified": 1630772384,
+    "wof:lastmodified": 1717035738,
     "wof:name": "PR104 (MNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    14.517768, 
-    121.015152, 
+    -122.370943,
+    14.517768,
+    121.015152,
     37.61799
   ],
   "geometry": {"coordinates":[[121.015152,14.517768],[-122.370943,37.61799]],"type":"MultiPoint"}

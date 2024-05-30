@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527363,
     "sfomuseum:flight_id": "20210913-A-DAL-9961",
     "sfomuseum:flight_number": [
-      "DAL9961", 
+      "DAL9961",
       "DL9961"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1631635561,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746345355
+      }
+    ],
     "wof:id": 1746345355,
     "wof:involves": [
-      1159289421, 
-      102527513, 
-      102527363, 
+      1159289421,
+      102527513,
+      102527363,
       1159284261
     ],
-    "wof:lastmodified": 1631636437,
+    "wof:lastmodified": 1717035744,
     "wof:name": "DL9961 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-111.980566,40.78217],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1633105183,
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746419287
+      }
+    ],
     "wof:id": 1746419287,
     "wof:involves": [
       102528181,
@@ -46,10 +50,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1633105183,
+    "wof:lastmodified": 1717035745,
     "wof:name": "UA1204 (SFO-PIT)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

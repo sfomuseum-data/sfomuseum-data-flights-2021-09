@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210908-A-THA-6747",
     "sfomuseum:flight_number": [
-      "THA6747", 
+      "THA6747",
       "TG6747"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631203670,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746313721
+      }
+    ],
     "wof:id": 1746313721,
     "wof:involves": [
-      102527513, 
-      102556451, 
-      1159285291, 
-      -1, 
+      102527513,
+      102556451,
+      1159285291,
+      -1,
       1159283917
     ],
-    "wof:lastmodified": 1631203670,
+    "wof:lastmodified": 1717035738,
     "wof:name": "TG6747 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

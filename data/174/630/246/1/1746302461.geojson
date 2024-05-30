@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210905-D-ACA-8841",
     "sfomuseum:flight_number": [
-      "ACA8841", 
+      "ACA8841",
       "AC8841"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1630944702,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746302461
+      }
+    ],
     "wof:id": 1746302461,
     "wof:involves": [
-      102555307, 
-      102527513, 
-      1159283597, 
+      102555307,
+      102527513,
+      1159283597,
       -1
     ],
-    "wof:lastmodified": 1630944702,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AC8841 (SFO-YVR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -123.1792, 
-    37.61799, 
-    -122.370943, 
+    -123.1792,
+    37.61799,
+    -122.370943,
     49.19333
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-123.1792,49.19333]],"type":"MultiPoint"}

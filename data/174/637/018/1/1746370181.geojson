@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102528997,
     "sfomuseum:flight_id": "20210919-A-DAL-8841",
     "sfomuseum:flight_number": [
-      "DAL8841", 
+      "DAL8841",
       "DL8841"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1632154011,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746370181
+      }
+    ],
     "wof:id": 1746370181,
     "wof:involves": [
-      102527513, 
-      102528997, 
-      1159284261, 
+      102527513,
+      102528997,
+      1159284261,
       -1
     ],
-    "wof:lastmodified": 1632154011,
+    "wof:lastmodified": 1717035736,
     "wof:name": "DL8841 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.733534, 
-    -117.185927, 
+    -122.370943,
+    32.733534,
+    -117.185927,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.185927,32.733534],[-122.370943,37.61799]],"type":"MultiPoint"}

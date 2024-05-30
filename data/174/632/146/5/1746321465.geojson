@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102555091,
     "sfomuseum:flight_id": "20210910-A-AUA-8317",
     "sfomuseum:flight_number": [
-      "AUA8317", 
+      "AUA8317",
       "OS8317"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631376331,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746321465
+      }
+    ],
     "wof:id": 1746321465,
     "wof:involves": [
-      102527513, 
-      102555091, 
-      1159283947, 
-      -1, 
+      102527513,
+      102555091,
+      1159283947,
+      -1,
       1159283597
     ],
-    "wof:lastmodified": 1631376331,
+    "wof:lastmodified": 1717035737,
     "wof:name": "OS8317 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -79.628342, 
+    -122.370943,
+    37.61799,
+    -79.628342,
     43.676352
   ],
   "geometry": {"coordinates":[[-79.628342,43.676352],[-122.370943,37.61799]],"type":"MultiPoint"}

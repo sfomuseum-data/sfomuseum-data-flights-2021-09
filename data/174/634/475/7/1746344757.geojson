@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102555641,
     "sfomuseum:flight_id": "20210913-A-AIC-175",
     "sfomuseum:flight_number": [
-      "AIC175", 
+      "AIC175",
       "AI175"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631635400,
     "wof:geomhash": "71cdaf51a648b6adc1eef8af56a4c6ba",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746344757
+      }
+    ],
     "wof:id": 1746344757,
     "wof:involves": [
-      102527513, 
-      102555641, 
-      1159283649, 
+      102527513,
+      102555641,
+      1159283649,
       -1
     ],
-    "wof:lastmodified": 1631635400,
+    "wof:lastmodified": 1717035744,
     "wof:name": "AI175 (BLR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    13.199658, 
-    77.708067, 
+    -122.370943,
+    13.199658,
+    77.708067,
     37.61799
   ],
   "geometry": {"coordinates":[[77.708067,13.199658],[-122.370943,37.61799]],"type":"MultiPoint"}

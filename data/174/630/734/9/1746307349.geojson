@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210906-D-SCX-396",
     "sfomuseum:flight_number": [
-      "SCX396", 
+      "SCX396",
       "SY396"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1631031414,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746307349
+      }
+    ],
     "wof:id": 1746307349,
     "wof:involves": [
-      1159289871, 
-      102531131, 
-      102527513, 
+      1159289871,
+      102531131,
+      102527513,
       1159285227
     ],
-    "wof:lastmodified": 1631031612,
+    "wof:lastmodified": 1717035742,
     "wof:name": "SY396 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-93.200317,44.883321]],"type":"MultiPoint"}

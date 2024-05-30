@@ -33,27 +33,27 @@
     "sfomuseum:departure_id": 102527209,
     "sfomuseum:flight_id": "20210915-A-SWA-5396",
     "sfomuseum:flight_number": [
-      "SWA5396", 
+      "SWA5396",
       "WN5396"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882151, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882151,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -70,12 +70,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746353951,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882151,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -83,6 +84,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746353951,
         "region_id": 85688637,
         "venue_id": 1745882151,
         "wing_id": 1745882137
@@ -90,24 +92,27 @@
     ],
     "wof:id": 1746353951,
     "wof:involves": [
-      1159289869, 
-      102527513, 
-      102527209, 
-      1159285591, 
+      1159289869,
+      102527513,
+      102527209,
+      1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1631809170,
+    "wof:lastmodified": 1717035739,
     "wof:name": "WN5396 (LAS-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.081003, 
-    -115.15644, 
+    -122.370943,
+    36.081003,
+    -115.15644,
     37.61799
   ],
   "geometry": {"coordinates":[[-115.15644,36.081003],[-122.370943,37.61799]],"type":"MultiPoint"}

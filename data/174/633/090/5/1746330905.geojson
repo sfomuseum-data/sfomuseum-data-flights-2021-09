@@ -29,23 +29,23 @@
     "sfomuseum:departure_id": 102527337,
     "sfomuseum:flight_id": "20210912-A-UAL-5502",
     "sfomuseum:flight_number": [
-      "UAL5502", 
+      "UAL5502",
       "UA5502"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882237, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882257, 
-      1745882233, 
+      1745882083,
+      102527513,
+      1745882237,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882257,
+      1745882233,
       102085387
     ],
     "wof:country": "US",
@@ -59,12 +59,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746330905,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882257,
         "wing_id": 1745882233
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -72,6 +73,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746330905,
         "region_id": 85688637,
         "venue_id": 1745882257,
         "wing_id": 1745882233
@@ -79,23 +81,26 @@
     ],
     "wof:id": 1746330905,
     "wof:involves": [
-      102527513, 
-      102527337, 
-      1159285413, 
+      102527513,
+      102527337,
+      1159285413,
       1745882257
     ],
-    "wof:lastmodified": 1631549440,
+    "wof:lastmodified": 1717035744,
     "wof:name": "UA5502 (SBA-SFO)",
     "wof:parent_id": 1745882257,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.427974, 
-    -119.837133, 
+    -122.370943,
+    34.427974,
+    -119.837133,
     37.61799
   ],
   "geometry": {"coordinates":[[-119.837133,34.427974],[-122.370943,37.61799]],"type":"MultiPoint"}

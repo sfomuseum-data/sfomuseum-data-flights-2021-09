@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102556703,
     "sfomuseum:flight_id": "20210913-A-BAW-285",
     "sfomuseum:flight_number": [
-      "BAW285", 
+      "BAW285",
       "BA285"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631635523,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746345215
+      }
+    ],
     "wof:id": 1746345215,
     "wof:involves": [
-      102527513, 
-      102556703, 
-      1159284021, 
+      102527513,
+      102556703,
+      1159284021,
       -1
     ],
-    "wof:lastmodified": 1631635523,
+    "wof:lastmodified": 1717035744,
     "wof:name": "BA285 (LHR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-0.450443,51.470087],[-122.370943,37.61799]],"type":"MultiPoint"}

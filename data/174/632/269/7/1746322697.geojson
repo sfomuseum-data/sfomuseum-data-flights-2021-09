@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102550331,
     "sfomuseum:flight_id": "20210910-A-UAL-858",
     "sfomuseum:flight_number": [
-      "UAL858", 
+      "UAL858",
       "UA858"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631376656,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746322697
+      }
+    ],
     "wof:id": 1746322697,
     "wof:involves": [
-      102527513, 
-      102550331, 
-      1159285413, 
+      102527513,
+      102550331,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1631376656,
+    "wof:lastmodified": 1717035738,
     "wof:name": "UA858 (PVG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    31.145312, 
-    121.799307, 
+    -122.370943,
+    31.145312,
+    121.799307,
     37.61799
   ],
   "geometry": {"coordinates":[[121.799307,31.145312],[-122.370943,37.61799]],"type":"MultiPoint"}

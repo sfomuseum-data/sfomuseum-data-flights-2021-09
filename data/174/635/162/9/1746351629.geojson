@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210914-D-IBE-7442",
     "sfomuseum:flight_number": [
-      "IBE7442", 
+      "IBE7442",
       "IB7442"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631722524,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746351629
+      }
+    ],
     "wof:id": 1746351629,
     "wof:involves": [
-      102556703, 
-      102527513, 
-      1159284511, 
-      -1, 
+      102556703,
+      102527513,
+      1159284511,
+      -1,
       1159284021
     ],
-    "wof:lastmodified": 1631722524,
+    "wof:lastmodified": 1717035737,
     "wof:name": "IB7442 (SFO-LHR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-0.450443,51.470087]],"type":"MultiPoint"}

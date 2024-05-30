@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102541685,
     "sfomuseum:flight_id": "20210905-A-ANA-1938",
     "sfomuseum:flight_number": [
-      "ANA1938", 
+      "ANA1938",
       "NH1938"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1630944192,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746300587
+      }
+    ],
     "wof:id": 1746300587,
     "wof:involves": [
-      1159293215, 
-      102527513, 
-      102541685, 
+      1159293215,
+      102527513,
+      102541685,
       1159283875
     ],
-    "wof:lastmodified": 1630945156,
+    "wof:lastmodified": 1717035736,
     "wof:name": "NH1938 (NRT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.755744, 
-    140.395257, 
+    -122.370943,
+    35.755744,
+    140.395257,
     37.61799
   ],
   "geometry": {"coordinates":[[140.395257,35.755744],[-122.370943,37.61799]],"type":"MultiPoint"}

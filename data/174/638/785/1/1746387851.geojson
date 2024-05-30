@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1632499768,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746387851
+      }
+    ],
     "wof:id": 1746387851,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1632499768,
+    "wof:lastmodified": 1717035742,
     "wof:name": "SQ1009 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20210904-A-SWA-3560",
     "sfomuseum:flight_number": [
-      "SWA3560", 
+      "SWA3560",
       "WN3560"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1630858000,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746297817
+      }
+    ],
     "wof:id": 1746297817,
     "wof:involves": [
-      1159289869, 
-      102527513, 
-      102526751, 
+      1159289869,
+      102527513,
+      102526751,
       1159285591
     ],
-    "wof:lastmodified": 1630858603,
+    "wof:lastmodified": 1717035741,
     "wof:name": "WN3560 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

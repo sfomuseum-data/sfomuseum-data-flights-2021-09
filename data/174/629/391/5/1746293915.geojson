@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210903-A-SIA-5712",
     "sfomuseum:flight_number": [
-      "SIA5712", 
+      "SIA5712",
       "SQ5712"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1630771685,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746293915
+      }
+    ],
     "wof:id": 1746293915,
     "wof:involves": [
-      102527513, 
-      102556451, 
-      1159285163, 
-      -1, 
+      102527513,
+      102556451,
+      1159285163,
+      -1,
       1159283917
     ],
-    "wof:lastmodified": 1630771685,
+    "wof:lastmodified": 1717035738,
     "wof:name": "SQ5712 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

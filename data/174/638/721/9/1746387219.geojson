@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1632499602,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746387219
+      }
+    ],
     "wof:id": 1746387219,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1632499602,
+    "wof:lastmodified": 1717035741,
     "wof:name": "AV6985 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

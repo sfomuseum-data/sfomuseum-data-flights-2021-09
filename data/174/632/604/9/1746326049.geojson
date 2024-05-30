@@ -99,10 +99,13 @@
       102541685,
       1159284563
     ],
-    "wof:lastmodified": 1653096982,
+    "wof:lastmodified": 1717035740,
     "wof:name": "JL58 (NRT-SFO)",
     "wof:parent_id": 1745882391,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

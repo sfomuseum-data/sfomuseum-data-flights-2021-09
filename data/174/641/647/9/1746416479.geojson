@@ -49,7 +49,11 @@
     "wof:country": "US",
     "wof:created": 1633104439,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746416479
+      }
+    ],
     "wof:id": 1746416479,
     "wof:involves": [
       1159284261,
@@ -57,10 +61,13 @@
       102527513,
       102527363
     ],
-    "wof:lastmodified": 1633105416,
+    "wof:lastmodified": 1717035746,
     "wof:name": "DL9964 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

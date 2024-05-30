@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210908-D-DAL-399",
     "sfomuseum:flight_number": [
-      "DAL399", 
+      "DAL399",
       "DL399"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631204033,
     "wof:geomhash": "7027f9178c7d77a5f6f9a377b7a1bb37",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746315079
+      }
+    ],
     "wof:id": 1746315079,
     "wof:involves": [
-      102530717, 
-      102527513, 
-      1159284261, 
+      102530717,
+      102527513,
+      1159284261,
       -1
     ],
-    "wof:lastmodified": 1631204033,
+    "wof:lastmodified": 1717035739,
     "wof:name": "DL399 (SFO-FAT)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    36.768728, 
-    -119.721272, 
+    -122.370943,
+    36.768728,
+    -119.721272,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-119.721272,36.768728]],"type":"MultiPoint"}

@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210910-D-THA-6253",
     "sfomuseum:flight_number": [
-      "THA6253", 
+      "THA6253",
       "TG6253"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631377089,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746324361
+      }
+    ],
     "wof:id": 1746324361,
     "wof:involves": [
-      102551487, 
-      102527513, 
-      1159285291, 
-      -1, 
+      102551487,
+      102527513,
+      1159285291,
+      -1,
       1159284349
     ],
-    "wof:lastmodified": 1631377089,
+    "wof:lastmodified": 1717035739,
     "wof:name": "TG6253 (SFO-TPE)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.078566, 
-    121.233152, 
+    -122.370943,
+    25.078566,
+    121.233152,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[121.233152,25.078566]],"type":"MultiPoint"}

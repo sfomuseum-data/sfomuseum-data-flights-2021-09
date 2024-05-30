@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102530741,
     "sfomuseum:flight_id": "20210915-A-AAL-9285",
     "sfomuseum:flight_number": [
-      "AAL9285", 
+      "AAL9285",
       "AA9285"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631808114,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746352613
+      }
+    ],
     "wof:id": 1746352613,
     "wof:involves": [
-      102527513, 
-      102530741, 
-      1159283849, 
-      -1, 
+      102527513,
+      102530741,
+      1159283849,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1631808114,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AA9285 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-71.01475,42.362322],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -86,10 +86,13 @@
       1159285391,
       1745882421
     ],
-    "wof:lastmodified": 1658884291,
+    "wof:lastmodified": 1717035745,
     "wof:name": "TK79 (IST-SFO)",
     "wof:parent_id": 1745882421,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102531131,
     "sfomuseum:flight_id": "20210916-A-SCX-395",
     "sfomuseum:flight_number": [
-      "SCX395", 
+      "SCX395",
       "SY395"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1631894904,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746358017
+      }
+    ],
     "wof:id": 1746358017,
     "wof:involves": [
-      1159285227, 
-      1159289871, 
-      102527513, 
+      1159285227,
+      1159289871,
+      102527513,
       102531131
     ],
-    "wof:lastmodified": 1631895652,
+    "wof:lastmodified": 1717035742,
     "wof:name": "SY395 (MSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-93.200317,44.883321],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102541737,
     "sfomuseum:flight_id": "20210916-A-CPA-892",
     "sfomuseum:flight_number": [
-      "CPA892", 
+      "CPA892",
       "CX892"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1631894760,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746357455
+      }
+    ],
     "wof:id": 1746357455,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102541737, 
+      1159289993,
+      102527513,
+      102541737,
       1159284127
     ],
-    "wof:lastmodified": 1631895648,
+    "wof:lastmodified": 1717035742,
     "wof:name": "CX892 (HKG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    22.307471, 
-    113.927436, 
+    -122.370943,
+    22.307471,
+    113.927436,
     37.61799
   ],
   "geometry": {"coordinates":[[113.927436,22.307471],[-122.370943,37.61799]],"type":"MultiPoint"}

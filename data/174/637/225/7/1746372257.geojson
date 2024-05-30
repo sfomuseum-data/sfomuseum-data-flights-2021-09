@@ -34,23 +34,23 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210919-D-AZA-3280",
     "sfomuseum:flight_number": [
-      "AZA3280", 
+      "AZA3280",
       "AZ3280"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882195, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882213, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882195,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882213,
+      1745882137,
       102085387
     ],
     "wof:country": "US",
@@ -64,12 +64,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746372257,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882213,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -77,6 +78,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746372257,
         "region_id": 85688637,
         "venue_id": 1745882213,
         "wing_id": 1745882137
@@ -84,24 +86,27 @@
     ],
     "wof:id": 1746372257,
     "wof:involves": [
-      102534365, 
-      102527513, 
-      1159283823, 
-      1745882213, 
+      102534365,
+      102527513,
+      1159283823,
+      1745882213,
       1159284261
     ],
-    "wof:lastmodified": 1632154568,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AZ3280 (SFO-JFK)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}

@@ -99,10 +99,13 @@
       1159285227,
       1745882341
     ],
-    "wof:lastmodified": 1653096953,
+    "wof:lastmodified": 1717035736,
     "wof:name": "SY392 (SFO-MSP)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

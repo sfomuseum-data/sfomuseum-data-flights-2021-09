@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1632500349,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746390101
+      }
+    ],
     "wof:id": 1746390101,
     "wof:involves": [
       102555091,
@@ -52,10 +56,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1632500349,
+    "wof:lastmodified": 1717035738,
     "wof:name": "TK8681 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

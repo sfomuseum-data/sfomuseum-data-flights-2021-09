@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210918-D-FFT-2790",
     "sfomuseum:flight_number": [
-      "FFT2790", 
+      "FFT2790",
       "F92790"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1632068153,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746368237
+      }
+    ],
     "wof:id": 1746368237,
     "wof:involves": [
-      102526751, 
-      102527513, 
-      1159284401, 
+      102526751,
+      102527513,
+      1159284401,
       1377564295
     ],
-    "wof:lastmodified": 1632068423,
+    "wof:lastmodified": 1717035741,
     "wof:name": "F92790 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}

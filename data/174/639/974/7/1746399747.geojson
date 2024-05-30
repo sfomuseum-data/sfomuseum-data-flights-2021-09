@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1632758777,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746399747
+      }
+    ],
     "wof:id": 1746399747,
     "wof:involves": [
       102527513,
@@ -46,10 +50,13 @@
       1159284127,
       -1
     ],
-    "wof:lastmodified": 1632758777,
+    "wof:lastmodified": 1717035745,
     "wof:name": "CX872 (HKG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

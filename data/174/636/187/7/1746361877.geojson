@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102542801,
     "sfomuseum:flight_id": "20210917-A-DAL-9380",
     "sfomuseum:flight_number": [
-      "DAL9380", 
+      "DAL9380",
       "DL9380"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631981233,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746361877
+      }
+    ],
     "wof:id": 1746361877,
     "wof:involves": [
-      102527513, 
-      102542801, 
-      1159284261, 
-      -1, 
+      102527513,
+      102542801,
+      1159284261,
+      -1,
       1159284613
     ],
-    "wof:lastmodified": 1631981233,
+    "wof:lastmodified": 1717035736,
     "wof:name": "DL9380 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    4.782907, 
+    -122.370943,
+    37.61799,
+    4.782907,
     52.314791
   ],
   "geometry": {"coordinates":[[4.782907,52.314791],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210905-D-ACA-740",
     "sfomuseum:flight_number": [
-      "ACA740", 
+      "ACA740",
       "AC740"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1630944700,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746302457
+      }
+    ],
     "wof:id": 1746302457,
     "wof:involves": [
-      1159289411, 
-      102555091, 
-      102527513, 
+      1159289411,
+      102555091,
+      102527513,
       1159283597
     ],
-    "wof:lastmodified": 1630945158,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -79.628342, 
+    -122.370943,
+    37.61799,
+    -79.628342,
     43.676352
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-79.628342,43.676352]],"type":"MultiPoint"}

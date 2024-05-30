@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210912-D-JBU-16",
     "sfomuseum:flight_number": [
-      "JBU16", 
+      "JBU16",
       "B616"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1631549839,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746332401
+      }
+    ],
     "wof:id": 1746332401,
     "wof:involves": [
-      102527513, 
-      1159284583, 
-      1159289411, 
+      102527513,
+      1159284583,
+      1159289411,
       102534365
     ],
-    "wof:lastmodified": 1631550106,
+    "wof:lastmodified": 1717035744,
     "wof:name": "B616 (SFO-JFK)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}

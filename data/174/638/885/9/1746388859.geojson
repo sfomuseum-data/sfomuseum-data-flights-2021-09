@@ -52,7 +52,11 @@
     "wof:country": "US",
     "wof:created": 1632500030,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746388859
+      }
+    ],
     "wof:id": 1746388859,
     "wof:involves": [
       1159292085,
@@ -60,10 +64,13 @@
       102527513,
       1159283597
     ],
-    "wof:lastmodified": 1632510963,
+    "wof:lastmodified": 1717035742,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

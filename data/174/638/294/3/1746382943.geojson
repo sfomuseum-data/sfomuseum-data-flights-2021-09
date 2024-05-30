@@ -49,7 +49,11 @@
     "wof:country": "US",
     "wof:created": 1632413128,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746382943
+      }
+    ],
     "wof:id": 1746382943,
     "wof:involves": [
       1159283813,
@@ -57,10 +61,13 @@
       102527513,
       102536441
     ],
-    "wof:lastmodified": 1632437147,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AS1279 (SJD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

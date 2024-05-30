@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210906-D-ASA-3300",
     "sfomuseum:flight_number": [
-      "ASA3300", 
+      "ASA3300",
       "AS3300"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631031222,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746306659
+      }
+    ],
     "wof:id": 1746306659,
     "wof:involves": [
-      102528997, 
-      102527513, 
-      1159283813, 
+      102528997,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1631031222,
+    "wof:lastmodified": 1717035741,
     "wof:name": "AS3300 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.733534, 
-    -117.185927, 
+    -122.370943,
+    32.733534,
+    -117.185927,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-117.185927,32.733534]],"type":"MultiPoint"}

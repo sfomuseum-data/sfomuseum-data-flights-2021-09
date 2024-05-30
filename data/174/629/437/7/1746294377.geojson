@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210903-A-UAL-7289",
     "sfomuseum:flight_number": [
-      "UAL7289", 
+      "UAL7289",
       "UA7289"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1630771817,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746294377
+      }
+    ],
     "wof:id": 1746294377,
     "wof:involves": [
-      102527513, 
-      102556451, 
-      1159285413, 
-      -1, 
+      102527513,
+      102556451,
+      1159285413,
+      -1,
       1159283917
     ],
-    "wof:lastmodified": 1630771817,
+    "wof:lastmodified": 1717035739,
     "wof:name": "UA7289 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

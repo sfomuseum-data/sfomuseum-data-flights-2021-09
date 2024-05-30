@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210919-D-QTR-3357",
     "sfomuseum:flight_number": [
-      "QTR3357", 
+      "QTR3357",
       "QR3357"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1632154723,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746372831
+      }
+    ],
     "wof:id": 1746372831,
     "wof:involves": [
-      102527363, 
-      102527513, 
-      1159286153, 
-      -1, 
+      102527363,
+      102527513,
+      1159286153,
+      -1,
       1159283813
     ],
-    "wof:lastmodified": 1632154723,
+    "wof:lastmodified": 1717035738,
     "wof:name": "QR3357 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -111.980566, 
+    -122.370943,
+    37.61799,
+    -111.980566,
     40.78217
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-111.980566,40.78217]],"type":"MultiPoint"}

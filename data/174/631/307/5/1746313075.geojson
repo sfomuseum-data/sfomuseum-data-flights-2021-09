@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102549057,
     "sfomuseum:flight_id": "20210908-A-BEL-7248",
     "sfomuseum:flight_number": [
-      "BEL7248", 
+      "BEL7248",
       "SN7248"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631203500,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746313075
+      }
+    ],
     "wof:id": 1746313075,
     "wof:involves": [
-      102527513, 
-      102549057, 
-      1377675597, 
-      -1, 
+      102527513,
+      102549057,
+      1377675597,
+      -1,
       1159284711
     ],
-    "wof:lastmodified": 1631203500,
+    "wof:lastmodified": 1717035738,
     "wof:name": "SN7248 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    7.267284, 
+    -122.370943,
+    37.61799,
+    7.267284,
     49.945918
   ],
   "geometry": {"coordinates":[[7.267284,49.945918],[-122.370943,37.61799]],"type":"MultiPoint"}

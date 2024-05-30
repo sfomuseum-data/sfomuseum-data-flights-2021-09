@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102549057,
     "sfomuseum:flight_id": "20210912-A-ANZ-9801",
     "sfomuseum:flight_number": [
-      "ANZ9801", 
+      "ANZ9801",
       "NZ9801"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631549076,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746329575
+      }
+    ],
     "wof:id": 1746329575,
     "wof:involves": [
-      102527513, 
-      102549057, 
-      1159283697, 
-      -1, 
+      102527513,
+      102549057,
+      1159283697,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1631549076,
+    "wof:lastmodified": 1717035743,
     "wof:name": "NZ9801 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    7.267284, 
+    -122.370943,
+    37.61799,
+    7.267284,
     49.945918
   ],
   "geometry": {"coordinates":[[7.267284,49.945918],[-122.370943,37.61799]],"type":"MultiPoint"}

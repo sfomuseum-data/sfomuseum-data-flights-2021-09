@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210910-D-ICE-7834",
     "sfomuseum:flight_number": [
-      "ICE7834", 
+      "ICE7834",
       "FI7834"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631376989,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746323977
+      }
+    ],
     "wof:id": 1746323977,
     "wof:involves": [
-      102530741, 
-      102527513, 
-      1159284513, 
-      -1, 
+      102530741,
+      102527513,
+      1159284513,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1631376989,
+    "wof:lastmodified": 1717035739,
     "wof:name": "FI7834 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}

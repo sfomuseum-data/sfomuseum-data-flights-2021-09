@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210910-D-SIA-1550",
     "sfomuseum:flight_number": [
-      "SIA1550", 
+      "SIA1550",
       "SQ1550"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631377067,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746324275
+      }
+    ],
     "wof:id": 1746324275,
     "wof:involves": [
-      102530741, 
-      102527513, 
-      1159285163, 
-      -1, 
+      102530741,
+      102527513,
+      1159285163,
+      -1,
       1159284583
     ],
-    "wof:lastmodified": 1631377067,
+    "wof:lastmodified": 1717035739,
     "wof:name": "SQ1550 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}

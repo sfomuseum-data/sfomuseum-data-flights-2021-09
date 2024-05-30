@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1632586407,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746393269
+      }
+    ],
     "wof:id": 1746393269,
     "wof:involves": [
       102549057,
@@ -52,10 +56,13 @@
       -1,
       1159284711
     ],
-    "wof:lastmodified": 1632586407,
+    "wof:lastmodified": 1717035741,
     "wof:name": "NZ4221 (SFO-FRA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

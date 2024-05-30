@@ -92,10 +92,13 @@
       1745882351,
       1159286153
     ],
-    "wof:lastmodified": 1653096965,
+    "wof:lastmodified": 1717035742,
     "wof:name": "MH9732 (SFO-DOH)",
     "wof:parent_id": 1745882387,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

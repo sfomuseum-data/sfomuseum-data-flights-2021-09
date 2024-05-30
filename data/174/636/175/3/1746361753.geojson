@@ -86,10 +86,13 @@
       1159284153,
       1745882339
     ],
-    "wof:lastmodified": 1653097007,
+    "wof:lastmodified": 1717035736,
     "wof:name": "CI4 (TPE-SFO)",
     "wof:parent_id": 1745882369,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102549057,
     "sfomuseum:flight_id": "20210912-A-UAL-59",
     "sfomuseum:flight_number": [
-      "UAL59", 
+      "UAL59",
       "UA59"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1631549458,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746330971
+      }
+    ],
     "wof:id": 1746330971,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102549057, 
+      1159289993,
+      102527513,
+      102549057,
       1159285413
     ],
-    "wof:lastmodified": 1631550100,
+    "wof:lastmodified": 1717035744,
     "wof:name": "UA59 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    7.267284, 
+    -122.370943,
+    37.61799,
+    7.267284,
     49.945918
   ],
   "geometry": {"coordinates":[[7.267284,49.945918],[-122.370943,37.61799]],"type":"MultiPoint"}

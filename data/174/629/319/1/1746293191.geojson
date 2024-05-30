@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102532251,
     "sfomuseum:flight_id": "20210903-A-ASA-9801",
     "sfomuseum:flight_number": [
-      "ASA9801", 
+      "ASA9801",
       "AS9801"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1630771488,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746293191
+      }
+    ],
     "wof:id": 1746293191,
     "wof:involves": [
-      1159283813, 
-      1159292085, 
-      102527513, 
+      1159283813,
+      1159292085,
+      102527513,
       102532251
     ],
-    "wof:lastmodified": 1630772385,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AS9801 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.597389, 
-    37.61799, 
-    -122.370943, 
+    -122.597389,
+    37.61799,
+    -122.370943,
     45.586144
   ],
   "geometry": {"coordinates":[[-122.597389,45.586144],[-122.370943,37.61799]],"type":"MultiPoint"}

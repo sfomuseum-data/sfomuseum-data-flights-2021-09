@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102536579,
     "sfomuseum:flight_id": "20210917-A-WJA-6161",
     "sfomuseum:flight_number": [
-      "WJA6161", 
+      "WJA6161",
       "WS6161"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631981577,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746362995
+      }
+    ],
     "wof:id": 1746362995,
     "wof:involves": [
-      102527513, 
-      102536579, 
-      1159285523, 
-      -1, 
+      102527513,
+      102536579,
+      1159285523,
+      -1,
       1159283539
     ],
-    "wof:lastmodified": 1631981577,
+    "wof:lastmodified": 1717035737,
     "wof:name": "WS6161 (MEX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    19.431302, 
-    -99.080804, 
+    -122.370943,
+    19.431302,
+    -99.080804,
     37.61799
   ],
   "geometry": {"coordinates":[[-99.080804,19.431302],[-122.370943,37.61799]],"type":"MultiPoint"}

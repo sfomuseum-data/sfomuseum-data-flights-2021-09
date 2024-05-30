@@ -33,28 +33,28 @@
     "sfomuseum:departure_id": 102528541,
     "sfomuseum:flight_id": "20210917-A-FFT-2711",
     "sfomuseum:flight_number": [
-      "FFT2711", 
+      "FFT2711",
       "F92711"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882399, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882399,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
@@ -68,12 +68,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746361993,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882399,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -81,6 +82,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746361993,
         "region_id": 85688637,
         "venue_id": 1745882399,
         "wing_id": 1745882335
@@ -88,24 +90,27 @@
     ],
     "wof:id": 1746361993,
     "wof:involves": [
-      1377564295, 
-      102527513, 
-      102528541, 
-      1159284401, 
+      1377564295,
+      102527513,
+      102528541,
+      1159284401,
       1745882399
     ],
-    "wof:lastmodified": 1631983503,
+    "wof:lastmodified": 1717035736,
     "wof:name": "F92711 (DFW-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.050966,32.90366],[-122.370943,37.61799]],"type":"MultiPoint"}

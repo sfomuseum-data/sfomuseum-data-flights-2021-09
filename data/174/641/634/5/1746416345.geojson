@@ -43,7 +43,11 @@
     "wof:country": "US",
     "wof:created": 1633104404,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746416345
+      }
+    ],
     "wof:id": 1746416345,
     "wof:involves": [
       102527513,
@@ -52,10 +56,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1633104404,
+    "wof:lastmodified": 1717035745,
     "wof:name": "SN9591 (YUL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

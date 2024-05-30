@@ -45,7 +45,11 @@
     "wof:country": "US",
     "wof:created": 1632759086,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746400949
+      }
+    ],
     "wof:id": 1746400949,
     "wof:involves": [
       1159289993,
@@ -53,10 +57,13 @@
       102551487,
       1159285413
     ],
-    "wof:lastmodified": 1632759705,
+    "wof:lastmodified": 1717035740,
     "wof:name": "UA872 (TPE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102551593,
     "sfomuseum:flight_id": "20210919-A-SIA-34",
     "sfomuseum:flight_number": [
-      "SIA34", 
+      "SIA34",
       "SQ34"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1632154163,
     "wof:geomhash": "b883d8e3c3c604f714c4dc756f6c1133",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746370749
+      }
+    ],
     "wof:id": 1746370749,
     "wof:involves": [
-      102527513, 
-      102551593, 
-      1159285163, 
+      102527513,
+      102551593,
+      1159285163,
       -1
     ],
-    "wof:lastmodified": 1632154163,
+    "wof:lastmodified": 1717035736,
     "wof:name": "SQ34 (SIN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    1.3474, 
-    103.976839, 
+    -122.370943,
+    1.3474,
+    103.976839,
     37.61799
   ],
   "geometry": {"coordinates":[[103.976839,1.3474],[-122.370943,37.61799]],"type":"MultiPoint"}

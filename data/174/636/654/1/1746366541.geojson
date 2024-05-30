@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102521851,
     "sfomuseum:flight_id": "20210918-A-SCX-8723",
     "sfomuseum:flight_number": [
-      "SCX8723", 
+      "SCX8723",
       "SY8723"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1632067688,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746366541
+      }
+    ],
     "wof:id": 1746366541,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102521851, 
+      1159289871,
+      102527513,
+      102521851,
       1159285227
     ],
-    "wof:lastmodified": 1632068424,
+    "wof:lastmodified": 1717035740,
     "wof:name": "SY8723 (AUS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    30.206175, 
-    -97.643029, 
+    -122.370943,
+    30.206175,
+    -97.643029,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.643029,30.206175],[-122.370943,37.61799]],"type":"MultiPoint"}

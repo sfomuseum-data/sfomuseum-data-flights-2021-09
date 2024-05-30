@@ -50,7 +50,11 @@
     "wof:country": "US",
     "wof:created": 1633104477,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746416629
+      }
+    ],
     "wof:id": 1746416629,
     "wof:involves": [
       1377564295,
@@ -58,10 +62,13 @@
       102531189,
       1159284401
     ],
-    "wof:lastmodified": 1633105418,
+    "wof:lastmodified": 1717035746,
     "wof:name": "F9663 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

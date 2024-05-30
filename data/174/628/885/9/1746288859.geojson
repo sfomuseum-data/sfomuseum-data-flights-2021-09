@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102528591,
     "sfomuseum:flight_id": "20210902-A-SCX-3003",
     "sfomuseum:flight_number": [
-      "SCX3003", 
+      "SCX3003",
       "SY3003"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1630685301,
     "wof:geomhash": "107e6589f8c1d0883959ee6339b5af3a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746288859
+      }
+    ],
     "wof:id": 1746288859,
     "wof:involves": [
-      1159289871, 
-      102527513, 
-      102528591, 
+      1159289871,
+      102527513,
+      102528591,
       1159285227
     ],
-    "wof:lastmodified": 1630686046,
+    "wof:lastmodified": 1717035737,
     "wof:name": "SY3003 (AFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.986694, 
-    -97.316095, 
+    -122.370943,
+    32.986694,
+    -97.316095,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.316095,32.986694],[-122.370943,37.61799]],"type":"MultiPoint"}

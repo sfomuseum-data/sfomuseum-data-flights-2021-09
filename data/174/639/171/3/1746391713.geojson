@@ -50,7 +50,11 @@
     "wof:country": "US",
     "wof:created": 1632586006,
     "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746391713
+      }
+    ],
     "wof:id": 1746391713,
     "wof:involves": [
       1159293239,
@@ -58,10 +62,13 @@
       102549057,
       1159284711
     ],
-    "wof:lastmodified": 1632591280,
+    "wof:lastmodified": 1717035739,
     "wof:name": "LH454 (FRA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

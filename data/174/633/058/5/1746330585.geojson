@@ -34,23 +34,23 @@
     "sfomuseum:departure_id": 102556081,
     "sfomuseum:flight_id": "20210912-A-THY-9406",
     "sfomuseum:flight_number": [
-      "THY9406", 
+      "THY9406",
       "TK9406"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882337, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882399, 
-      1745882335, 
+      1745882083,
+      102527513,
+      1745882337,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882399,
+      1745882335,
       102085387
     ],
     "wof:country": "US",
@@ -64,12 +64,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746330585,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882399,
         "wing_id": 1745882335
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -77,6 +78,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746330585,
         "region_id": 85688637,
         "venue_id": 1745882399,
         "wing_id": 1745882335
@@ -84,24 +86,27 @@
     ],
     "wof:id": 1746330585,
     "wof:involves": [
-      102527513, 
-      102556081, 
-      1159285391, 
-      1745882399, 
+      102527513,
+      102556081,
+      1159285391,
+      1745882399,
       1159283957
     ],
-    "wof:lastmodified": 1631549354,
+    "wof:lastmodified": 1717035744,
     "wof:name": "TK9406 (SAL-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    13.444749, 
-    -89.058566, 
+    -122.370943,
+    13.444749,
+    -89.058566,
     37.61799
   ],
   "geometry": {"coordinates":[[-89.058566,13.444749],[-122.370943,37.61799]],"type":"MultiPoint"}

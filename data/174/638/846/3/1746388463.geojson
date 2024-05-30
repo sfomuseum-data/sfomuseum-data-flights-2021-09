@@ -51,7 +51,11 @@
     "wof:country": "US",
     "wof:created": 1632499929,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746388463
+      }
+    ],
     "wof:id": 1746388463,
     "wof:involves": [
       1159293215,
@@ -59,10 +63,13 @@
       102556451,
       1159285413
     ],
-    "wof:lastmodified": 1632510962,
+    "wof:lastmodified": 1717035742,
     "wof:name": "UA892 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

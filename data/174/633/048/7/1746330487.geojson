@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102551487,
     "sfomuseum:flight_id": "20210912-A-SIA-5818",
     "sfomuseum:flight_number": [
-      "SIA5818", 
+      "SIA5818",
       "SQ5818"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631549327,
     "wof:geomhash": "07bfd75b358269393c92373b424876ce",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746330487
+      }
+    ],
     "wof:id": 1746330487,
     "wof:involves": [
-      102527513, 
-      102551487, 
-      1159285163, 
-      -1, 
+      102527513,
+      102551487,
+      1159285163,
+      -1,
       1159284349
     ],
-    "wof:lastmodified": 1631549327,
+    "wof:lastmodified": 1717035744,
     "wof:name": "SQ5818 (TPE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.078566, 
-    121.233152, 
+    -122.370943,
+    25.078566,
+    121.233152,
     37.61799
   ],
   "geometry": {"coordinates":[[121.233152,25.078566],[-122.370943,37.61799]],"type":"MultiPoint"}

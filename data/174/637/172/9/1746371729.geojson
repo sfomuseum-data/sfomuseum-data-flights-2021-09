@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210919-D-ACA-746",
     "sfomuseum:flight_number": [
-      "ACA746", 
+      "ACA746",
       "AC746"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1632154426,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746371729
+      }
+    ],
     "wof:id": 1746371729,
     "wof:involves": [
-      102555091, 
-      102527513, 
-      1159283597, 
+      102555091,
+      102527513,
+      1159283597,
       -1
     ],
-    "wof:lastmodified": 1632154426,
+    "wof:lastmodified": 1717035737,
     "wof:name": "AC746 (SFO-YYZ)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -79.628342, 
+    -122.370943,
+    37.61799,
+    -79.628342,
     43.676352
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-79.628342,43.676352]],"type":"MultiPoint"}

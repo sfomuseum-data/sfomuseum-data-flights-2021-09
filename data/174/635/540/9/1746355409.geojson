@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210915-D-DAL-8838",
     "sfomuseum:flight_number": [
-      "DAL8838", 
+      "DAL8838",
       "DL8838"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1631808864,
     "wof:geomhash": "02eb21027b428b31b3a49fca7e3fb60f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746355409
+      }
+    ],
     "wof:id": 1746355409,
     "wof:involves": [
-      1159289939, 
-      102527671, 
-      102527513, 
+      1159289939,
+      102527671,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1631809174,
+    "wof:lastmodified": 1717035740,
     "wof:name": "DL8838 (SFO-BFI)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.301589, 
+    -122.370943,
+    37.61799,
+    -122.301589,
     47.536582
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.301589,47.536582]],"type":"MultiPoint"}

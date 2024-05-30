@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 1729749565,
     "sfomuseum:flight_id": "20210907-A-MAS-9733",
     "sfomuseum:flight_number": [
-      "MAS9733", 
+      "MAS9733",
       "MH9733"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1631119003,
     "wof:geomhash": "90bd700bbb49763568c2a26183b9158d",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746309533
+      }
+    ],
     "wof:id": 1746309533,
     "wof:involves": [
-      102527513, 
-      1729749565, 
-      1159284731, 
-      -1, 
+      102527513,
+      1729749565,
+      1159284731,
+      -1,
       1159286153
     ],
-    "wof:lastmodified": 1631119003,
+    "wof:lastmodified": 1717035743,
     "wof:name": "MH9733 (DOH-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    25.272796, 
-    51.607761, 
+    -122.370943,
+    25.272796,
+    51.607761,
     37.61799
   ],
   "geometry": {"coordinates":[[51.607761,25.272796],[-122.370943,37.61799]],"type":"MultiPoint"}

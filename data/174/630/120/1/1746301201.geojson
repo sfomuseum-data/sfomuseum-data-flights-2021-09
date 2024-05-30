@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210905-A-FFT-663",
     "sfomuseum:flight_number": [
-      "FFT663", 
+      "FFT663",
       "F9663"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1630944360,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746301201
+      }
+    ],
     "wof:id": 1746301201,
     "wof:involves": [
-      102531189, 
-      1159284401, 
-      1377564295, 
+      102531189,
+      1159284401,
+      1377564295,
       102527513
     ],
-    "wof:lastmodified": 1630945161,
+    "wof:lastmodified": 1717035737,
     "wof:name": "F9663 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

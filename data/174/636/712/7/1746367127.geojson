@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102542687,
     "sfomuseum:flight_id": "20210918-A-UAL-955",
     "sfomuseum:flight_number": [
-      "UAL955", 
+      "UAL955",
       "UA955"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1632067847,
     "wof:geomhash": "87edecefb4d177e60996116ddda38e44",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746367127
+      }
+    ],
     "wof:id": 1746367127,
     "wof:involves": [
-      1159293215, 
-      102527513, 
-      102542687, 
+      1159293215,
+      102527513,
+      102542687,
       1159285413
     ],
-    "wof:lastmodified": 1632068426,
+    "wof:lastmodified": 1717035740,
     "wof:name": "UA955 (TLV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.005595, 
-    34.877214, 
+    -122.370943,
+    32.005595,
+    34.877214,
     37.61799
   ],
   "geometry": {"coordinates":[[34.877214,32.005595],[-122.370943,37.61799]],"type":"MultiPoint"}

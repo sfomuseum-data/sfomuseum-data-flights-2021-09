@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1633105209,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746419389
+      }
+    ],
     "wof:id": 1746419389,
     "wof:involves": [
       102526751,
@@ -46,10 +50,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1633105209,
+    "wof:lastmodified": 1717035746,
     "wof:name": "UA1995 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

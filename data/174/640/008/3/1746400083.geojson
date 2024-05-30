@@ -99,10 +99,13 @@
       1159284563,
       1745882339
     ],
-    "wof:lastmodified": 1653097038,
+    "wof:lastmodified": 1717035739,
     "wof:name": "JL2 (HND-SFO)",
     "wof:parent_id": 1745882369,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

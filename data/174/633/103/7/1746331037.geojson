@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210912-A-UAL-858",
     "sfomuseum:flight_number": [
-      "UAL858", 
+      "UAL858",
       "UA858"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1631549476,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746331037
+      }
+    ],
     "wof:id": 1746331037,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102556451, 
+      1159289993,
+      102527513,
+      102556451,
       1159285413
     ],
-    "wof:lastmodified": 1631550101,
+    "wof:lastmodified": 1717035744,
     "wof:name": "UA858 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}

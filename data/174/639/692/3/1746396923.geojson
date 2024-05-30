@@ -48,7 +48,11 @@
     "wof:country": "US",
     "wof:created": 1632672628,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746396923
+      }
+    ],
     "wof:id": 1746396923,
     "wof:involves": [
       1159289915,
@@ -56,10 +60,13 @@
       102527513,
       1159283917
     ],
-    "wof:lastmodified": 1632673192,
+    "wof:lastmodified": 1717035744,
     "wof:name": "OZ283 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

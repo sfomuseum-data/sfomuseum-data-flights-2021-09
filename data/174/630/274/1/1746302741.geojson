@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210905-D-ASA-1189",
     "sfomuseum:flight_number": [
-      "ASA1189", 
+      "ASA1189",
       "AS1189"
     ],
     "sfomuseum:placetype": "flight",
@@ -42,17 +42,17 @@
       "swim-takeoff"
     ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882087, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882097, 
-      1745882085, 
+      1745882083,
+      102527513,
+      1745882087,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882097,
+      1745882085,
       102085387
     ],
     "wof:country": "US",
@@ -66,12 +66,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746302741,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882097,
         "wing_id": 1745882085
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -79,6 +80,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746302741,
         "region_id": 85688637,
         "venue_id": 1745882097,
         "wing_id": 1745882085
@@ -86,24 +88,27 @@
     ],
     "wof:id": 1746302741,
     "wof:involves": [
-      102527513, 
-      1159283813, 
-      1745882097, 
-      1159292085, 
+      102527513,
+      1159283813,
+      1745882097,
+      1159292085,
       102533269
     ],
-    "wof:lastmodified": 1630945159,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AS1189 (SFO-SEA)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.304268,47.441823]],"type":"MultiPoint"}

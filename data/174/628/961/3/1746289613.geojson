@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210902-D-ACA-3506",
     "sfomuseum:flight_number": [
-      "ACA3506", 
+      "ACA3506",
       "AC3506"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1630685516,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746289613
+      }
+    ],
     "wof:id": 1746289613,
     "wof:involves": [
-      102533997, 
-      102527513, 
-      1159283597, 
-      -1, 
+      102533997,
+      102527513,
+      1159283597,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1630685516,
+    "wof:lastmodified": 1717035738,
     "wof:name": "AC3506 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -157.918416, 
-    21.332508, 
-    -122.370943, 
+    -157.918416,
+    21.332508,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-157.918416,21.332508]],"type":"MultiPoint"}

@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210909-D-ASA-3356",
     "sfomuseum:flight_number": [
-      "ASA3356", 
+      "ASA3356",
       "AS3356"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1631290411,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746319183
+      }
+    ],
     "wof:id": 1746319183,
     "wof:involves": [
-      102533591, 
-      102527513, 
-      1159283813, 
+      102533591,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1631290411,
+    "wof:lastmodified": 1717035742,
     "wof:name": "AS3356 (SFO-PSP)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.824619, 
-    -116.506042, 
+    -122.370943,
+    33.824619,
+    -116.506042,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-116.506042,33.824619]],"type":"MultiPoint"}

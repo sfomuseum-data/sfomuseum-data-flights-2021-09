@@ -38,7 +38,11 @@
     "wof:country": "US",
     "wof:created": 1633104429,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746416443
+      }
+    ],
     "wof:id": 1746416443,
     "wof:involves": [
       102527513,
@@ -46,10 +50,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1633104429,
+    "wof:lastmodified": 1717035746,
     "wof:name": "DL420 (EUG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

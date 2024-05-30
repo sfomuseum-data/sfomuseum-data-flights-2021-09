@@ -86,10 +86,13 @@
       1159284613,
       1745882355
     ],
-    "wof:lastmodified": 1653096950,
+    "wof:lastmodified": 1717035744,
     "wof:name": "KL606 (SFO-AMS)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []

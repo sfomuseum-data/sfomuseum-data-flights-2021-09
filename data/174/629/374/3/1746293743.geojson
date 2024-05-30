@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102541591,
     "sfomuseum:flight_id": "20210903-A-MAS-9102",
     "sfomuseum:flight_number": [
-      "MAS9102", 
+      "MAS9102",
       "MH9102"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1630771639,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746293743
+      }
+    ],
     "wof:id": 1746293743,
     "wof:involves": [
-      102527513, 
-      102541591, 
-      1159284731, 
-      -1, 
+      102527513,
+      102541591,
+      1159284731,
+      -1,
       1159284563
     ],
-    "wof:lastmodified": 1630771639,
+    "wof:lastmodified": 1717035738,
     "wof:name": "MH9102 (HND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.554085, 
-    139.775638, 
+    -122.370943,
+    35.554085,
+    139.775638,
     37.61799
   ],
   "geometry": {"coordinates":[[139.775638,35.554085],[-122.370943,37.61799]],"type":"MultiPoint"}

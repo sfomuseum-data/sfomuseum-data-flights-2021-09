@@ -31,7 +31,7 @@
     "sfomuseum:departure_id": 102532771,
     "sfomuseum:flight_id": "20210908-A-SWA-3753",
     "sfomuseum:flight_number": [
-      "SWA3753", 
+      "SWA3753",
       "WN3753"
     ],
     "sfomuseum:placetype": "flight",
@@ -40,17 +40,17 @@
       "swim-path"
     ],
     "wof:belongsto": [
-      1745882083, 
-      102527513, 
-      1745882139, 
-      102191575, 
-      85633793, 
-      102087579, 
-      85922583, 
-      554784711, 
-      85688637, 
-      1745882149, 
-      1745882137, 
+      1745882083,
+      102527513,
+      1745882139,
+      102191575,
+      85633793,
+      102087579,
+      85922583,
+      554784711,
+      85688637,
+      1745882149,
+      1745882137,
       102085387
     ],
     "wof:concordances": {
@@ -67,12 +67,13 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1746313655,
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
         "venue_id": 1745882149,
         "wing_id": 1745882137
-      }, 
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -80,6 +81,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
+        "event_id": 1746313655,
         "region_id": 85688637,
         "venue_id": 1745882149,
         "wing_id": 1745882137
@@ -87,23 +89,26 @@
     ],
     "wof:id": 1746313655,
     "wof:involves": [
-      102527513, 
-      102532771, 
-      1159285591, 
+      102527513,
+      102532771,
+      1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1631204341,
+    "wof:lastmodified": 1717035738,
     "wof:name": "WN3753 (BUR-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    34.196704, 
-    -118.353322, 
+    -122.370943,
+    34.196704,
+    -118.353322,
     37.61799
   ],
   "geometry": {"coordinates":[[-118.353322,34.196704],[-122.370943,37.61799]],"type":"MultiPoint"}

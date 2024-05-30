@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210904-D-SAS-936",
     "sfomuseum:flight_number": [
-      "SAS936", 
+      "SAS936",
       "SK936"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1630858444,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746299551
+      }
+    ],
     "wof:id": 1746299551,
     "wof:involves": [
-      102544207, 
-      102527513, 
-      1159285129, 
+      102544207,
+      102527513,
+      1159285129,
       -1
     ],
-    "wof:lastmodified": 1630858444,
+    "wof:lastmodified": 1717035743,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    12.649581, 
+    -122.370943,
+    37.61799,
+    12.649581,
     55.627628
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[12.649581,55.627628]],"type":"MultiPoint"}

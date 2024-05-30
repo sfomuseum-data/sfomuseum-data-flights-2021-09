@@ -33,40 +33,47 @@
     "sfomuseum:departure_id": 102556451,
     "sfomuseum:flight_id": "20210908-A-AAR-212",
     "sfomuseum:flight_number": [
-      "AAR212", 
+      "AAR212",
       "OZ212"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1631203301,
     "wof:geomhash": "83e2c60a8819c96e9fa3721059c5eac5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1746312385
+      }
+    ],
     "wof:id": 1746312385,
     "wof:involves": [
-      1159283917, 
-      1377564293, 
-      102527513, 
+      1159283917,
+      1377564293,
+      102527513,
       102556451
     ],
-    "wof:lastmodified": 1631204333,
+    "wof:lastmodified": 1717035737,
     "wof:name": "OZ212 (ICN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-09",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[126.661632,37.453966],[-122.370943,37.61799]],"type":"MultiPoint"}
